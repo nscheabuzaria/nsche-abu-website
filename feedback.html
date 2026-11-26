@@ -223,37 +223,35 @@
         if (!anonToggle.checked) formData.set('Submitted_Anonymously', 'No');
         const payload = Object.fromEntries(formData.entries());
 
-        // Save backup copy in R2 so no student message is ever lost
-        fetch('https://nsche-abu-uploads.nscheabuzaria1.workers.dev/feedback', {
+        // Primary reliable save to NSChE ABU Cloudflare R2
+        const r2Res = await fetch('https://nsche-abu-uploads.nscheabuzaria1.workers.dev/feedback', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
-        }).catch(() => {});
+        });
 
+        // Best-effort email forward via FormSubmit (non-blocking if FormSubmit is down)
         const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 6000);
-        const response = await fetch('https://formsubmit.co/ajax/nscheabuchapter1@gmail.com', {
+        const timeoutId = setTimeout(() => controller.abort(), 4000);
+        fetch('https://formsubmit.co/ajax/nscheabuchapter1@gmail.com', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
           body: JSON.stringify(payload),
           signal: controller.signal
-        });
-        clearTimeout(timeoutId);
-        const resJson = await response.json().catch(() => ({}));
-        if (response.ok && resJson.success !== 'false') {
+        }).catch(() => {}).finally(() => clearTimeout(timeoutId));
+
+        if (r2Res.ok) {
           formStatus.className = 'form-status success';
-          formStatus.textContent = 'Thank you — your message has been sent.';
+          formStatus.textContent = 'Thank you — your message has been received.';
           form.reset();
           syncRecipientField();
           identityFields.classList.remove('hidden');
         } else {
-          // Fallback to standard FormSubmit POST (also triggers one-time email activation)
-          form.submit();
-          return;
+          throw new Error();
         }
       } catch {
-        form.submit();
-        return;
+        formStatus.className = 'form-status error';
+        formStatus.textContent = 'Could not send right now. Please check your connection and try again.';
       } finally {
         submitBtn.disabled = false;
         submitBtn.textContent = 'Send Message';
