@@ -1,0 +1,4237 @@
+{
+  "rootDriveUrl": "https://drive.google.com/drive/folders/1IvKXLuuNMKbrZDk4JeOytLh97eSsFgQS",
+  "totalCourses": 13,
+  "totalFiles": 574,
+  "generatedAt": "2026-11-26T10:10:50.456Z",
+  "courses": [
+    {
+      "code": "AGEN 521",
+      "title": "Agricultural Processing & Storage Engineering",
+      "level": "500L",
+      "semester": "First Semester",
+      "desc": "Drying fundamentals, moisture equilibria, and agricultural product processing & storage.",
+      "driveUrl": "https://drive.google.com/drive/folders/1DDTzPTLyha-0lTgLB9WNIhGALE2H1mnL",
+      "fileCount": 6,
+      "counts": {
+        "Textbooks & References": 4,
+        "Lectures & Slides": 2
+      },
+      "files": [
+        {
+          "name": "Agen 521 processing ND storage.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/14lgAlrwPtJtPZTsMXCc-q9vF85ADNZmT/view"
+        },
+        {
+          "name": "Agen 521.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1zwuRRZ5BTRplUW0FjpFZsLLU8DjU17mq/view"
+        },
+        {
+          "name": "agen new.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/19ubQhYc_C6BTmzq_bzbYfU1o3mcTk7MZ/view"
+        },
+        {
+          "name": "Drying Lecture.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ZMfQT9050pnakoj7C_j3WTLdI8nOB2SZ/view"
+        },
+        {
+          "name": "MOISTURE CONTENT AND EQUILIBRIUM MOISTURE CONTENT OF AGRIC.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1wbeuoNPqzu-Cn50KFi_OUGtZmlwYvfto/view"
+        },
+        {
+          "name": "packaging lecture.docx",
+          "ext": "DOCX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1vrwkcGjTUv02SRrlIYVLJ8NxObfMOt86/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 501",
+      "title": "Chemical Reaction Engineering III",
+      "level": "500L",
+      "semester": "First Semester",
+      "desc": "Advanced reactor engineering, Levenspiel reference chapters, lecture notes, and solution manual.",
+      "driveUrl": "https://drive.google.com/drive/folders/1EiACZ47KKZqsuTVzKLwI-6r_13wUEGFg",
+      "fileCount": 26,
+      "counts": {
+        "Lectures & Slides": 6,
+        "Textbooks & References": 16,
+        "Past Questions & Solutions": 3,
+        "Assignments & Tutorials": 1
+      },
+      "files": [
+        {
+          "name": "ChemicalReactionEngineering_III_part1.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1qS_lhVD2RWQbyhNENssiMURTyZmOcIwR/view"
+        },
+        {
+          "name": "ChemicalReactionEngineering_III_part2.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1AXd4eUfvwSZJuYKA4I89gS3ojWcJS7EI/view"
+        },
+        {
+          "name": "ChemicalReactionEngineering_III_part3.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1Ht4ESZEojp1pIofTD9J1Q0bQ-RZQi82V/view"
+        },
+        {
+          "name": "ChemicalReactionEngineering_III_part4_PackedBedReactor.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/122qKEbIay0IIYPepLcc4hOv4JtRPmwXQ/view"
+        },
+        {
+          "name": "CHEN501-1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1twGKL_cBVQT0oxiXFJoHUScBnglxJw1I/view"
+        },
+        {
+          "name": "DOC-20240113-WA0010..pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1mUIkjTKCdBXn3Xba4bF5stC95DMrcV5n/view"
+        },
+        {
+          "name": "DOC-20240121-WA0020",
+          "ext": "FILE",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/19JPCcv5CgTGlUUc6Rwe8ctVebk-fyxVI/view"
+        },
+        {
+          "name": "DOC-20240121-WA0021",
+          "ext": "FILE",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1HRSBQx7-LIvhC6ZaKtZuwEX8fTB432FK/view"
+        },
+        {
+          "name": "DOC-20240121-WA0022",
+          "ext": "FILE",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1bgAC1E8Ja9zD_nvKaoaAN23m_Zylp85g/view"
+        },
+        {
+          "name": "28PresFluidiBedComb.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1QYpIK7vNpv5AzS-SWDkeHcOCzPwGpxLb/view"
+        },
+        {
+          "name": "394,423-433,489-511,556-582 LEVENSPIEL CHEMICAL REACTION ENGINEERING.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PyNRs5M0zeRup5i8q95l0M3yHKc8kJFH/view"
+        },
+        {
+          "name": "ChemicalReactionEngineering_III_part1a.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1vbaH5LyvH4NNnJV-jYMrU2fXCJ3fQeXN/view"
+        },
+        {
+          "name": "ChemicalReactionEngineering_III_part2 [Compatibility Mode].pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1jP-6YO_6uqPKOwerQ-YR68TOa-zn_-fE/view"
+        },
+        {
+          "name": "CHEN 501 solution manual.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1-Zt8SrZRhGujxtPmnfv0QY7tDjpUHTfd/view"
+        },
+        {
+          "name": "compiled chen 501 assignment by group 2.docx",
+          "ext": "DOCX",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1016BSxO53BP6llxc2whzMnFtwRbtENjN/view"
+        },
+        {
+          "name": "fluidisation.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1pSgmTkUYtQ6dUZ2uG6KmzGi9FuYwcaFA/view"
+        },
+        {
+          "name": "Fogler's Elements of Chemical Reaction Engineering - Solution Manual.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/106YhM38mCesTRmw1s-DY-9yv8VtPP_qr/view"
+        },
+        {
+          "name": "LEVENSPIEL CHEMICAL REACTION ENGINEERING 3rdEdn.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/12P1e2uY4p0VFlfCXH4i6RwSWugXW___2/view"
+        },
+        {
+          "name": "levenspiel o chemical reaction engineering (3ed , wiley, 199.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1NUICIMZiVvKFqQvi4KfZ9O8rv6uz9pDB/view"
+        },
+        {
+          "name": "levenspiel-chemical-reaction-engineering.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1pSXEY2tS-EBHY-gb0MedeRS-JkjvuuLZ/view"
+        },
+        {
+          "name": "Octave and Levenspiel_3rd_edition.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1YJ-y3erVEBAEgZXNZm50Kd10Ca3fHhXq/view"
+        },
+        {
+          "name": "pdfcoffee.com_solution-manual-elements-of-chemical-reaction-engineering-4th-edition-2-pdf-free.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1sxZGe_1IGBXAVjwFhaqCkLyPsw3W_h1v/view"
+        },
+        {
+          "name": "PERRY'S CHEMICAL ENGINEERING HANDBOOK.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/155PkGBGR-dixQ7q04zoBTHKldpEAAQow/view"
+        },
+        {
+          "name": "Solid Catalysed Reactions.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1NYkH6v_9qKHsPSSETGTgV2XLsFqpYxQ_/view"
+        },
+        {
+          "name": "The Engineering of Chemical Reactions - Lanny D[1]. Schmidt.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1TJctQq0z4GqopP8CZjzrtrMuUxGhlY-m/view"
+        },
+        {
+          "name": "vanOmmen_Fluidization.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1-n5saAvN0utcCSap94FkzagIP3wnxeTD/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 503",
+      "title": "Separation Processes, Optimization & Mathcad",
+      "level": "500L",
+      "semester": "First Semester",
+      "desc": "Past questions, marking schemes, RadFrac Aspen Plus distillation video, and Mathcad worksheets.",
+      "driveUrl": "https://drive.google.com/drive/folders/1qCEcaS_Xr_RJwS1lFOdSNh_eue3TaZQt",
+      "fileCount": 80,
+      "counts": {
+        "Past Questions & Solutions": 7,
+        "Textbooks & References": 52,
+        "Lectures & Slides": 4,
+        "Design & Simulation": 13,
+        "Assignments & Tutorials": 4
+      },
+      "files": [
+        {
+          "name": "503 marking scheme.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/1ERsi8Rf-HkV2K4ha_Nw71u31xCvC-IqB/view"
+        },
+        {
+          "name": "503 past questions.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/1shK6Qhhr37ZlJjWLLISIMY_BepBRkR2B/view"
+        },
+        {
+          "name": "CHEN 503 PS 1-1-1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/1id039vq1guvCHU-pb2G72MNYyV01Gltp/view"
+        },
+        {
+          "name": "CHEN 503 PS 1-2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/13QNsnqNJaHIUVTBxsB7jP1EAX1Vimkra/view"
+        },
+        {
+          "name": "CHEN 503-T1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/1TN-gJu_1ngMwqv2OjmY-kCK-x8hzN7w_/view"
+        },
+        {
+          "name": "CHEN 503-T2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/1L8M-F_JVLMXpPKnRvDbAPmn_4ZGBRVvp/view"
+        },
+        {
+          "name": "CHEN 503-T3.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/1NmDbYlBowmjp2Lgavb17Az5J5XP7DLUc/view"
+        },
+        {
+          "name": "CHEN 515 3-1.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/1Nyw7mhIhshzV-rYkyyRcVewylbB-fOzh/view"
+        },
+        {
+          "name": "CHEN 515 3.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/17QYNF1_VwmpD1ouTFmTkCp-WQsIpJSfK/view"
+        },
+        {
+          "name": "CHEN503 PS-2 2018-19-1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/16kq2lg7vzl1VP6P3NB6OhaKJ7LxCkkFg/view"
+        },
+        {
+          "name": "Process Modeling Simulation and Control for Chemical Enginee.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/1YuYFr4ZPKALYNi90NkpgElHmpqb9V46D/view"
+        },
+        {
+          "name": "Updated CHEN 503 First Day Package_2018-19-1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "503 mmm",
+          "url": "https://drive.google.com/file/d/1ljITlE1A7NeXerha4igJ8RRlXHVbKWPq/view"
+        },
+        {
+          "name": "chapter1.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/15AiOCsyfTQvCaWbeieJMKsyioCJmNY5K/view"
+        },
+        {
+          "name": "flip.xmcd",
+          "ext": "XMCD",
+          "category": "Design & Simulation",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/1JaVG7ryMqtoyhQlgCQ6pSe09x1Tbn86o/view"
+        },
+        {
+          "name": "malik.xmcd",
+          "ext": "XMCD",
+          "category": "Design & Simulation",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/1X8swOEZNfsVy0-YWY07klFS3PimdcTvB/view"
+        },
+        {
+          "name": "matcd.xmcd",
+          "ext": "XMCD",
+          "category": "Design & Simulation",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/1wMCPapoS2fWR1R2bBTcPWBGkeAY1e-CG/view"
+        },
+        {
+          "name": "matcd1.xmcd",
+          "ext": "XMCD",
+          "category": "Design & Simulation",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/1wEpbmjEqSKefSPiCMgq3sbjHJE8llqq5/view"
+        },
+        {
+          "name": "matcd2.xmcd",
+          "ext": "XMCD",
+          "category": "Design & Simulation",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/10XNE_xQO9A6VSLbQL4q86P78vPw1syza/view"
+        },
+        {
+          "name": "matcd3.xmcd",
+          "ext": "XMCD",
+          "category": "Design & Simulation",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/16RgMDcgz0F1ikgDiQk0B0elaIIkjMJt5/view"
+        },
+        {
+          "name": "Mathcad manual.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/1SrZmEjyDKeRnyr1U4UqvIYMv_QxmoXvM/view"
+        },
+        {
+          "name": "mathcad.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/1u8B16zDKIR7xZ6C1wR4Zu4ocVD_hpJu1/view"
+        },
+        {
+          "name": "MUSTY ZA WICKED.xmcd",
+          "ext": "XMCD",
+          "category": "Design & Simulation",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/14oT3xe-upeFsfU3fzb8tha-j92g_ej_C/view"
+        },
+        {
+          "name": "tutorial.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "mathcad works",
+          "url": "https://drive.google.com/file/d/1xhshOYDY5CUTle6UE_I6h14UYvJMBGBz/view"
+        },
+        {
+          "name": "503 GROUPINGS.xlsx",
+          "ext": "XLSX",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/17BqCUGZg6DSMpPN6_vbWMNSpuMgm3Gnb/view"
+        },
+        {
+          "name": "CHEN 503_2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1OHzU7IJNxe9nb_uMVRGed2nlrJtWG0nl/view"
+        },
+        {
+          "name": "CHEN 503_22.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1mSknEAlWLewJ6Jvhek0_-nZY9Zuy9Lbo/view"
+        },
+        {
+          "name": "CHEN 503_23.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1baAKMjoavmAylnuN-E3OxcDgVT_Jqk7G/view"
+        },
+        {
+          "name": "CHEN503 First Day Package_2023-24.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1NdMnbwDEj8ojNL714ZJs5hUbLxahTBNh/view"
+        },
+        {
+          "name": "CHEN503-T1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1gZxJwxOzLPt7sUDlspF3ZrFXpd3E19B6/view"
+        },
+        {
+          "name": "CHEN503Ass_2223.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1Qwi380U6ec9AnUhDGLXSbvhJsvbCuxk5/view"
+        },
+        {
+          "name": "CHEN503HW2_2223.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1Ioh9iawGzYVnQQk0blle3ACNelVg63BF/view"
+        },
+        {
+          "name": "SIMPLY FORTRAN IDE.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1MGdT-jvrnANqBUpk432Mdzvq0-0gHHRg/view"
+        },
+        {
+          "name": "Simply FORTRANote.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1Ll4RmHyiiuv3AzFhEmrI4yjjMrSlTE3D/view"
+        },
+        {
+          "name": "20150119_153558.jpg",
+          "ext": "JPG",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1IFHyxCQOwCHXUHF1j97pk0rfEqdSv7z5/view"
+        },
+        {
+          "name": "20150119_153607.jpg",
+          "ext": "JPG",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1bGgwAtulbDSozSsmoCMYqkiwWYy7E833/view"
+        },
+        {
+          "name": "20150119_153607_1.jpg",
+          "ext": "JPG",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1VPnZR-8zp7_gP-87vJnJdAh7GAPSJD26/view"
+        },
+        {
+          "name": "503 marking scheme.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1pMxaW6YPJ5LBXPEzKKKun_50Qu4Ywbx6/view"
+        },
+        {
+          "name": "503 past questions.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/17puHyt9QnBqx2wGUSuXR9dU-JhiPXeK2/view"
+        },
+        {
+          "name": "7. Distillation Design Usign RadFrac Model in Aspen Plus.wmv.mp4",
+          "ext": "MP4",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/19yK8EWwja4F5trzpmOZ7NtMk8fAj-PsQ/view"
+        },
+        {
+          "name": "9.1 - Gas–liquid and gas-liquid-solid reactions.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1HBZQK27zNkR24eEL7HivVLkqUSQ6Rd8o/view"
+        },
+        {
+          "name": "Analytic methods for chemical engineers.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1moZK7Ylb_-lQ4pIbolHdwt-k3JugVtQG/view"
+        },
+        {
+          "name": "ASPEN PLUS TUTORIALS BASICS &amp; INTRODUCTION #1.mp4",
+          "ext": "MP4",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1aZoH-aTodOCykt0-iV4bl_8fiu6ww4O_/view"
+        },
+        {
+          "name": "CHEN 308-ppt.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PeYu8s2UK0HmTzV_COxz431WQz9udysp/view"
+        },
+        {
+          "name": "CHEN 503-T1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1RIJOQxWs_XftANQpX1bKji8bM7Y0paiX/view"
+        },
+        {
+          "name": "CHEN 503-T2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1OPYZu7TkzXgz5fS1KLcZOy7Nio4x6tFd/view"
+        },
+        {
+          "name": "CHEN 503-T3.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1pBjHbNCa7fnMdM-Dw1CtSIRM19NSs-EH/view"
+        },
+        {
+          "name": "ESSENTIALS OF PROCESS CONTROL.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/13YUktioleW7f0TjiXQnhvsvKfGv3U8VK/view"
+        },
+        {
+          "name": "Example_10.6_V13.xmcd",
+          "ext": "XMCD",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1TqkS4U1rTsWxTWDkZ75BLWjnNJ8PPoIs/view"
+        },
+        {
+          "name": "Example_10.6_V7.mcd",
+          "ext": "MCD",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1WW__0I-I1Rmazx1ymsLTGQB5YxBMC6kq/view"
+        },
+        {
+          "name": "fortran 77 tutorial.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PwEC0dIusqNkx5Jx_I2ePjtcSw_MQyjB/view"
+        },
+        {
+          "name": "fortran-1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1g0gki9xNDBpxK7NPezY7t-i8Io1p7TkF/view"
+        },
+        {
+          "name": "fotran 77.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1O7EbWukr7SUkb8DVQBhkjyCgpofBgcst/view"
+        },
+        {
+          "name": "GettingStartedBuildingandRunning.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1n_NWxM6-2fcw9scxR8YZZzRxqaRJOfol/view"
+        },
+        {
+          "name": "HailF06_V13.xmcd",
+          "ext": "XMCD",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1fBMPagl22UayJHW3UTLoamLhgfaYlGFk/view"
+        },
+        {
+          "name": "HailF06_V7.mcd",
+          "ext": "MCD",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1-LCGfdLEcfUrVhq0LTyPMQG4k0V27GNh/view"
+        },
+        {
+          "name": "Introduction to Programming with Fortran.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/18GcIhS_sc6VMr3BgbPGHiouf23CCyJin/view"
+        },
+        {
+          "name": "journal.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1svMOGX2xfXTADh6zm4QziRpMMT7d0HEg/view"
+        },
+        {
+          "name": "Luyben & Luyben ESSENTIALS OF PROCESS CONTROL.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1FEm9i7RCbz4ES7j0HQ8YvA_s4xyRjsmS/view"
+        },
+        {
+          "name": "Luyben Process Modeling Simulation and Control for Chemical Engineers Luyben.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1bAEFbKkRADV0z29iczSdob2Lq508raeu/view"
+        },
+        {
+          "name": "LUYBEN Process Modeling, Simulation and Control for Chemical Engineers.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1T4eNF_zLiOuqz9QLOF1LRzHejHQ4-Cv1/view"
+        },
+        {
+          "name": "LUYBEN_Process modeling and simulation.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1wC2G3CDO8DxpVZwTKIjVxuWHHDbUqM8p/view"
+        },
+        {
+          "name": "Math Cad Tutorial.mp4",
+          "ext": "MP4",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1xgcsBAUkV6TGB-PaorWdWb2BoWIiDH7L/view"
+        },
+        {
+          "name": "Mathcad Demo for Beginners.mp4",
+          "ext": "MP4",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1nqpwTNCOE1Y54a-2rxUwf_eK9RO9Xp0G/view"
+        },
+        {
+          "name": "mathcad3.xmcd",
+          "ext": "XMCD",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1song5AzMQC-19O7xxo-0J9kK-gvhDCfM/view"
+        },
+        {
+          "name": "Mathematical modeling of Chemical Engineering systems.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ReZOXiL8mLZIfPCARzwhL6-KOd2lzsZK/view"
+        },
+        {
+          "name": "Mathematical Tools for modeling.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1GAmlRPw1x72A9f6AIZigFwybjwlrvVPU/view"
+        },
+        {
+          "name": "Model Formulation.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1hLPxX5OdmARyE5fvVr800tJJyqNO3X2R/view"
+        },
+        {
+          "name": "Model. & Simul. QUESTION AND ANSWER.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1pdhMF1q9taxW-UGoSq51Tffeo7KtPzC2/view"
+        },
+        {
+          "name": "Modeling and Simulation in Chemical Engineering.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1yy4W3Czj9WwZuI7Dgps67EV1YCJCeGbD/view"
+        },
+        {
+          "name": "P15.1_V13.xmcd",
+          "ext": "XMCD",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Xl0qkFjT2mlUMk3OmDZEiAPM-tbbnnkW/view"
+        },
+        {
+          "name": "P15.1_V7.mcd",
+          "ext": "MCD",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/126a3Dl3nZXEvlqMZtrKKumifKx93dbT5/view"
+        },
+        {
+          "name": "Process Modeling, Simulation and Control for Chemical Engineers.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1gXj8tfr5cbo8vLc3RvUz3QNMxdPg34si/view"
+        },
+        {
+          "name": "process-control-systems.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1V3mBDsc4DjPbstK-AZzKyFvXbCWedKvC/view"
+        },
+        {
+          "name": "process_modeling_simulation_and_control_for_chemical_engineers 2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PI2kaZ1TCDMFn-kw590crWkfHnFZAES0/view"
+        },
+        {
+          "name": "ReazF-F.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1UVTMm_7dLTyP1sgxU7RvTWGJ9MhumlQG/view"
+        },
+        {
+          "name": "referenceBook_915864491Chemical Process Control Stephanopoulos_2,text (2).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1_QUEdTPVh34FllLbmV8kPvfa6tR8Tigh/view"
+        },
+        {
+          "name": "Sensitivity_MSW.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1CrvuMmmL5k-Hxb8oMNUb7vADYkkudTUo/view"
+        },
+        {
+          "name": "Solution Manual- Chemical Process Control ( PDFDrive ).pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1rOvazIvFAbM0cugma5U1c-NiXliNn-cb/view"
+        },
+        {
+          "name": "Theoretical modeling and simulation.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1bu5qStsYG5sB03U9OCC6Fulvdoh5u5qz/view"
+        },
+        {
+          "name": "Tools for innovation; Model. & Simul...pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1OIj1ohB3nv7LE-fs1CQAtU5rUBIWUDuH/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 505",
+      "title": "Chemical Process Design, Integration & Boilers",
+      "level": "500L",
+      "semester": "First Semester",
+      "desc": "Robin Smith process design & integration, boiler efficiency modules, and group presentations.",
+      "driveUrl": "https://drive.google.com/drive/folders/1gVj2RBNMuIptorTHuiHPfR4XQTJDNnP1",
+      "fileCount": 81,
+      "counts": {
+        "Lectures & Slides": 20,
+        "Design & Simulation": 45,
+        "Assignments & Tutorials": 2,
+        "Textbooks & References": 14
+      },
+      "files": [
+        {
+          "name": "505 Module FIVE 13_2_18+++++++.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "505",
+          "url": "https://drive.google.com/file/d/1Jmz4suOAyVbYhco39IL5Z8IqQyLWjk11/view"
+        },
+        {
+          "name": "505 Module FOUR 24_5_19.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "505",
+          "url": "https://drive.google.com/file/d/1i46nYzRjtwqQnO3KBAozCfG_MvOzJ8vr/view"
+        },
+        {
+          "name": "505 Module ONE ++.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "505",
+          "url": "https://drive.google.com/file/d/1rCFFat5FC_MttL02vRPHGzNvs4WRQuJ-/view"
+        },
+        {
+          "name": "505 Module THREE 3_5_19.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "505",
+          "url": "https://drive.google.com/file/d/1VZTb-5xnagtYAS2k8vBPEN-OnNQZWykU/view"
+        },
+        {
+          "name": "505 Module THREE n FOUR 9_2_18.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "505",
+          "url": "https://drive.google.com/file/d/1QdRqFv-1PZGj5q6hSJ3wl6L7N63It4EQ/view"
+        },
+        {
+          "name": "505 Module TWO ++.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "505",
+          "url": "https://drive.google.com/file/d/1QfGNl1bAyWNywRJ2q_mWVEdUO2EUl44B/view"
+        },
+        {
+          "name": "505 Module TWO.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "505",
+          "url": "https://drive.google.com/file/d/1-q5fPQqsRm-CrBUqDSi3ckHfhVo6Ed1X/view"
+        },
+        {
+          "name": "CHEN 505 boiler effeciency.pptx",
+          "ext": "PPTX",
+          "category": "Design & Simulation",
+          "subfolder": "505",
+          "url": "https://drive.google.com/file/d/1MlFGPT_yxrcy6ELraxO5uN3fBO2Bj_wl/view"
+        },
+        {
+          "name": "A Review of Water Treatment Membrane Nanotechnologies.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1Odxgh068xI4xla8oxz5qIOLPcxkH55RU/view"
+        },
+        {
+          "name": "Basics of steam generation.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/17IajoWIDoHR3ha9rfAcfMF2NF5kI6ysA/view"
+        },
+        {
+          "name": "bme_exp_1.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/173OCpMvu6iiiXiEOj5PjuIiYS2ntwdAW/view"
+        },
+        {
+          "name": "Boiler Basics.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1CJ9QSGe4QTsX3phqoLQO5q_-l7zT7WbD/view"
+        },
+        {
+          "name": "Boiler Chemistry Management.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1ghmNO8vd_ZIvfu4APfknD2IjR2vb0EUs/view"
+        },
+        {
+          "name": "BOILER ENGINEERING DESIGN GUIDELINE.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1xeEm5Qef9IP27FedU0e5sPrYYLrXVA7S/view"
+        },
+        {
+          "name": "Boiler Experiment 2.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1Z6qJPxMjIZoCI1G7qZh1Z1z-z0-XPbXz/view"
+        },
+        {
+          "name": "Boiler Maintenance and water treatment.PDF.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1vjKDsFsRIpSxPVYX0H9zjDOrhr3EG5-b/view"
+        },
+        {
+          "name": "Boiler Manual MunchkinRevision2Installation.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1NvcH5SugQ8aPr2kjvTiRhtDwrKUtQksz/view"
+        },
+        {
+          "name": "Boiler Manual. Instructions for operation and maintenance.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1EVE8uMIyGmo8zxyAEkXvRAmSbdDdLJ0R/view"
+        },
+        {
+          "name": "Boiler Plant Operation and Management.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1H7c_87paa98IIL3V7m2QwQZay5cmzeRq/view"
+        },
+        {
+          "name": "Boiler Room Guide.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1tvYMV9jG8nB6GYNytz4DWuWIWdQDruoP/view"
+        },
+        {
+          "name": "Boiler systems chemical treatment.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1QHecyIIXorLe1_ryAaaql4kSpe1tRc1_/view"
+        },
+        {
+          "name": "Boiler water treatment of steam boilers.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1v-rX0xH-V-ANHd5Q3M6W_XLnjjdET-LS/view"
+        },
+        {
+          "name": "Boiler water treatment.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1SuaQPT4HKiI8ZLeq7ldBJWFc5VaRcWqg/view"
+        },
+        {
+          "name": "Boiler Wter Treatment.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1jQAbY8g6eOHElAGiJx1Edvc17wX5aOJt/view"
+        },
+        {
+          "name": "Boilers (1).pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1U3qEGAgzQkNH6XN-69mtT6h71Fm8nTxo/view"
+        },
+        {
+          "name": "Boilers (2).pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/12TYT3TVqFMCyf3ZkvcCtIqD78Oqko5QX/view"
+        },
+        {
+          "name": "Boilers (4).pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1Jw0-W97kaL2ao3xljoJKkdqRtEOCHby3/view"
+        },
+        {
+          "name": "Effect of water Treatment on catalytic....pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/17lAv1EhPAA1OauxSX06VdIhAFuRu071m/view"
+        },
+        {
+          "name": "HOT WATER BOILERS.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1IjW6BsEgR5yE_kNHeK2Do1qGKIY6Dkap/view"
+        },
+        {
+          "name": "Industrial Boilers.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1NRtJbiUbY1QLBGqrZdMgyv-z3xcxtUNH/view"
+        },
+        {
+          "name": "Industrial Water treatment procedures.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1fBSgoeKSh6eNs0sKMhowy479mBh0JAd4/view"
+        },
+        {
+          "name": "Ion exchange membranes and separation processes with chemical reactions.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/15SL5rgcwktU75V3Tcl5Y2A03l1W_yyVB/view"
+        },
+        {
+          "name": "Ion Exchange Resins.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/111TobZLAhuHEzuVPsBuc5yR_71fbgfrj/view"
+        },
+        {
+          "name": "ion_exchange.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/17FzG1XhgTHZX9GG47uMcvA8RnjeknkBb/view"
+        },
+        {
+          "name": "Steam and high temperature hot water boilers.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1AwpHGW-Z6ObYyFEz9zXjgQ2zcT0Xnurh/view"
+        },
+        {
+          "name": "Steam boilers and waste heat boilers.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/18zBPqyguUBHj4W4Noi5PGFeDLVf_x--F/view"
+        },
+        {
+          "name": "Steam Boilers.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/12drq42Wzao-gb0Uj0TC1SyOZ0jwq_emE/view"
+        },
+        {
+          "name": "Surface Chemistry and Ion exchange.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1n2iNUKFhP3XXbT8-JDgbd-Fcuc5o6g5G/view"
+        },
+        {
+          "name": "The Indian  Boilers Act 1923.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1IYlvQdm3pL4hnrlnJICvdmb9DHyq3_LY/view"
+        },
+        {
+          "name": "Tutorial Ion exchange.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1zZEpnU_Tyj1PjsyC6zF4BPopeobGDQwB/view"
+        },
+        {
+          "name": "Types of Boilers.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1GzmlUVdV-HsEDQdksDJkF_cyJm7HI92M/view"
+        },
+        {
+          "name": "Wastewater Sampling Techniques.mht",
+          "ext": "MHT",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/15n32Df-ZbLHfrW-AaPcFtITSIFFUpRtD/view"
+        },
+        {
+          "name": "Water and Water Sampling.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1DxyyYFT7YelY7Dol51fO90WlPI8GBclx/view"
+        },
+        {
+          "name": "Water Sampling Analisys.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1fjJYie9sc9SXPmhtbZ8GIogiLOxmamtC/view"
+        },
+        {
+          "name": "Water Treatment for High Pressure Boilers in Sugar Plants.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1BdLISEEtDViMEWB70WbpB783yVXQU7TX/view"
+        },
+        {
+          "name": "Water Treatment for high pressure Boilers.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/14kTLCgmOGfPHda3-J4qHWGnRZrmw6XVu/view"
+        },
+        {
+          "name": "Water treatment Training Manual.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1zBGdnyy50A5cMS3Z2RGvyCyXszPAtEp-/view"
+        },
+        {
+          "name": "Zeolite as adsorbant of metals in water treatment.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1nzhb6N55tURfVuF4U4VmFG1SjGJL0lAS/view"
+        },
+        {
+          "name": "Zeolite for water treatment.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1ZnHmNAhe7jS0ZG62ba8T3kc-mBzEIK7u/view"
+        },
+        {
+          "name": "Zeolites in Water treatment.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Boiler",
+          "url": "https://drive.google.com/file/d/1Un2hWwkCWrlj6IuTbIIutWK8XgS5hXlP/view"
+        },
+        {
+          "name": "CHEN 505 _2019_20_Module_5 (1).pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1m3z6mxdeRp_rXf2umHgAnhNcJXq6eqlB/view"
+        },
+        {
+          "name": "Brief Description of the paper making process.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "Part 2",
+          "url": "https://drive.google.com/file/d/1AcLv6qNMiF-TK8nt3xupCcwXJ_r__U9m/view"
+        },
+        {
+          "name": "EFFECT OF DIFFERENT BIOMASS CONCENTRATION ON BIOLOGICAL PRETREATMENT TO CHEMICAL PULPING PROCESS.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "Part 2",
+          "url": "https://drive.google.com/file/d/1JrA4utTYjTZNIEkagP2pxBAcuCRcuvc9/view"
+        },
+        {
+          "name": "PaperProcess.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "Part 2",
+          "url": "https://drive.google.com/file/d/1uuLDjUWEoRXh_pqk3yBH0VY9tFnxgB7R/view"
+        },
+        {
+          "name": "pulp & paper (2).pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "Part 2",
+          "url": "https://drive.google.com/file/d/1sAZfnRoevoynUHB1cl-C944Db5jEKFws/view"
+        },
+        {
+          "name": "pulp & paper.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "Part 2",
+          "url": "https://drive.google.com/file/d/1wBHJDcM5fY7Ue_UIOyjTJwmG_6-kStkm/view"
+        },
+        {
+          "name": "pulp and paper (3).docx",
+          "ext": "DOCX",
+          "category": "Lectures & Slides",
+          "subfolder": "Part 2",
+          "url": "https://drive.google.com/file/d/18sVHS0bPKv-JXonjoYbwsA6gluZLWf-B/view"
+        },
+        {
+          "name": "Pulp And Paper Manufacturing.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "Part 2",
+          "url": "https://drive.google.com/file/d/1r7kLuSthCq7UdpmpCJ9biCuTEcqtet_N/view"
+        },
+        {
+          "name": "Pulp and Paper.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "Part 2",
+          "url": "https://drive.google.com/file/d/16IOg0AF9xtuNwDjfh5VncutcWQ_0oNJ4/view"
+        },
+        {
+          "name": "Raw Material Pre treatment.docx",
+          "ext": "DOCX",
+          "category": "Lectures & Slides",
+          "subfolder": "Part 2",
+          "url": "https://drive.google.com/file/d/1Ve8l9IMJvOuIHXibkX8yfyLoDBIT8w-t/view"
+        },
+        {
+          "name": "THE PULP AND PAPER INDUSTRY.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "Part 2",
+          "url": "https://drive.google.com/file/d/1EiyIZPAHyjcDIZXXhMwpFngecdCWFi40/view"
+        },
+        {
+          "name": "4.1_Boiler.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1OYOezpQ3oIGANmvxT0OFfP7zH7dvanks/view"
+        },
+        {
+          "name": "Boilers Efficiency.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1tbdVacE5pX3jg8400MfPeT5KsWP8uB8z/view"
+        },
+        {
+          "name": "Chemical Process Design and Integration By Robin Smith.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PykOFYiJf4BigJYJhEtyHR6U85eHsBJR/view"
+        },
+        {
+          "name": "CHEN 505 Group 10.ppt",
+          "ext": "PPT",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1LFIHjxDCBHXdOjuYeG6mNg8yuaAMfWMI/view"
+        },
+        {
+          "name": "CHEN 505 Lecture 3.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/15iZKyDq--BMk3T2f_TLfP8ZZ80Zdal4U/view"
+        },
+        {
+          "name": "CHEN 505.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1aQ-HVREKry19Jez7jokB_6g6wF9eG9-y/view"
+        },
+        {
+          "name": "CHEN505 note 1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ClztXxDArJrljhLEDUrWBV58byjg3yRT/view"
+        },
+        {
+          "name": "Cogeneration (CHP).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1C16ZOvm9N4emlHfmnz22hZUHaL6EnICH/view"
+        },
+        {
+          "name": "Cogeneration Improvement. Steam Cascade Analysis.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1JjhrwWka_j0Px3SHXGuqOGwsQKR6CByk/view"
+        },
+        {
+          "name": "Cogeneration Page 491.PDF.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1NXsbWJDJ-CNm-uipzaWXpuNL6r-8URWM/view"
+        },
+        {
+          "name": "cogeneration.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Srxms5MMGw2Sgtlf1s7U3Y8iWM-SL2fO/view"
+        },
+        {
+          "name": "Combined Heat And Power Systems.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1RzVPgwW5vQX4W7f4u07_3Cj7I3ftT0N6/view"
+        },
+        {
+          "name": "final 22.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/11muuAfXHa7bIn_ovBvOdxKm_fdzYajRK/view"
+        },
+        {
+          "name": "Integration of process site utility systeems.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1HEWjdWBdwMO0JZVccqFY8ToW2jTRdGfa/view"
+        },
+        {
+          "name": "Ion exchange treatment  of drinking water.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1NBoXDFGNLVKm1-GRuoVyUL2SX6mepjV0/view"
+        },
+        {
+          "name": "Kapil_Bulatov_Smith_Kim_Site-wide_low_grade_heat_recovery.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1L2uzAK1XrMe9bRVcmVzFy2_J-GPY-1kl/view"
+        },
+        {
+          "name": "potential.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1mDSInGfobuEicrDzkPj1ghO8JPS-J8fi/view"
+        },
+        {
+          "name": "steam_pressure_reduction.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/14UopzBCizjmPPMoESwHHOguT2vIjKmIn/view"
+        },
+        {
+          "name": "Technology Characterisation_Steam Turbines.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/150VTtrbQvTkZDdyl9s-28hMwTuSzJqj3/view"
+        },
+        {
+          "name": "utility_incentives.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1QIsKlomf3CQyFBHanYw0ONRqyS8syGNr/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 507",
+      "title": "Polymer Science & Technology",
+      "level": "500L",
+      "semester": "First Semester",
+      "desc": "Polymer science textbooks and enhanced oil recovery (polymer flooding) technical readings.",
+      "driveUrl": "https://drive.google.com/drive/folders/12ZAAb0sR7VM7cuT9FR_6TNCa7QA7ZG1W",
+      "fileCount": 3,
+      "counts": {
+        "Textbooks & References": 3
+      },
+      "files": [
+        {
+          "name": "Evaluation of Polymer Flooding for Enhanced Oil Recovery in the Norne Field E-Segment.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1dbG3VmQR0tfUu618xxRivqQWjK-7nVis/view"
+        },
+        {
+          "name": "polymer-science-and-technology(0).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1otBmXgdA-ZzcS0rP36A7pRGAvP9TCgja/view"
+        },
+        {
+          "name": "polymer-science-and-technology.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Z22aZvLEu9kG64AwcQ04jD-MQ3ismbm4/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 509",
+      "title": "Biochemical Engineering & Enzyme Kinetics",
+      "level": "500L",
+      "semester": "First Semester",
+      "desc": "Introductory biochemical engineering texts (Das, James Lee), enzyme kinetics, and solved tutorials.",
+      "driveUrl": "https://drive.google.com/drive/folders/1TKyeu0vMQk91T7ETZACmagZurBaA2sG4",
+      "fileCount": 28,
+      "counts": {
+        "Textbooks & References": 13,
+        "Lectures & Slides": 7,
+        "Assignments & Tutorials": 6,
+        "Past Questions & Solutions": 2
+      },
+      "files": [
+        {
+          "name": "1477774.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Ga12U4zuRpXlKbn-hGNuIhU0Rx8ULFOa/view"
+        },
+        {
+          "name": "1508277289Lecture02.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Ps32Ljr4f6ASUYATNeSuhKTJIPG_EAaJ/view"
+        },
+        {
+          "name": "Biochemical Engineering An Introductory Textbook by Debabrata Das (Editor) Debayan Das (Editor) (z-lib.org).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1yqIBAXlRG_Oo8V24H0pEkk3YyFHdeFLp/view"
+        },
+        {
+          "name": "CHEN 509 2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PgJXYpVxxDdK-kVLpUz_jow1D76yQ_Hb/view"
+        },
+        {
+          "name": "CHEN 509 3.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1tkWuH4VM8rJRgRmtAW0SZkc-n6iJhEgN/view"
+        },
+        {
+          "name": "CHEN 509 4.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1uh3aqJvhj9YGEvnD4I7ccOrNKq2Yh41Q/view"
+        },
+        {
+          "name": "CHEN 509 5.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1qrIzD8ob0dGXvadIAjYzyV0c2lznu2B-/view"
+        },
+        {
+          "name": "CHEN 509 6.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1b7iDpjsPHOPHBwyH8vPrOKflQ6uXAa72/view"
+        },
+        {
+          "name": "CHEN 509 Tutorial 1.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1DkboaJ7uQp_Mf5yFjn2qXlkhRN_vBDHL/view"
+        },
+        {
+          "name": "CHEN 509 Tutorial 1_2024.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ZYszuKQniHi_Z4xA2yD35u8BudNUWYoD/view"
+        },
+        {
+          "name": "CHEN 509 TUTORIAL 2.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1gxpfjGzEe-Sv8Gy_Qtw5OWBbLnV91aRd/view"
+        },
+        {
+          "name": "Chen 509 tutorial questions .pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1-52vPOvciWew0ddwSYDdufQkTr5hg8DL/view"
+        },
+        {
+          "name": "CHEN 509 Tutorial Revised_2024_240315_223510.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1sPOIs2c-JQ9Y7vlcfowRU-kC6ZYOEuJN/view"
+        },
+        {
+          "name": "CHEN 509_Module 1.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1uv1R3l5wyDRJgkv5ZCzJ-4yP48yw4xd_/view"
+        },
+        {
+          "name": "CHEN 509_Module 2.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1CfuFi28s0uV3w9FUzijfPnTZ7QWcf3gB/view"
+        },
+        {
+          "name": "CHEN 509_Module 5.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1IU0ay3NEszdRxgz-C9m18l22jCHKN3OF/view"
+        },
+        {
+          "name": "CHEN 509_Module3.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1QQ8P5AmI5TGwEjYs3c3lnJ844bfBzIC1/view"
+        },
+        {
+          "name": "CHEN 509_Module6.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1R_phKPD5u0_OS1YfRNf4Wt32HgXlGRff/view"
+        },
+        {
+          "name": "CHEN509 Updated Grouping for 20232024 SessionA.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1wUxCKlIQcb7rA2_0fW5bTGDzDFT_8fQs/view"
+        },
+        {
+          "name": "CHEN509.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1VWu-1AFmuvQ40YVZ2yz6tAaNDsiobr-o/view"
+        },
+        {
+          "name": "Front_Matter.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1g2euO9GH7JwiYiU0aYkhNHJcWXn1SS6O/view"
+        },
+        {
+          "name": "GROUP 3 509 ASSIGNMENT_093040.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1WCI6l9ci_Z5-2cLf4BCR8MiakGfCUd0Z/view"
+        },
+        {
+          "name": "James Lee's e-book.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1-U20xnUbEChzjMGB2B96iSznDA_q3bLJ/view"
+        },
+        {
+          "name": "Opportunities.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1fPQZTz6cdaj9ZzI0fd1ektW0-gSodSap/view"
+        },
+        {
+          "name": "pdfcoffee.com_enzyme-kinectics-pdf-free.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1uoMUiGZNCXtxGpWBuu2HjOdr7TZZ7E4O/view"
+        },
+        {
+          "name": "soln 509 revised.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1jRuUdp-7eZEKXwcrBO0ErMCEidWh-wao/view"
+        },
+        {
+          "name": "TUTORIAL SOLUTION.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1kORZyFqYq_JdN54Ky4o6ZAerxkS9rEDq/view"
+        },
+        {
+          "name": "Zhou_et_al-2022-Frontiers_in_Energy_Research.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/145PeEePgxD6GS7j-kdEKyrDftMpto9eK/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 515",
+      "title": "Petroleum Exploration, Drilling & Production",
+      "level": "500L",
+      "semester": "First Semester",
+      "desc": "Geophysical exploration, drilling, reservoir engineering (Tarek Ahmad), refining, and past test solutions.",
+      "driveUrl": "https://drive.google.com/drive/folders/1nDZkgKR0USfHO46m4RPeo1t5BArKmY_Q",
+      "fileCount": 97,
+      "counts": {
+        "Lectures & Slides": 12,
+        "Textbooks & References": 64,
+        "Assignments & Tutorials": 20,
+        "Past Questions & Solutions": 1
+      },
+      "files": [
+        {
+          "name": "CHEN 515 3.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/1yQRP-cOktHuznRg19ccqyE0EAV7KZeAo/view"
+        },
+        {
+          "name": "CHEN 515.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/12NsXONMrAOU5ArQtSXqCnMnszCeYCs1E/view"
+        },
+        {
+          "name": "Drilling.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/1vSPTtPo6pUy-VekQssVhedvWXpThou-p/view"
+        },
+        {
+          "name": "New Doc 2019-06-11 13.50.50.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/1NCoc0EFA7be3R587QQZabpFVHFqgwc_E/view"
+        },
+        {
+          "name": "New Doc 2019-06-11 13.53.22.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/1EQcXsMMjEF9y0M7B6kbiR0gMHwGk6u8h/view"
+        },
+        {
+          "name": "New Doc 2019-06-11 14.02.50.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/1u2rcWdQgB3Z0GCZZfTE4X9pJUDyjTv0E/view"
+        },
+        {
+          "name": "Production 1.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/152ALG_8mzdOyKADVWS2hAIj1aahlF5p_/view"
+        },
+        {
+          "name": "Production Engineering 21.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/1Z_ZhPqLhHiCaJrPjm4oR79wPCRvY7fO7/view"
+        },
+        {
+          "name": "Production Engineering 22.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/1gA51zgJED1j3NEMc3oKaE3uMEcOXBsWY/view"
+        },
+        {
+          "name": "Production System and Reservoir Deliverability.ppt.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/1W52HPHZZ3gf5QYSLsm39-2uSbsVSiZaW/view"
+        },
+        {
+          "name": "Production.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": "515",
+          "url": "https://drive.google.com/file/d/1fIahnjUPFT8nuLP7QQXQ9Qw5cxpddk8n/view"
+        },
+        {
+          "name": "1000_39_AdminCode.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1PYcQJzjwg-tJXaieDn-1fSOBVPLEAijp/view"
+        },
+        {
+          "name": "20140901.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1UrbWtrjuMoZ-2s40xbKV7tokA6Z-tI0M/view"
+        },
+        {
+          "name": "24-part-f1.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1wPxAwXMYzYyc3NLPklHxOQPeqVp5-gZk/view"
+        },
+        {
+          "name": "34_45.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/164r2hm8rg0jxSc4v6hWumTEjS0tqXTGk/view"
+        },
+        {
+          "name": "API-Infrastructure-Investment-Study.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1IJoAF5m_cq9r_fSl0q2_88M0TYnGAtjR/view"
+        },
+        {
+          "name": "Chapter 38_Liquefied Petroleum Gases.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1IAjI68NpGS_xphalyzOf6C0PHJx4k4Ve/view"
+        },
+        {
+          "name": "CHEN514 BD of production process.vsd",
+          "ext": "VSD",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1K9iTUAOZmLf3hjO-bJz0QYlK5WjJz1AX/view"
+        },
+        {
+          "name": "CHEN514 BD.vsd",
+          "ext": "VSD",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1WQSqGFBDHiula1SwG0a6imEkQngeW_s-/view"
+        },
+        {
+          "name": "CHEN514 ORGANOGRAM.vsd",
+          "ext": "VSD",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1GhWVQ47MbQcq8WEoeOInwaHn4eV5znhp/view"
+        },
+        {
+          "name": "demulsifiers.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1Up5kVaODt7etswEi8Ng-jkthTVb0lBMs/view"
+        },
+        {
+          "name": "FLOORPLAN CHEN514.vsd",
+          "ext": "VSD",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1A3_Yko_PIsskAgj5aza-x5837Tr4j8f4/view"
+        },
+        {
+          "name": "GasComplaintsEng.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1488dKiNXUklKpb0jH5nX2YFHnHKZZpET/view"
+        },
+        {
+          "name": "Kokal.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1NmGVTsWPNjDGstbUDTiA1aykCGVmq08Z/view"
+        },
+        {
+          "name": "OSHA Guide 30 Storage and Handling of Liquefied Petroleum Gases.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1QtIYsoa8rA9kG0sCE36DobthkFfJuyep/view"
+        },
+        {
+          "name": "PetroleumStorage.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1Pd4uzr7ZzDuZV5tkiabHk3vGsj5hW-sh/view"
+        },
+        {
+          "name": "PR-900.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1QS5mdA-k54yBZpwy-I85WYVYMY-9C0qi/view"
+        },
+        {
+          "name": "Sztukowski Yarranton_2005.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1-2TnoEB1B3aMfHVH3-woS83O_Bpka0qr/view"
+        },
+        {
+          "name": "TR diss 1672(1).pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1-KSOGDZ7JMTenPf872Vhk5e3-MtuYr-7/view"
+        },
+        {
+          "name": "TypeEeFINAL.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Assignment",
+          "url": "https://drive.google.com/file/d/1kezDYgKxWryTmMVpyA9_Ay17AcomcUbA/view"
+        },
+        {
+          "name": "_week2.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1bJTJGQxu0RJLYxYnzOgE82ujIuUUysyS/view"
+        },
+        {
+          "name": "CHEN 515 1 & 2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1JN0lWM8cpRWq9DWY3Nb9m6SWEQ9ERdtW/view"
+        },
+        {
+          "name": "CHEN 515 3 & 4.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/13qsCjsONGskZShvY--RQfpNc2DmNJhBi/view"
+        },
+        {
+          "name": "CHEN 515 Calculations.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1kDGxocfpjSkBOoghp97ElFe0-PwKPy1d/view"
+        },
+        {
+          "name": "CHEN 515 Modole 4 & 5.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1dsEYwEzRMnZk0gldJIK0FIsJlY8ZOWw9/view"
+        },
+        {
+          "name": "CHEN 515_Drilling1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1hI--9QV6bvxtNA04UeF9XjoolBNQcRfa/view"
+        },
+        {
+          "name": "CHEN 515_Drilling11.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1xgCnX-eRfREyx_VumkU8g-nSFsoc5C7s/view"
+        },
+        {
+          "name": "CHEN515 PAST TEST solution.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/13avv2oMM_ocpwySzLE10juXFKnNc_uzl/view"
+        },
+        {
+          "name": "Kerogen - Wikipedia.PDF.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/12wMRIeQmolXSqmgRDc39SCVD1hXyARYu/view"
+        },
+        {
+          "name": "Tarek Ahmad - Reservoir Engineering Handbook, 3E.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "New",
+          "url": "https://drive.google.com/file/d/1hOAnPE1Gi1Jgfv7rAo5jghdFz2fwGlXP/view"
+        },
+        {
+          "name": "1742-6596_215_1_012103.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1QVMSMnXVdKFGRYJqYb_fTIDCFtk_h1Bd/view"
+        },
+        {
+          "name": "2011-03-Sasson&Blomgren.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1AvyZ5bvIy08xfx9lVUczhFJuq6iEO6gC/view"
+        },
+        {
+          "name": "26-TTG-OGTechDevelopment.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1AtF2qZE72kubUM91tyTBl-lxm9vZ7Mjp/view"
+        },
+        {
+          "name": "515 Assignment (2).pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1NC9GjDaEjZ5OUKZ8TqoPbKJ51Gb6QDOK/view"
+        },
+        {
+          "name": "AN INTRODUCTION TO GEOPHYSICAL EXPLORATION.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/14ofFI3fnKUdtucnY8J7PrOWdyQP-YvQe/view"
+        },
+        {
+          "name": "Article+6.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1tBHxhXxhEXuVD3feHDKlNXiWxz8ivOhB/view"
+        },
+        {
+          "name": "Biogenic and Abiogenic Petroleum.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1t4gxLbeEs5Yzy0177hABbkklql6PrC8_/view"
+        },
+        {
+          "name": "Bulletin petroleum geology.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1O8DvEdDAfnpgeB2kY5iPh4cZRXbAWTb6/view"
+        },
+        {
+          "name": "c1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1DwQjNgrsPQkafarB6_QK-qXwdC6cCliF/view"
+        },
+        {
+          "name": "catalysts-02-00303.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/13VC__I0I3LY2s3WUW2k0SM3RCt2Ti_Ze/view"
+        },
+        {
+          "name": "ch03.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/12PuTEXGqQP7EKOhED2nDy-GlpCLrWUrd/view"
+        },
+        {
+          "name": "CHEN 515 1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1F9NRMo2zInPC_idU7JR8bAXrYDaz4puN/view"
+        },
+        {
+          "name": "CHEN 515 3 - Copy - Copy.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1VlNx-ZdBtONggkY_sBHiswJnCZm6ppQf/view"
+        },
+        {
+          "name": "chen 515 storage.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1GpZ9owa51ylY1UkFkzm1JjqIcA5bN7ct/view"
+        },
+        {
+          "name": "CONVENTIONAL OIL AND GAS, GEOPHYSICAL EXPLORATION.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1tIeN3HZ0vdFhl-qDbIPSQ9F-r0RgglKV/view"
+        },
+        {
+          "name": "doc.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1h4CQAfE0jVtyTT7YvFEKtqoTCLiC2Fic/view"
+        },
+        {
+          "name": "doc_2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1-DkWwsnCcHNw7RhVLhO4MDSjg8XCgSgN/view"
+        },
+        {
+          "name": "EarthCompo.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1VpVcOmF5oWkVYgTSBRFVxfF3K-0AyucG/view"
+        },
+        {
+          "name": "Fischer-Tropsch Process.doc",
+          "ext": "DOC",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1U06OIQNTSe7co3t_4-8Mw326byFnQs_s/view"
+        },
+        {
+          "name": "Fischer_Tropsch_Technology.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Ct55Q7pbMJCG2eusmkMQq9388PVXZkDg/view"
+        },
+        {
+          "name": "FromMarineOMtoPetroleum04.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/18ninXWNwcsxsKDB-psYUkrHdFm9ow9dD/view"
+        },
+        {
+          "name": "FULLTEXT01.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1R96r8ajxqEy0yPf7mmssVclarbq1MGyr/view"
+        },
+        {
+          "name": "FULLTEXT01_2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1dWo80j_oTCuhEOW3zTws7swTOxLHp6et/view"
+        },
+        {
+          "name": "GasComplaintsEng.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1bwfwgHYyKnoq6kaoG5Z2MqMWSb52jfup/view"
+        },
+        {
+          "name": "Geophysical Exploation Programs.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ExcBXbiYQmMaITXyn_SdqRjE8cKE3I9S/view"
+        },
+        {
+          "name": "Glossary-of-Terms-External-FINAL.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1KuIrKitt9oqcXHJfw5FVWaRqwYgZftgH/view"
+        },
+        {
+          "name": "Gravity Method of Exploration.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1uYihPLz1y9HMgLw7qO-MhL_g4arEI7GU/view"
+        },
+        {
+          "name": "h3150-1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/19tI0m4fCkp-hRzKLwOcprVvp7iDoV7d0/view"
+        },
+        {
+          "name": "Looking for oil and gas.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1KcWfnctZArd1vVZeMvM7tW4WhTRp3SOV/view"
+        },
+        {
+          "name": "Natural History of Petroleum03.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/15znaOBe9Jw4DMGenDKDz5tsbkeb1iDKM/view"
+        },
+        {
+          "name": "oil technology.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1BZqtM2s3NtP8IXUFK4s4W9vUSe3rKUZV/view"
+        },
+        {
+          "name": "Oil+and+gas+production+handbook.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1cogcV9FOi6mj5gyS14PKd9Iy2f6DTABC/view"
+        },
+        {
+          "name": "oil-gas.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1TW26nrh8CeZEezAzrc91jqSzDLnIHjhi/view"
+        },
+        {
+          "name": "oil.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1u1GUINkqqngiJgnghp7Yym17QAagAMHT/view"
+        },
+        {
+          "name": "oilandgas Geophysical exploration.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Px2hueTrBE6lsCgEBwVP0jmxed0fCp7d/view"
+        },
+        {
+          "name": "oilgas_exploration.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/11YzLDsJ_FatjPpO5TJ1uOBsArPzjYFoN/view"
+        },
+        {
+          "name": "PETR 571-Week1notes.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1NJdtzTN-odt6O4NFWIaTcCD3IvhgwWhb/view"
+        },
+        {
+          "name": "PETROLEUM REFINING PROCESSES-1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1K15ehlL07zxdUB6W1UqXoaiSPt54Xj8w/view"
+        },
+        {
+          "name": "PETROLEUM REFINING PROCESSES.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1W99zzEb5-X36pjyO0aDCPOh-jxCukjdM/view"
+        },
+        {
+          "name": "Petroleum Technology Ass of Nig (PETAN).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1EUNdNkUFjQcCJjHlDVKbw39T90R6gdWq/view"
+        },
+        {
+          "name": "petroleum.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1oaiUc6EWvl5NFyUXjmUTlsnBG_0fGChS/view"
+        },
+        {
+          "name": "Production (pumping) 2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/16Q24yTumbnzgIPswFNpYpJzq2Zd4rH-x/view"
+        },
+        {
+          "name": "Production (pumping) edit.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1tW9gAFh2pUSzxYSzasaVG2kO-iedjOsb/view"
+        },
+        {
+          "name": "Production (pumping).pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Hyxfq7Sv2XjRVGqHdj8lvs4hGjZa_sQC/view"
+        },
+        {
+          "name": "Production - CHEN515 1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1VtFoBpv5QvX8cWT9kDxvC-5M2cxvLXSp/view"
+        },
+        {
+          "name": "Production - CHEN515 edit.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/15oAwnAxyAiMUtzMtTUktNDfw3T6mEtE6/view"
+        },
+        {
+          "name": "Production - CHEN515.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1svY37WUgPAzMbR_Sqz8d8OSe96kUtDP-/view"
+        },
+        {
+          "name": "Production - CHEN515.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1TPgGxTPOSdHXGbD_0fZiLtFPH_Q0iv4j/view"
+        },
+        {
+          "name": "Production management.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1NI1wxUJGeYp0VUi5q1736t-NiNkM9xl6/view"
+        },
+        {
+          "name": "R&D089.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1SNAA9dRpxfMfT2Oh1lZzFDduQobrQGst/view"
+        },
+        {
+          "name": "Surface geophysical methods are generally non.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1-v4aX6XpPF6cdcvlkIXkRfsD-ei_TRXo/view"
+        },
+        {
+          "name": "symbols.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1yAd-CGvtDi9XZZ7tJZhw0w_gfJBb3VDw/view"
+        },
+        {
+          "name": "TGM_Offshore Onshore_010910_NK.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1-nBx1ni0vMEhO_I-09d1N--2IVq54NLM/view"
+        },
+        {
+          "name": "THE NON-ORGANIC THEORY OF THE GENESIS OF.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1_5Cgo8MlZbRQtOXX5FCysclerTXoQ2BX/view"
+        },
+        {
+          "name": "The Petroleum Industry Bill - 2012.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1thULV6kx0fQt4Ld2GBNFjlZyKyzq-OdT/view"
+        },
+        {
+          "name": "what is petroleum.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PzFop8BUdrtC_5NVwI281cSrK_25svHA/view"
+        },
+        {
+          "name": "What you need to know about oil and gas industry.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PTjwHb1t2wOR7GlGAo5BN_sVs7sjzWCd/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 502",
+      "title": "Process Dynamics & Control",
+      "level": "500L",
+      "semester": "Second Semester",
+      "desc": "Lectures 1–8 (Linearization, Laplace, Transfer Functions, Stability), Modules 1–5, Seborg, Coughanowr & Ogunnaike.",
+      "driveUrl": "https://drive.google.com/drive/folders/17ANCp2e5Q0qliL5ws3-m853kDVstVcjE",
+      "fileCount": 23,
+      "counts": {
+        "Textbooks & References": 7,
+        "Lectures & Slides": 15,
+        "Assignments & Tutorials": 1
+      },
+      "files": [
+        {
+          "name": "502-Chemical-Process-Control-An-Introduction-to-Theory-and-Practice.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1LUldeSuYa7g-kSgC3tcjKhuPlTIv-efn/view"
+        },
+        {
+          "name": "502_Lecture_1.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/19g3GFlqmp7LD0fnMhvYrCcBSRnx0Rb4T/view"
+        },
+        {
+          "name": "502_Lecture_2.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1uaJmf6nBve63ylVRNMwqDGqYyt4RcHIh/view"
+        },
+        {
+          "name": "502_Lecture_3.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ZzfyI4nWgkawRyvr24AL0uP1zBsvlEDr/view"
+        },
+        {
+          "name": "502_Lecture_4_Linearization (2).pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1kj6Ml8mNWlNnVrkG_5knYfW3BcniEOb3/view"
+        },
+        {
+          "name": "502_Lecture_5_Laplace Transformation (2).pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1y2_2am4dNwUNU9qWJ-Mw0vapcCz6pXgg/view"
+        },
+        {
+          "name": "502_Lecture_6_Transfer Function Models.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1VqhbUajEtShFfmhD_lp_ukW2lVht444z/view"
+        },
+        {
+          "name": "502_Lecture_7_Controller Types and Modes of Operation.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1fHmY3EMS6Wq9NIi31PJLCI1Gj221IrrV/view"
+        },
+        {
+          "name": "502_Lecture_8_Dynamic Behaviour and Stability of Closed-Loop Control Systems.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1-RDMso4sXcbxf-4avsCrN-KR0AI_5ntt/view"
+        },
+        {
+          "name": "502_Tutorials_1&2.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1n3xM1zGPj7PuAc85DdQqgLHk7cEkT9ln/view"
+        },
+        {
+          "name": "CHEN 502-Lec1 Updated.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1XgwC8TzPrJwyOShQTlYea1KJWWNlmUH0/view"
+        },
+        {
+          "name": "Dale E. Seborg, Duncan A. Mellichamp, Thomas F. Edgar, Francis J. Doyle III-Process Dynamics and Control-Wiley (2010).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1545UiBCMLugPu6UM-x2GbjEQ5RgYNujb/view"
+        },
+        {
+          "name": "Donald Coughanowr, Steven LeBlanc-Process Systems Analysis and Control    -McGraw-Hill Science_Engineering_Math (2008).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/16GjPV5TpJoYKi02K5--KCSpBDiJe_VTh/view"
+        },
+        {
+          "name": "Mcgraw-Hill-Process-Modelling-Simulation-And-Control-For-Chemical-Engineers-Re-Distilled.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1IhbpL3Cu3w_gz824Bls4nogaC5IOAV8d/view"
+        },
+        {
+          "name": "Module 5 part b1.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1RZm2gdP_pZ2u6p_NFtHKNn96eXO_fatz/view"
+        },
+        {
+          "name": "PDC Module 1.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1_rGMEJHp09giuIk6eaChM-Z8R1vYAANV/view"
+        },
+        {
+          "name": "PDC Module 2.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1c7hZcegTqK54NBSHoBd-3-LfuY9iyXPG/view"
+        },
+        {
+          "name": "PDC Module 4.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1pItUfP2qDggm23__7FBR5JQlcItqvcSz/view"
+        },
+        {
+          "name": "PDC Module 5.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1uSil7GV9UMd8X6Xt3rrXYbO9HrXfN0o9/view"
+        },
+        {
+          "name": "Process Dynamics and Control Module 31.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/155vTIA9hs2owrTCTlcFI3Ket08G2Fr85/view"
+        },
+        {
+          "name": "Process_Modelling_Simulation_and_Control.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1rbNwaAF6-7BkLIhfs3AnGIkwvEXln7At/view"
+        },
+        {
+          "name": "toaz.info-babatunde-a-ogunnaike-w-harmon-ray-process-dynamics-modeling-and-control-o-pr_13d4a6985c63fa441dd9054d7df790d0.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1tLGBjcuyqruz4mFWy3jsZLNJZnJQXtdl/view"
+        },
+        {
+          "name": "toaz.info-process-modeling-simulation-and-control-for-chemical-engineers-pr_0253bcf3872d8b3b2169605404625bde.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1tlwjseKKgUYhxR5PiSMvHksAx95Bqd0T/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 504",
+      "title": "Environmental Engineering & Pollution Control",
+      "level": "500L",
+      "semester": "Second Semester",
+      "desc": "Air, land, solid waste, and wastewater pollution control modules and reference notes.",
+      "driveUrl": "https://drive.google.com/drive/folders/1gDlzgJlXGy6IhPEmCm-u9lCBQb4HYcee",
+      "fileCount": 35,
+      "counts": {
+        "Lectures & Slides": 18,
+        "Textbooks & References": 17
+      },
+      "files": [
+        {
+          "name": "CHEN 504 - 19.05.2016.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": "504",
+          "url": "https://drive.google.com/file/d/1f2JQb65ZeK5x4yxMCoOcH0JVgQ04ZLA1/view"
+        },
+        {
+          "name": "CHEN 504 SOLID POLLUTION.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "504",
+          "url": "https://drive.google.com/file/d/1pySgf4U1yx5-i9Y5RacdONfsQ02LCXjI/view"
+        },
+        {
+          "name": "CHEN504 AIR POLLUTION.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": "504",
+          "url": "https://drive.google.com/file/d/13YKaeVJx8SLI0z1-Cju6wRztB9qlsEKv/view"
+        },
+        {
+          "name": "2006_10_31_guide_stormwater_usw_b.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1fyVXKBL2Z6_-g8KehMEPZ1iqnV2_9Eyl/view"
+        },
+        {
+          "name": "3_sewage.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1FBQmQ7ve_2KQWSLySmucziwIMtBeG9xg/view"
+        },
+        {
+          "name": "504.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1Jt636itBpk0Jzr_YuHLC2rtkC94QxppB/view"
+        },
+        {
+          "name": "CHEN 504 SOLID POLLUTION.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1QPa-1HwRE7ZAzd86-jpk5bXDwaMDMzbM/view"
+        },
+        {
+          "name": "CHEN 504.doc",
+          "ext": "DOC",
+          "category": "Textbooks & References",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1-9sso9Gv6_dZDN4UASP2Xd1agil6FngC/view"
+        },
+        {
+          "name": "CHEN504  Eutophication and self purification - Copy.pptm",
+          "ext": "PPTM",
+          "category": "Lectures & Slides",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1mhQ4ncg_4Gm7COaqHtgkvQ3Y5lSX2zsz/view"
+        },
+        {
+          "name": "CHEN504  Eutophication and self purification.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1EMoHnVN2q0pCa9zchtiBjAAH1WCPX4Co/view"
+        },
+        {
+          "name": "CHEN504  Eutophication and self purification.pptm",
+          "ext": "PPTM",
+          "category": "Lectures & Slides",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1jGua7tylN6FVtT66IVZkkk3DwUdiMmyO/view"
+        },
+        {
+          "name": "CHEN504 AIR POLLUTION.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1I24Aqs3_fe4_kHdmAE9lbKHSpvnRR7jU/view"
+        },
+        {
+          "name": "CHEN504 water pollution and Control1 - Copy.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1toYgd9lx9BeMGxNsqy7wLAkaNYhvOIpg/view"
+        },
+        {
+          "name": "CHEN504 water pollution and Control1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/14JCxwZvqQzvU1Nx6Sm_CyOTzmmIaYJBk/view"
+        },
+        {
+          "name": "CHEN504 water pollution and Control1.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1qQJyETC6pvZTlMjkY3xx9lweGn3jvcAl/view"
+        },
+        {
+          "name": "iwmguide.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1dCXSXOSrZ-hb1QvxSjNY6R9IkaAS856Z/view"
+        },
+        {
+          "name": "PBR_1010_601_Strategy for Industrial Waste.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/1e6y4H4udhHsWwYzKo4Oozw_y9aSrD3NZ/view"
+        },
+        {
+          "name": "SEWAGEPOLLUTIONCONTROL[1].pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": "chen 504",
+          "url": "https://drive.google.com/file/d/13Yp4BbcCqxgH0Jt8ELaRoVeUgRGtm8Tu/view"
+        },
+        {
+          "name": "CHEN 504   - Module 1c.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Oou8Li1zOw2tHLWtYVzbfPp05dxYIicx/view"
+        },
+        {
+          "name": "CHEN 504  land pollution  Module 2.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1S728L6UN7gfAYa7bBpX9alhOHYVa3zvT/view"
+        },
+        {
+          "name": "CHEN 504 Air Pollution.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1MFr2bOTXMs7E72Icc0E7xL4aPBSeZKrY/view"
+        },
+        {
+          "name": "CHEN 504 Module 1a.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1UDwGnucM_yB0xoSc2AQlsvpTOt5RVoiq/view"
+        },
+        {
+          "name": "CHEN 504 Module 1b.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1vf5LFUoyL6oKXv28ux7RUhFMp3yuexor/view"
+        },
+        {
+          "name": "CHEN 504 SOLID POLLUTION.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ns68-_WtgfjeyYUfMmzUBf4bX1OqBp1x/view"
+        },
+        {
+          "name": "CHEN 504.doc",
+          "ext": "DOC",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1usmoukjq8PSNc3Joa5ICIDlz2_qOyzmJ/view"
+        },
+        {
+          "name": "CHEN504  Eutophication and self purification - Copy.pptm",
+          "ext": "PPTM",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1vvDoZg04rOlRv7IhpjVIECFw4gL72ukr/view"
+        },
+        {
+          "name": "CHEN504  Eutophication and self purification.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1aDhCvu5QUqzhhulIG_mUypSwP5RN47RM/view"
+        },
+        {
+          "name": "CHEN504  Eutophication and self purification.pptm",
+          "ext": "PPTM",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1JYxT0fp_0wdwQOJIgvnfJLBt9KqkvZ-b/view"
+        },
+        {
+          "name": "CHEN504 AIR POLLUTION.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1iLv_0KrfN76sQ2iLKMZ2bm1VY4kz2h4C/view"
+        },
+        {
+          "name": "CHEN504 water pollution and Control1 - Copy.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Q2FTMaaN1Rlx7sgilufd6K_V1-JxLKxV/view"
+        },
+        {
+          "name": "CHEN504 water pollution and Control1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1f63ASaVA8ABMVnzcHWyGtCg5DVrNPKZN/view"
+        },
+        {
+          "name": "CHEN504 water pollution and Control1.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1xsT8_lTvKPVsqlkkAAN6ZpFZA5d9MKyT/view"
+        },
+        {
+          "name": "pollution prevention.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1mu-GSUAuUExG4BkdD0XOXMY0KobixFUS/view"
+        },
+        {
+          "name": "SEWAGEPOLLUTIONCONTROL[1].pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1OimXmRRIY5KDRPFINNDo0_b5FRKv6p6o/view"
+        },
+        {
+          "name": "water pollution and Control1.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1F4qiP7hfcasstrPGhj7dz7NWU2EzgHXb/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 510",
+      "title": "Special Topics & Past Questions (CHEN 510)",
+      "level": "500L",
+      "semester": "Second Semester",
+      "desc": "Course notes, assignments, and past examination questions (including Skarama PQ).",
+      "driveUrl": "https://drive.google.com/drive/folders/1j-iMnRY1q6ObmnwEirGZHmAgc4F3MjfZ",
+      "fileCount": 5,
+      "counts": {
+        "Textbooks & References": 4,
+        "Past Questions & Solutions": 1
+      },
+      "files": [
+        {
+          "name": "CamScanner 10-08-2021 15.24.09 (1).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1hC91o4alpb_IC0A_HCVTPId4X0lk2DfU/view"
+        },
+        {
+          "name": "CHEN 510 ASSGNT.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1FCIYr9CcC0LoQpO6jRKUNhbQlpy2ha2t/view"
+        },
+        {
+          "name": "CHEN 510-1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PsUWAhjxi-8tYNGBbmBjLld9Uiav7REi/view"
+        },
+        {
+          "name": "chen 510.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1VZVSqK9M7WYw4D3M4z7jFSFEQ8rxJ6aT/view"
+        },
+        {
+          "name": "skarama p.q chen510.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1jN-ttyxm7fzoZqhK2j9aw3o7FLn98W-P/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 514",
+      "title": "Industrial Plant Management & Operations",
+      "level": "500L",
+      "semester": "Second Semester",
+      "desc": "Lecture series, assignments, and industrial plant management case references.",
+      "driveUrl": "https://drive.google.com/drive/folders/10l2vaHgc77a5mzcSD5yVtId_jlEklfoT",
+      "fileCount": 24,
+      "counts": {
+        "Assignments & Tutorials": 1,
+        "Lectures & Slides": 21,
+        "Textbooks & References": 2
+      },
+      "files": [
+        {
+          "name": "CHEN 514 ASSIGNMENT.pptx",
+          "ext": "PPTX",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1n12C2ej0zcqP37VOFENd2xCSMocCj3oZ/view"
+        },
+        {
+          "name": "CHEN514 lecture 1 (2).pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1KF0Z17S_V9RzE_4fUbmfQ8MUvYix_GVx/view"
+        },
+        {
+          "name": "CHEN514 lecture 1.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Nxn2wh5jbkcEkWiZxpLDfGQgGlOMHTUq/view"
+        },
+        {
+          "name": "CHEN514 lecture 2_2024.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1jZ0JoPpQ6Px8fn-AuI2E6N4i_IfEVSR4/view"
+        },
+        {
+          "name": "CHEN514 lecture 3 (2).pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1OzIH7Qhap0OLYazxziyXUa3wCCPm91Zv/view"
+        },
+        {
+          "name": "CHEN514 lecture 3-1.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1pQ7epUuPHiP2OuAfcGx518GczsGc8z9M/view"
+        },
+        {
+          "name": "CHEN514 lecture 3.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1p3YOUSyskUkJvk8P_5V1grlfo3DDU2Hc/view"
+        },
+        {
+          "name": "CHEN514 lecture 4 (2).pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1nEjATC1uz3MoisQVw4V-JAA4cKhvpfXt/view"
+        },
+        {
+          "name": "CHEN514 lecture 4.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/137VxkD7uoap9JP1SPH2Rh4e6wkqReSZm/view"
+        },
+        {
+          "name": "CHEN514 lecture 5.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1iM9qlXB5hFa976NtOZ7-003AC2GBHm-V/view"
+        },
+        {
+          "name": "CHEN514 lecture.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/11IzpsZwJxdJmPgDmc6pkgpTahIIdlsq0/view"
+        },
+        {
+          "name": "CHEN514 lecture5 (2).pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/10ylF1Kkus74rujI2DeMaIE41dnxYMe8L/view"
+        },
+        {
+          "name": "CHEN514 lecture5.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Hoj3JnxIQErftupeNE_uYs4RMD-Xq9V5/view"
+        },
+        {
+          "name": "CHEN514 lecture8.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1QD45GxuxEyCt3Nllywz7r5HIWOTAK3I5/view"
+        },
+        {
+          "name": "CHEN514 lecture9.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1mjyAClVDhci3NId4QEwaUpQBDhRd19qH/view"
+        },
+        {
+          "name": "CHEN514 lecture_2.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1jOU3UOz7vrICApAP1dFGe_eQFlkH02jY/view"
+        },
+        {
+          "name": "CHEN514 lecture_5.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1SxEC-t17JmtpX8Nf-QzsyHuDFzm0SUfH/view"
+        },
+        {
+          "name": "CHEN514 lecture_6.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1DFHfdGIqdOMZ1USnFTz-o6M2IszEZnV_/view"
+        },
+        {
+          "name": "CHEN514 lecture_7.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1BKMvgMOmHNscYJCQ-UJB5Fz5LMo9379m/view"
+        },
+        {
+          "name": "CHEN514 lecture_8.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1To4PbMYYYHhxS3b34-jJd1VurGMNiaV_/view"
+        },
+        {
+          "name": "fluidisation.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1dZrvV3ROEWeA1fxYjZoK7M3xrlHRJ0Y4/view"
+        },
+        {
+          "name": "Production management.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1NoWaENOQeEatjTbSaxFAx-tZqFs6retB/view"
+        },
+        {
+          "name": "QUIZ.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Z_WnUwxahdbIxSqOqttuu6cQS4X97EEa/view"
+        },
+        {
+          "name": "TEST.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1k7_Vtc8Xo7bxhDmDaq97LsbplJLGAA1q/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 516",
+      "title": "Fluidization & Solid-Catalyzed Reactions",
+      "level": "500L",
+      "semester": "Second Semester",
+      "desc": "Modules 1–8, pressurized fluidized bed combustion, van Ommen fluidization, and catalytic reaction texts.",
+      "driveUrl": "https://drive.google.com/drive/folders/1gW7n2zvT99Rz0QGMySYyxXb66HpdAnup",
+      "fileCount": 22,
+      "counts": {
+        "Textbooks & References": 7,
+        "Assignments & Tutorials": 1,
+        "Lectures & Slides": 14
+      },
+      "files": [
+        {
+          "name": "28PresFluidiBedComb.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ca_ZSqc6g9Y3yvIqtHyWjYc096cxmOf2/view"
+        },
+        {
+          "name": "516.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Lq5gIYwkzW-ZkX_Y3UVRYUAtbvdY0E-N/view"
+        },
+        {
+          "name": "c2.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1XTBl9gJNS7HPlXreBubERdqlrZ1qQrXX/view"
+        },
+        {
+          "name": "Chen 516 assignment.docx",
+          "ext": "DOCX",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1D_FJPUUVsgqRRrYgKDWJdfps-xiT9roD/view"
+        },
+        {
+          "name": "CHEN 516 Lecture One.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1lsWuGPioeTmG7gD05-TnkxbrdLG_tvIn/view"
+        },
+        {
+          "name": "CHEN 516 M5.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ITo3EtcHUfpElzbjTXQ3_1Tem85GvyqP/view"
+        },
+        {
+          "name": "CHEN 516 M6.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Jeb6qkeEdmIZP9Yw1uAoYsREoQlvqCfJ/view"
+        },
+        {
+          "name": "CHEN 516 M7.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1mD7vaY4x751VKHjYZufQhv-rzd0O--ky/view"
+        },
+        {
+          "name": "CHEN 516 M8_121310.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1_oVAUwQH4lYGHnJhpVJu4E4yqu5QVNpz/view"
+        },
+        {
+          "name": "CHEN 516 MODUL 3++.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1t7-vBhrK-S9t9wvxooU7ceuY2KaAM6ld/view"
+        },
+        {
+          "name": "CHEN 516 MODUL FIVE ed (2).pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Hl-fWz8S2vg1QVJU344e4Pon4YsEhGu6/view"
+        },
+        {
+          "name": "CHEN 516 MODUL FIVE ed.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1j0XpfCDz4IrTtavGChESwu2aFjxvGtRw/view"
+        },
+        {
+          "name": "CHEN 516 MODUL SIX (2).pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1BC1oZgRsKvsBm5KuQKZXea8UDoZQZkZy/view"
+        },
+        {
+          "name": "CHEN 516 MODUL SIX.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1zGNNowrkpC9MWnTDrUCmQmHbN_2iKB3J/view"
+        },
+        {
+          "name": "CHEN 516 MODUL TWO.ppt",
+          "ext": "PPT",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ZysEZojQ-7b7EFZA0d1HpY2oSr_ruzN6/view"
+        },
+        {
+          "name": "CHEN 516 MODULE 1.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Bu8usipRsTE-sIMsFBPF8Y0ZvMh0D6wL/view"
+        },
+        {
+          "name": "CHEN 516 MODULE 2.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1bYVfp3SLKQBlaby9r5kbJn9Ho1S9NGCX/view"
+        },
+        {
+          "name": "CHEN 516 MODULE 4.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/11s2exbHGGhzfiJge3OZ9sFfzCW9H2g3I/view"
+        },
+        {
+          "name": "fluidisation.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/139zIOmyrt4b9RveYFWrSrhE14Ob7pdvN/view"
+        },
+        {
+          "name": "Pow Tec7, 285.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1maGsPexQWyJ_bkunwyhO5pFXqUhav7of/view"
+        },
+        {
+          "name": "Solid Catalysed Reactions.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/14VPmE9p3hcWlGyiiRBvo9Bo_YEKKehFz/view"
+        },
+        {
+          "name": "vanOmmen_Fluidization.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1QZk2CF1QPa0vYkPZrwJmu8mEds9ll35H/view"
+        }
+      ]
+    },
+    {
+      "code": "CHEN 531 / 532",
+      "title": "Chemical Engineering Plant Design Project",
+      "level": "500L",
+      "semester": "Second Semester",
+      "desc": "Comprehensive design references for Ammonia & Urea synthesis, Aspen HYSYS dynamic modeling, gas sweetening, and KBR/Stamicarbon flowsheets.",
+      "driveUrl": "https://drive.google.com/drive/folders/1AoTNz8CxMneUhZIdWk2XcLPYZLosNMKY",
+      "fileCount": 144,
+      "counts": {
+        "Design & Simulation": 99,
+        "Assignments & Tutorials": 2,
+        "Textbooks & References": 39,
+        "Lectures & Slides": 3,
+        "Past Questions & Solutions": 1
+      },
+      "files": [
+        {
+          "name": "198.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1zXXY6PUk4lzmH7jS9nLLB6MQiJafxiRk/view"
+        },
+        {
+          "name": "2018CHAPTER3DryReformingBentham.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/10vBBEXc0MuHA6Gg4_T716VHhDeOReLvb/view"
+        },
+        {
+          "name": "51032-54751-1-PB.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1AgmG_Ng4_7JG8Hyi__nSRTmu1cSKZ3wC/view"
+        },
+        {
+          "name": "84738236.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1R75VBF-7cPw5zOAzHVtqNpi4aKLxK8H6/view"
+        },
+        {
+          "name": "912649.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1p2l3dnZHKwhw6MkSiKkuFcPrX1vESYyY/view"
+        },
+        {
+          "name": "ABRIEFOVERVIEWOFAMMONIAANDUREAPRODUCTIONANDTHEIRSIMULATIONSSTRATEGIES1.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1YlhVOhJJS3Bc9b0VZuhXoPYVXuvJ4bo3/view"
+        },
+        {
+          "name": "Amine-based-gas-sweetening-processes-prove-economically-more-viable-than-the-Benfield-HiPure-process-OG-2012.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1C2g7bSY0z6lna5Pk0sSGsrufboodS9hl/view"
+        },
+        {
+          "name": "Ammonia-Aspen.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1kFZqgwGkg08SyYeZSmTGIbEkJ7dwrBDx/view"
+        },
+        {
+          "name": "AmmoniaTechnologyRoadmap.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1wIKrexhjgwxkvHqT0_zgWDYYDmE5cKIV/view"
+        },
+        {
+          "name": "AspenHYSYSDynModelingV7_0-Ref.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1aL1DjVCm_6o3ZuKJaktNbZXnEmetk3A6/view"
+        },
+        {
+          "name": "ASSIGNMENTV1.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1v0DyXWj7RrUEp4DVKiIqHrG5P9mL91SF/view"
+        },
+        {
+          "name": "brief ammonia n urea.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1R2dRznScv3mcrp4WoMCSR0zCGF48YMOj/view"
+        },
+        {
+          "name": "cryogenic-gas-purification-for-hydrogen-and-ammonia-production,-gasworld-june-2024.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1jROHDDIs1O09eCWPOwDuJUIGMlqxwKTE/view"
+        },
+        {
+          "name": "CTPI_Material.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1Nl8p9rwhb96ujE1hOVK33HgxgdQ92VVj/view"
+        },
+        {
+          "name": "Design_of_natural_gas_transmission_pipeline_A_case_study_of_a_typical_marginal_oil_and_gas_field_in_Niger_Delta_Nigeria.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1rss_cofHIH245L7HmUaPyeeyXK-OlwtU/view"
+        },
+        {
+          "name": "designproject-240619142454-2d38a685.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1M0H5Ux0l6R5Zs2mUdSgXjLAMVbrhJkky/view"
+        },
+        {
+          "name": "DFL-Corporate-Brochure.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1wg1I5AgplND1NKS4IqlQtTBlL4bzeMlp/view"
+        },
+        {
+          "name": "dokumen.tips_snamprogetti-urea-process.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1ckO9vWkmRMrjXad8_BAZS_4cegbIFyLW/view"
+        },
+        {
+          "name": "FEPSAN.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1fLcGrFDe5CuG2rTkv2gagBIOInfR_qsd/view"
+        },
+        {
+          "name": "gosnell_production.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1yfuIv5xQQym-baXZc8rS8AJc5GuZkd6q/view"
+        },
+        {
+          "name": "H2ACT-Empowering-Energy-Transition.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1NLDDoRsrUeQLpHmaI2dM5AitAyp8N7kR/view"
+        },
+        {
+          "name": "heading-template-student-paper.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1Wawb0fQ_16tKmfNzS-TgajeMwsX_3tNX/view"
+        },
+        {
+          "name": "IJSRDV7I30129.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1NWStTJnJRXhC6Pj6GfU9_Rs7hkgERT4V/view"
+        },
+        {
+          "name": "KBR.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1mcSedyolQsoU5RvFXYsLUmkHpoRfYTQl/view"
+        },
+        {
+          "name": "Manufacture_of_Urea.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/14NJmhefpPNrqTqrX4G0r9PkV_knWPBq7/view"
+        },
+        {
+          "name": "Manuscript+pdf.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1ZjNF_auQHaxr-AgNOr-WUwps73PzBhjC/view"
+        },
+        {
+          "name": "MTB.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1SmMd7dN6rPbNUXNVs0z7sQmroq2OAw9H/view"
+        },
+        {
+          "name": "Notore Chemical Industries_Listing Memorandum.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1NPeorwzNkuSnzCOKB2T_RDwn5HtU8aIP/view"
+        },
+        {
+          "name": "Notore_Introductory_Investor_Presentation_Aug-018.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1HCu_EFtgPN3JDYeW3XlylZPXKsOdOSqX/view"
+        },
+        {
+          "name": "ONitrogen sep.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1AHlTjwzMENUtUdaN98vMAptEpKS9SkVF/view"
+        },
+        {
+          "name": "OPERATIONANDTROUBLESHOOTINGINUREASYNTHESISSECTION.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/10GmhZKaMtHLmwRPgo2RfNLUvI7kUgiVE/view"
+        },
+        {
+          "name": "P-04.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1HWbuFCyUrXNHIU3MfIxYK53x9r8mD1_Q/view"
+        },
+        {
+          "name": "pdfcoffee.com_amoniaco--pdf-free.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1qjDNqORyaeyF_TqMZ4Xst6Dkd23Te0_P/view"
+        },
+        {
+          "name": "PEP_Schedule_2019_12.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1bfwqsQIiAcu9_mY-b79ykHftkp-5WoXF/view"
+        },
+        {
+          "name": "PROP-Ammonia-Production-April-2018.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1zCcuHcVUjmMEUVk826diRstVLZ8VgGo2/view"
+        },
+        {
+          "name": "Review-172-UreainBiochemistry-1.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1zGMUNzjSjOXHPJ8NsZzW3_MeOa1DoaI7/view"
+        },
+        {
+          "name": "Review_on_Innovative_Catalytic_Reforming_of_Natura.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1l_DDklbkVx0HXA0p6tNHxUQCIPGUGvfa/view"
+        },
+        {
+          "name": "RP44C_toc.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/11oX7p-gLsTuwTOsnoaBOt1NvonVozHGW/view"
+        },
+        {
+          "name": "SIPEA2023018.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1E0AF1lS8QjEYq04v9qC4790YKFsfibxM/view"
+        },
+        {
+          "name": "stats_reports_apa.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1cfo3PfT6EHBcIeE_NyVQv_cIWTLcEAnL/view"
+        },
+        {
+          "name": "Steady State Modeling of Urea Synthesis Loop.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1oFFW-MHlAIvZm8aE6EdXebug1Hm4DOMX/view"
+        },
+        {
+          "name": "sustainability-16-00188.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1bLIgr-55R6591bXfnr436xahVtBbSgIR/view"
+        },
+        {
+          "name": "The-Sustainable-Development-Goals-Report-2023.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1W-zr0_aysxIQ2hz33GGcrNEczHwE0zfz/view"
+        },
+        {
+          "name": "toaz.info-urea-production-processes-pr_5256569f178e1e8f21191416e0193d00.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1A9uQ7oBJVzZlyjKLo72HHKlyOGDb2o3u/view"
+        },
+        {
+          "name": "Tr2_EIA_Chpt_Three.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1Ik5XSBwETVy2yEmLe69BWhe5NhGvaJ7V/view"
+        },
+        {
+          "name": "urea in med.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/14L0LjKn555cfRwQxgBLcQvAC7byKXtT5/view"
+        },
+        {
+          "name": "YazhariFaramarz1975.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design",
+          "url": "https://drive.google.com/file/d/1smYPREQyjRuVk4nSuWRThOX8T9HWQXAk/view"
+        },
+        {
+          "name": "2016-10-UreaKnowHow-Comparison-Stamicarbon-Saipem-Part-1.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1TnDY0P72NJCE9CoTcSjdMmBKjMzbTDfd/view"
+        },
+        {
+          "name": "20160969.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/16w7A1KKQFC0yuWeUKq6FqAcz43Bp9VXT/view"
+        },
+        {
+          "name": "201_220-final-report.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1yw3tO5NfADGfGoxPYHCAMyi-XMlfpO7G/view"
+        },
+        {
+          "name": "2022-06-Genova-Casale-flexible-green-ammonia-plant-the-economically-viable-green-production.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1FezPg0bPadjsmcJekVLYEw7ofAjkLj_T/view"
+        },
+        {
+          "name": "2023-09-Stami Urea Launch Brochure.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1V4ivYsprfqn10ZmcJ5ndybnrXU0r9GT_/view"
+        },
+        {
+          "name": "4-green-ammonia-haldor-topsoe (1).pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1FArEI3o6A4s0EVzb7rc22fpgyKC9DM1O/view"
+        },
+        {
+          "name": "40479_LE_HS_Ammonia_brochure_modified_RZ3_VIEW_tcm19-569093.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/14eh6f1lUC67EUDtrfeW4zaenhqh5Dr8t/view"
+        },
+        {
+          "name": "ACES21-LP_.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1NU_auRJcy8rBQZobrAwEkiSGHHyc44C7/view"
+        },
+        {
+          "name": "Blue-Ammonia-Brochure.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/11M_-s6WyeB8dOS90lH8h1o8Ppr-CgfJi/view"
+        },
+        {
+          "name": "brochure-ammonia_scr.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1_AJm3t3Yn6OLyK7vbqaxERdUf3vzA51C/view"
+        },
+        {
+          "name": "CE_BC_2016_UreaGroupReport.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1Jdqdw9DZNKeNiVC1ClAV7FqE0GqiKNgQ/view"
+        },
+        {
+          "name": "ChemicalPlantDesignfortheProductionofAmmoniathroughHaldorTopsoeProcessRoute.SimulationusingPlantDesignManagementSystem.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1w1SNY52yJY4fwXKdHO-ErRHe0YaNX7nW/view"
+        },
+        {
+          "name": "CTPI_Material.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1G0WW1ncI8QhtR5vL9vWL-Bk6fhAzW5mf/view"
+        },
+        {
+          "name": "ENGINEERING-DESIGN-GUIDELINES-ammonia-plant-Rev2.2web.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/12tZswsS3vm0E9P6MQ9gs4L5cS7Ftawkl/view"
+        },
+        {
+          "name": "KBR_Ammonia.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1pjXwOoODEavYkKY96hPsmoBAi4OqrF5o/view"
+        },
+        {
+          "name": "Purifier-Ammonia-Process-Handout.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1NdEICClINgkC07_sL3AsweGNxrOFfpuS/view"
+        },
+        {
+          "name": "Rouwenhorst_2021_Ammonia_production_technologies (1).pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/13Ep9vDlBdRakqFNhUaNQXm9wccR9-E9V/view"
+        },
+        {
+          "name": "RW2017-02-toc_265027110917062932.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1v9aDD_fQC-xP6AievvGag3SVyxDgUD9D/view"
+        },
+        {
+          "name": "spm_UREAri_L02_14_01_10.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1cSmiCItOwMYiR_sLr485_K_68lyPSRnb/view"
+        },
+        {
+          "name": "uhde_publications_pdf_en_5000007.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "DESIGN 1",
+          "url": "https://drive.google.com/file/d/1DBMWfnx15Gckqgrz9d1xckQ8rPY8PM6N/view"
+        },
+        {
+          "name": "2002_Mega-capacity_Urea_Plants.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1uKmQLlF32VHpX5BbH7VEqXou5YxnrsXM/view"
+        },
+        {
+          "name": "201_220-final-report.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1pAqWpyQr4NiWuLlyREJdMOfx8EcfAlJI/view"
+        },
+        {
+          "name": "22.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1anOpXausYmn5m-G6p69jxzJVZsb9OOpy/view"
+        },
+        {
+          "name": "7. 81-117 A Comprehensive Report Plant Design for the Production of Ammonia.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/14fycqWFuXDGibNPvhUX1CEAYb0j17qvn/view"
+        },
+        {
+          "name": "accident_prevention_ammonia_refrigeration_5-20-15.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1sHSn86uIIAri7c3ml-wYsrAL-nIPBkDz/view"
+        },
+        {
+          "name": "AMMONIA_PLANT_MATERIAL_BALANCE.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1k4qhKRDXiZXNUQabhSBJDUgOi-B4nqbb/view"
+        },
+        {
+          "name": "ammonia_prj.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/13OqlWWto-3JT2dP_58tlvuTgOmUU-jr8/view"
+        },
+        {
+          "name": "AspenProcessEconAnalyzerV9_0_Usr.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1NdN-xdnZETiDWBu9lAoFo_a3GAseI2nY/view"
+        },
+        {
+          "name": "B03-003 - Six Ways to Perform Economic Evaluations of Projects - US.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1ASkDoI1mAZAU8S0IJqY69a_nkgmT90CK/view"
+        },
+        {
+          "name": "chemical_engineering_design__fourth_edition__chemical_engineering_volume_6__coulson__amp__richardson__039_s_chemical_engineering_.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/16OiX-848-FX2xyQBe1fIQ_yXU8t7V5pJ/view"
+        },
+        {
+          "name": "economic-evaluation-using-aspen-hysys.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1FHBUnuf-dEVg7HaseI4z-VbVxJEoCDda/view"
+        },
+        {
+          "name": "Fertilizer_Report_Executive_Summary_Final.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/17IrNV0tmH1bGYXEtqYS8Z2Nz-_GN5mzw/view"
+        },
+        {
+          "name": "PHOTO COVER OPTION TITLE GOES HERE CAN RUN THREE LINES - Session-4-SIZING-PRINCIPLE-FOR-A-GREEN-AMMONIA-PLANT_Final.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1s8WV3mCw021WLJSfksMsSSNduNhd0PwC/view"
+        },
+        {
+          "name": "Product_and_Process_Design_Principles_-_Seider.PDF.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1DfZojCyvE3LGqZvKgbgqbmFn3eZn_Vsp/view"
+        },
+        {
+          "name": "Section 17.8.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": "Design 532",
+          "url": "https://drive.google.com/file/d/1unlbB_rT4gMZj6vYjbt2rgfXURfqxQPt/view"
+        },
+        {
+          "name": "1-s2.0-S0016236123005070-main.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1HDf6C1CP0BKeQsoIlGsQ1-wNcry-kh1Y/view"
+        },
+        {
+          "name": "10758688_04.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/153JQ9v8zr-gAVRvFfmzIg3s_mp92kCu9/view"
+        },
+        {
+          "name": "12153557.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ISYmlsFBlRPr3OUuitt739JMPh7YNZEv/view"
+        },
+        {
+          "name": "198.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1O8zl5RJE59feWBCrbQo9i_JwlmB1peT9/view"
+        },
+        {
+          "name": "2013-Juneja-Fabrication-of-Construction-Materials-in-Urea-Manufacturing-Plants.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1-r-1yyUb56f2Gf5wxzxLHG6bmJLL7Nya/view"
+        },
+        {
+          "name": "2016-Nigeria-Agric-Sector-Policy-Roadmap_June-15-2016_Final.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1mEGzGrdZ0RPmb34iDbSVueZzGCjDd76b/view"
+        },
+        {
+          "name": "2022-Chauhan-Urea-Project-Report.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1qdDHbcGpzYBQ2pXH404_RDmSgtEDoY6_/view"
+        },
+        {
+          "name": "26_May_2016_190132663O5NCLHSQAnnexure-IV_PFR.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1iDTS9FuEco3DToXx3fcBS53w-n7itfmr/view"
+        },
+        {
+          "name": "3DDS0XK8LU3CDJCggfQWSARC.docx",
+          "ext": "DOCX",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1c31YrD3O5tlGmcfFsAZNt7nHOeKnnCVt/view"
+        },
+        {
+          "name": "476. Fertilizers in Nigeria.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/14t-2D7wucg9go6l_1sysciInhc6MINOY/view"
+        },
+        {
+          "name": "59618.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1exL_bWGy3SpYMHguUIJhihPUMlNittBT/view"
+        },
+        {
+          "name": "84738236.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1S53cx1ZItvBeRE8_2LrY_2o3VHVyVEHD/view"
+        },
+        {
+          "name": "AJCER-14-Isah-2021.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1g0wwLgN386-JcrdzjTyxN2M8hxgEuusV/view"
+        },
+        {
+          "name": "Ammonia production.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1c86Z4CCljPVHICrbHjBYodM_g_66IQhS/view"
+        },
+        {
+          "name": "Ammonia Synthesis _ Overview, Process & Reaction - Lesson _ Study.PDF.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1KhfWHDEDVXi--TBhDBPNY3CWS7QsotY0/view"
+        },
+        {
+          "name": "ammoniaRxnSeider.m.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1s0pyVcT2ZErkqnLSZE_GjLD1nJu4Pw39/view"
+        },
+        {
+          "name": "API 1104 20th Edition.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/18-p7a5bxQd9ZoUZNTeWNaiqfAZt_rW13/view"
+        },
+        {
+          "name": "Arable lands in nigeria.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ksDWg7_TeMaRYrDiJyRPCZWwf7jjCwee/view"
+        },
+        {
+          "name": "ASME B318.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1NOTVRQv-QcA3whPtD18QE_6S1whNS-am/view"
+        },
+        {
+          "name": "ASSIGNMENTV1.pdf",
+          "ext": "PDF",
+          "category": "Assignments & Tutorials",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1nnWBguGzS9nawYiAAEwab2osiNfmvfV-/view"
+        },
+        {
+          "name": "Benue+State+Report+FINAL.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1DAVPBPwAcr0oND8O9qci7f9G8OPuy_Lg/view"
+        },
+        {
+          "name": "Booklet_nr_5_Production_of_Urea_and_Urea_Ammonium_Nitrate.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1vnmY3zlIsyBYegP8TpnGc-nWqjPv2IVg/view"
+        },
+        {
+          "name": "CHEN 531_532- First Day Package 2023-2024 Session.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1xO7j-If8gvAHzCfJUZEwhfwza9JLT8lH/view"
+        },
+        {
+          "name": "CHEN531 Govt Policy-Politics-Ethics-My lecture slides.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/15n9-Vj8zXGoImaxCckaTy0RIwpy8m-C4/view"
+        },
+        {
+          "name": "deliverables.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/19j2KmqfNUV5MH-OwcPOVyFzVpKZGvCot/view"
+        },
+        {
+          "name": "Design review technical report writing and oral presentation.pptx",
+          "ext": "PPTX",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/19pAIJze1v8pkV-csHiMehOHXZaevrp3G/view"
+        },
+        {
+          "name": "Design_of_a_Plant_for_the_Production_of_Ammonia_and_Urea_Using_Aspen_Hysys.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1siq7LOxLLJt-ryUFXISL8rRHeovVJPW5/view"
+        },
+        {
+          "name": "dokumen.tips_ullmanns-encyclopedia-of-industrial-chemistry-urea.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1DRCUSfkMCWsl9nAWp72hv_0hK5PexS9I/view"
+        },
+        {
+          "name": "download-1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1CHM-0t9sNXUT48gxpMJB0KctZv-X7nf-/view"
+        },
+        {
+          "name": "E.-Shashi-Menon-Gas-Pipeline-Hydraulics-CRC-Press-2005 (1).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1GyEQHmPXD2gXyOBo4qrf8tN9vJnnjOcp/view"
+        },
+        {
+          "name": "EIA_GPUFP_BCI001_CEGIS_19052019_MZM_Part3.pdf",
+          "ext": "PDF",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1FcZB0LLG0GWrYf-omuEwLgmwrar3G47A/view"
+        },
+        {
+          "name": "faramawy2016.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1BjQ_t98nl99EKOZsj5vEEu8xOz_8v03a/view"
+        },
+        {
+          "name": "Fertilizer _ Definition, Types, Plant Nutrients, Application, & Facts _ Britannica.PDF.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1MoRlOUpqizHYwP7J_GF2lH-Wqcy_89PE/view"
+        },
+        {
+          "name": "Fertilizer.pptx",
+          "ext": "PPTX",
+          "category": "Lectures & Slides",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1v1XGvWZZEE-Krq6tbg8ECNBJgg7c_VP_/view"
+        },
+        {
+          "name": "GEC524 - ENGINEERING ETHICS, CODE OF CONDUCTS AND THE RESPONSIBILITIES OF AN ENGINEER.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1nJaTRFKMHZpw9-XRy_c98c3HOnGW_h-B/view"
+        },
+        {
+          "name": "Govt policy, politics and ethics of engineering Design in Nigeria.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1iTKNoGh3WMAKYFMqObVCog-V96VMqAFJ/view"
+        },
+        {
+          "name": "Groupings_CHEN 531.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1bprAYDa3T2Ho3dKfLq24JZdLs3bAHDGS/view"
+        },
+        {
+          "name": "hamidipour2005.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1shs-AEAj9hmrq6Jb3zX16Ky1RhRfCf-F/view"
+        },
+        {
+          "name": "i9930en.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1Lz4od3BnlZNtUzuGF8sVGrl9EDeC9JE6/view"
+        },
+        {
+          "name": "IJEE1365.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1rR7H95X6Fdi6uU-vW6KvAS2gszmAcKbZ/view"
+        },
+        {
+          "name": "images.jpeg-5.jpg",
+          "ext": "JPG",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1uMHQcTXwLMdmhClG-wSwC3kOv2rQdUtn/view"
+        },
+        {
+          "name": "Kirk-Othmer Encyclopedia of Chemical Technology [Vol 23] ( PDFDrive ).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1eKmBGmmS24LXHUThbtswVk1qrkP8yc1I/view"
+        },
+        {
+          "name": "Mass balance CE_BC_2016_UreaGroupReport.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/17t6LcyelP18IAb9EeTjbJPtIVhFPiQy6/view"
+        },
+        {
+          "name": "mokhatab handbook.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1RWhiBZ2-zbHBd-El7gn3nKq1mftdGydg/view"
+        },
+        {
+          "name": "Nigeria's Changing Fertilizer Sector (Part 1) – Development Gateway_ An IREX Venture – Data and digital solutions for intern.PDF.pdf",
+          "ext": "PDF",
+          "category": "Past Questions & Solutions",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1z9hVGNKEYUTZtow6Et42TAclA9iydVci/view"
+        },
+        {
+          "name": "NSPECodeofEthicsforEngineers.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1BTW6VJgJPCfjEioKqLugiSBpuYZ24AQl/view"
+        },
+        {
+          "name": "Pipeline Design.ppt",
+          "ext": "PPT",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1NN6mvKXNCTUITg0mnjrrUdj9OXjbJBPG/view"
+        },
+        {
+          "name": "Plant Design Fundamentals 2024.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1ZRsTlUdkjQQdiGc30WQISoEVor8J7DA1/view"
+        },
+        {
+          "name": "QuestionAnsweronFertilizersIndustriesVol1.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/10qr8kECyuhUxYliegntBv5BetL7VCxGq/view"
+        },
+        {
+          "name": "Removal of h2s.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1X9LY7ycFKykRmbq79jyelyiDH4j47j--/view"
+        },
+        {
+          "name": "Review_Synthesis_of_Urea_in_Several_Methods.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1nI-2j5nDu7_a8XY1674pO1ihdmjf5wc3/view"
+        },
+        {
+          "name": "senker2011.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PeHCdbeU_4a697927raqzNb-UTwJRumK/view"
+        },
+        {
+          "name": "SmartSelect_20240217-235320_Chrome.jpg",
+          "ext": "JPG",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/11CEAr8A_PqHyXvH6JInMM1cJ2gE3ufsS/view"
+        },
+        {
+          "name": "Steam_Reforming_of_Natural_Gas_A_Value_A.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1vbBh9QS82yCSCPw9e-y4sBww22m9uYzh/view"
+        },
+        {
+          "name": "The fertilizer encyclopedia ( PDFDrive ).pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1d7zM9RX5fWyvXnSgS14j5LNaIvxUjtE4/view"
+        },
+        {
+          "name": "the-engineer-s-role-in-public-policy.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1PU-MGHv0eFWPnta_6WJXs-eAVIWTl9N5/view"
+        },
+        {
+          "name": "The_Haber_Process.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1MWfugYyS_c3ih-XP90CoG5bpdtBEawhH/view"
+        },
+        {
+          "name": "toaz.info-process-flow-diagram-for-production-of-nitric-acid-and-ammonium-nitrate-pr_da1b5f0b6b958b7162ac91c6aaeab15f.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1g8m9QQakiFmxvk4CLf2xB2cDnSGGWTXH/view"
+        },
+        {
+          "name": "urea technology.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1P64MpeeQ-e1Tncu2YCKtJrn4J_T3I1EJ/view"
+        },
+        {
+          "name": "UREA_MANUFACTURING_PLANT_IFFCO.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1nQTJ1CfrXVjfI2o2FDsJjuThLZY2EMDa/view"
+        },
+        {
+          "name": "velazquezabad2017.pdf",
+          "ext": "PDF",
+          "category": "Textbooks & References",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1b5SxNpcr4iKuHlESHvH6LR-WSWFg9iT2/view"
+        },
+        {
+          "name": "VitalismandSynthesisofUrea.pdf",
+          "ext": "PDF",
+          "category": "Design & Simulation",
+          "subfolder": null,
+          "url": "https://drive.google.com/file/d/1H264jqCCucS11c8pN7Ib9cPJIDmX7lpn/view"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#073e2d">
+  <title>Feedback &amp; Complaints Portal | NSChE ABU Student Chapter</title>
+  <meta name="description" content="Submit feedback, suggestions, or complaints to the NSChE ABU Student Chapter Senate, Executive Council, or a specific officer — Sen. Mamudu Majeedah Yahya Constituency Project.">
+  <link rel="canonical" href="https://nscheabu.org/feedback">
+  <link rel="icon" href="assets/parliament.jpg">
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    .feedback-layout {
+      padding: 46px 0 64px;
+      display: grid;
+      grid-template-columns: 0.82fr 1.18fr;
+      gap: 32px;
+      align-items: start;
+    }
+    .feedback-aside {
+      background: var(--green);
+      color: #ffffff;
+      border-radius: var(--radius-xl);
+      padding: 34px;
+      box-shadow: var(--shadow-md);
+    }
+    .feedback-aside h2 { color: var(--lime); font-size: 26px; margin: 0 0 12px; }
+    .feedback-aside p { color: #d6eadf; margin: 0 0 22px; }
+    .aside-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+    .aside-list li {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 14px;
+      padding: 15px 17px;
+      font-size: 15px;
+      color: #eef6f1;
+    }
+    .aside-list strong { display: block; color: var(--lime); margin-bottom: 3px; }
+
+    .form-grid { display: grid; gap: 20px; }
+    .form-row-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .field label { display: block; font-size: 15px; font-weight: 700; color: var(--green); margin-bottom: 8px; }
+    .field label .req { color: var(--orange); }
+    .field input[type="text"],
+    .field input[type="email"],
+    .field select,
+    .field textarea {
+      width: 100%;
+      padding: 13px 15px;
+      border: 1.5px solid #c6d3c2;
+      border-radius: 10px;
+      background: #fbfcf9;
+      color: var(--ink);
+      font-size: 16px;
+      transition: border-color 0.16s ease, background 0.16s ease;
+    }
+    .field input:focus, .field select:focus, .field textarea:focus {
+      border-color: var(--green);
+      background: #ffffff;
+    }
+    .field textarea { min-height: 150px; resize: vertical; }
+    .field-hint { display: block; margin-top: 6px; font-size: 13.5px; color: var(--muted); }
+
+    .pill-group { display: flex; flex-wrap: wrap; gap: 10px; }
+    .pill-option input { position: absolute; opacity: 0; pointer-events: none; }
+    .pill-option span {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 10px;
+      border: 1.5px solid #c6d3c2;
+      background: #fbfcf9;
+      color: var(--green);
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .pill-option input:checked + span {
+      background: var(--green);
+      color: var(--lime);
+      border-color: var(--green);
+    }
+
+    .anon-toggle {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 15px 16px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      cursor: pointer;
+    }
+    .anon-toggle input { width: 20px; height: 20px; accent-color: var(--green); cursor: pointer; }
+    .anon-toggle strong { display: block; font-size: 15.5px; color: var(--green); }
+    .anon-toggle small { display: block; font-size: 13.5px; color: var(--muted); }
+
+    .conditional-box { display: none; }
+    .conditional-box.visible { display: block; }
+    .identity-fields.hidden { display: none; }
+
+    .form-status {
+      display: none;
+      padding: 16px 18px;
+      border-radius: 12px;
+      font-size: 15.5px;
+      font-weight: 600;
+    }
+    .form-status.success { display: block; background: #e7f6ea; border: 1px solid #9bd1a7; color: #0e4f28; }
+    .form-status.error { display: block; background: #fdeceb; border: 1px solid #eab0ab; color: #8a231c; }
+
+    @media (max-width: 900px) { .feedback-layout { grid-template-columns: 1fr; } }
+    @media (max-width: 600px) { .form-row-2 { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/portal">
+        <img src="assets/parliament.jpg" alt="4th Senate Council, NSChE ABU Zaria">
+        <span>
+          <strong class="brand-title">NSChE ABU</strong>
+          <small class="brand-sub">Student Chapter · 4th Senate</small>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="/portal">Overview</a>
+        <a href="/reactor">Reactor 2026</a>
+        <a href="/aspen">Aspen Plus</a>
+        <a href="/library">Study Library</a>
+        <a href="/submit">Submit Materials</a>
+        <a href="/feedback" class="nav-cta">Feedback Portal</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-hero">
+      <div class="breadcrumb"><a href="/portal">Portal Home</a> <span aria-hidden="true">/</span> <span>Feedback &amp; Complaints</span></div>
+      <div class="credit-pill">Sen. Mamudu Majeedah Yahya Constituency Project</div>
+      <h1>Student Feedback &amp; Complaints Portal</h1>
+      <p class="lead">Speak freely and constructively. Address your complaint, feedback, or suggestion to the 4th Senate, the Executive Council, a particular officer, or the general chapter.</p>
+    </section>
+
+    <section class="feedback-layout">
+      <aside class="feedback-aside">
+        <h2>We are listening.</h2>
+        <p>Every submission is delivered directly to the official chapter inbox (<strong>nscheabuchapter1@gmail.com</strong>) for review and follow-up.</p>
+        <ul class="aside-list">
+          <li>
+            <strong>Directed Routing</strong>
+            Address the 4th Senate, Executive Council, a specific officer/person, or General Chapter Administration.
+          </li>
+          <li>
+            <strong>Anonymous Option</strong>
+            Toggle anonymous mode if you prefer to share a concern without attaching your name, level, or email.
+          </li>
+          <li>
+            <strong>Respectful Accountability</strong>
+            Designed to keep student leadership responsive, transparent, and reachable at all times.
+          </li>
+        </ul>
+      </aside>
+
+      <div class="surface-card">
+        <form id="feedback-form" action="https://formsubmit.co/nscheabuchapter1@gmail.com" method="POST">
+          <input type="hidden" name="_subject" id="hidden-subject" value="New NSChE ABU Feedback / Complaint">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="form-grid">
+            <div class="field">
+              <label>Submission Type <span class="req">*</span></label>
+              <div class="pill-group" role="radiogroup" aria-label="Submission Type">
+                <label class="pill-option"><input type="radio" name="Submission_Type" value="Complaint" checked><span>Complaint</span></label>
+                <label class="pill-option"><input type="radio" name="Submission_Type" value="Feedback"><span>Feedback</span></label>
+                <label class="pill-option"><input type="radio" name="Submission_Type" value="Suggestion"><span>Suggestion</span></label>
+                <label class="pill-option"><input type="radio" name="Submission_Type" value="General Inquiry"><span>General Inquiry</span></label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="addressed-to">Address To <span class="req">*</span></label>
+              <select id="addressed-to" name="Addressed_To" required>
+                <option value="General (NSChE ABU Chapter)">General (NSChE ABU Chapter)</option>
+                <option value="The 4th Senate Council (Parliament)">The 4th Senate Council (Parliament)</option>
+                <option value="Executive Council">Executive Council</option>
+                <option value="Particular Person / Officer">A Particular Person / Officer</option>
+              </select>
+            </div>
+
+            <div class="field conditional-box" id="specific-person-box">
+              <label for="specific-person">Name or Office of the Person <span class="req">*</span></label>
+              <input type="text" id="specific-person" name="Specific_Person_Or_Office" placeholder="e.g., Senate President, Financial Secretary, or Senator's full name">
+              <span class="field-hint">Specify the individual or office this message is directed to.</span>
+            </div>
+
+            <label class="anon-toggle" for="anonymous-toggle">
+              <input type="checkbox" id="anonymous-toggle" name="Submitted_Anonymously" value="Yes">
+              <span>
+                <strong>Submit Anonymously</strong>
+                <small>Hide my name, level/reg number, and email address from this submission.</small>
+              </span>
+            </label>
+
+            <div class="identity-fields form-grid" id="identity-fields">
+              <div class="form-row-2">
+                <div class="field">
+                  <label for="sender-name">Full Name</label>
+                  <input type="text" id="sender-name" name="Full_Name" placeholder="Your full name">
+                </div>
+                <div class="field">
+                  <label for="sender-level">Level / Reg No. (Optional)</label>
+                  <input type="text" id="sender-level" name="Level_Or_RegNo" placeholder="e.g., 400L / U21CE...">
+                </div>
+              </div>
+              <div class="field">
+                <label for="sender-email">Email Address (for follow-up)</label>
+                <input type="email" id="sender-email" name="email" placeholder="you@example.com">
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="msg-subject">Subject <span class="req">*</span></label>
+              <input type="text" id="msg-subject" name="Subject" required placeholder="Brief summary of your feedback or complaint">
+            </div>
+
+            <div class="field">
+              <label for="msg-body">Message / Details <span class="req">*</span></label>
+              <textarea id="msg-body" name="Message" required placeholder="Share clear details so the right body or officer can take action..."></textarea>
+            </div>
+
+            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+
+            <button class="btn btn-primary" type="submit" id="submit-btn" style="width:100%; padding:16px 24px; font-size:16.5px;">
+              Submit Feedback / Complaint
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 NSChE ABU Student Chapter · nscheabu.org</span>
+      <div class="footer-links">
+        <a href="/portal">Portal Home</a>
+        <a href="/reactor">Reactor 2026</a>
+        <a href="/aspen">Aspen Plus</a>
+        <a href="/library">Library</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+  <script>
+    const addressedSelect = document.getElementById('addressed-to');
+    const specificBox = document.getElementById('specific-person-box');
+    const specificInput = document.getElementById('specific-person');
+
+    function syncRecipientField() {
+      const isSpecific = addressedSelect.value === 'Particular Person / Officer';
+      specificBox.classList.toggle('visible', isSpecific);
+      specificInput.required = isSpecific;
+      if (!isSpecific) specificInput.value = '';
+    }
+    addressedSelect.addEventListener('change', syncRecipientField);
+    syncRecipientField();
+
+    const anonToggle = document.getElementById('anonymous-toggle');
+    const identityFields = document.getElementById('identity-fields');
+    anonToggle.addEventListener('change', () => {
+      const isAnon = anonToggle.checked;
+      identityFields.classList.toggle('hidden', isAnon);
+      if (isAnon) {
+        document.getElementById('sender-name').value = '';
+        document.getElementById('sender-level').value = '';
+        document.getElementById('sender-email').value = '';
+      }
+    });
+
+    const form = document.getElementById('feedback-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const formStatus = document.getElementById('form-status');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      formStatus.className = 'form-status';
+      formStatus.textContent = '';
+
+      const type = form.querySelector('input[name="Submission_Type"]:checked')?.value || 'Feedback';
+      const target = addressedSelect.value;
+      const subjectText = document.getElementById('msg-subject').value.trim();
+      document.getElementById('hidden-subject').value = `[NSChE ABU ${type}] (${target}) — ${subjectText}`;
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending submission...';
+
+      try {
+        const formData = new FormData(form);
+        if (!anonToggle.checked) formData.set('Submitted_Anonymously', 'No');
+        const response = await fetch('https://formsubmit.co/ajax/nscheabuchapter1@gmail.com', {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: formData
+        });
+        if (response.ok) {
+          formStatus.className = 'form-status success';
+          formStatus.textContent = 'Thank you! Your submission has been delivered to NSChE ABU Chapter (nscheabuchapter1@gmail.com).';
+          form.reset();
+          syncRecipientField();
+          identityFields.classList.remove('hidden');
+        } else {
+          throw new Error('Submission failed');
+        }
+      } catch {
+        formStatus.className = 'form-status error';
+        formStatus.textContent = 'Could not send right now. Please check your internet connection and try again.';
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Feedback / Complaint';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#073e2d">
+  <title>The Reactor 2026 Magazine | NSChE ABU Student Chapter</title>
+  <meta name="description" content="Read The Reactor 2026 Magazine — an NSChE 2025/26 Executive Council Project for Chemical Engineering students at Ahmadu Bello University, Zaria.">
+  <link rel="canonical" href="https://nscheabu.org/reactor">
+  <link rel="icon" href="assets/parliament.jpg">
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    .reactor-showcase {
+      padding: 48px 0 64px;
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+    .mag-cover {
+      background: linear-gradient(155deg, #073e2d 0%, #0e5a40 100%);
+      color: #eef4d6;
+      border-radius: 22px;
+      padding: 30px 26px;
+      min-height: 460px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      overflow: hidden;
+    }
+    .mag-cover::after {
+      content: '';
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      border: 1px solid rgba(212, 237, 139, 0.2);
+      right: -90px;
+      bottom: -90px;
+    }
+    .mag-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12.5px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--lime);
+    }
+    .mag-top img { width: 38px; height: 38px; border-radius: 50%; background: #fff; }
+    .mag-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 54px;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin: 22px 0 10px;
+      color: #ffffff;
+    }
+    .mag-sub {
+      font-size: 14px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #c2decb;
+      font-weight: 700;
+    }
+    .mag-footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      padding-top: 16px;
+      font-size: 14px;
+      color: #d6eadf;
+    }
+
+    .edition-details { display: grid; gap: 24px; }
+    .mode-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .mode-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: 26px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .mode-card h3 { font-size: 21px; margin: 0; }
+    .mode-card p { color: var(--muted); margin: 0 0 14px; font-size: 15.5px; }
+    .mode-card .btn { margin-top: auto; width: 100%; }
+
+    .highlights-list {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+    }
+    .highlights-list h3 { font-size: 21px; margin: 0 0 14px; }
+    .highlights-list ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 12px;
+    }
+    .highlights-list li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .highlights-list li::before {
+      content: '✓';
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--green-soft);
+      color: var(--green);
+      display: inline-grid;
+      place-items: center;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 900px) {
+      .reactor-showcase { grid-template-columns: 1fr; }
+      .mag-cover { max-width: 380px; }
+      .mode-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/portal">
+        <img src="assets/parliament.jpg" alt="4th Senate Council, NSChE ABU Zaria">
+        <span>
+          <strong class="brand-title">NSChE ABU</strong>
+          <small class="brand-sub">Student Chapter · 4th Senate</small>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="/portal">Overview</a>
+        <a href="/reactor" class="active">Reactor 2026</a>
+        <a href="/aspen">Aspen Plus</a>
+        <a href="/library">Study Library</a>
+        <a href="/submit">Submit Materials</a>
+        <a href="/feedback" class="nav-cta">Feedback Portal</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-hero">
+      <div class="breadcrumb"><a href="/portal">Portal Home</a> <span aria-hidden="true">/</span> <span>The Reactor 2026</span></div>
+      <div class="credit-pill">NSChE 2025/26 Executive Council Project</div>
+      <h1>The Reactor 2026 E-Magazine</h1>
+      <p class="lead">The chapter's newly launched 2026 publication — reimagined for digital reading with both an interactive online edition and a downloadable PDF copy.</p>
+    </section>
+
+    <section class="reactor-showcase">
+      <div class="mag-cover" aria-label="The Reactor 2026 Magazine Cover">
+        <div class="mag-top">
+          <span>NSChE ABU Chapter</span>
+          <img src="assets/parliament.jpg" alt="">
+        </div>
+        <div>
+          <div class="mag-title">REACTOR</div>
+          <div class="mag-sub">The 2026 Edition</div>
+        </div>
+        <div class="mag-footer">
+          <strong>NSChE 2025/26 Executive Council Project</strong><br>
+          Department of Chemical Engineering · ABU Zaria
+        </div>
+      </div>
+
+      <div class="edition-details">
+        <div class="mode-grid">
+          <article class="mode-card">
+            <h3>Interactive Digital Edition</h3>
+            <p>Flip through pages directly in your browser with mobile-friendly typography, zoom, and chapter navigation.</p>
+            <button class="btn btn-primary" type="button" id="open-interactive">Launch Interactive Reader</button>
+          </article>
+
+          <article class="mode-card">
+            <h3>Downloadable PDF Copy</h3>
+            <p>Save the complete 2026 edition to your phone or laptop for offline reading anytime without data.</p>
+            <button class="btn btn-secondary" type="button" id="download-pdf">Download PDF Edition</button>
+          </article>
+        </div>
+
+        <div class="highlights-list">
+          <h3>Inside the 2026 Edition</h3>
+          <ul>
+            <li>Technical essays, research spotlights, and chemical engineering innovations from ABU Zaria</li>
+            <li>Departmental milestones, student voices, and alumni career insights</li>
+            <li>Curated and published by the NSChE 2025/26 Executive Council</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 NSChE ABU Student Chapter · nscheabu.org</span>
+      <div class="footer-links">
+        <a href="/portal">Portal Home</a>
+        <a href="/aspen">Aspen Plus</a>
+        <a href="/library">Library</a>
+        <a href="/feedback">Feedback</a>
+      </div>
+    </div>
+  </footer>
+
+  <dialog id="reactor-dialog" aria-labelledby="reactor-dialog-title">
+    <div class="dialog-head">
+      <h3 id="reactor-dialog-title">The Reactor 2026</h3>
+      <button class="close-btn" type="button" id="close-reactor-dialog" aria-label="Close">×</button>
+    </div>
+    <p id="reactor-dialog-msg" style="margin-top:0; color:var(--muted);"></p>
+  </dialog>
+
+  <script src="assets/site.js"></script>
+  <script>
+    const dlg = document.getElementById('reactor-dialog');
+    const dlgTitle = document.getElementById('reactor-dialog-title');
+    const dlgMsg = document.getElementById('reactor-dialog-msg');
+
+    document.getElementById('open-interactive').addEventListener('click', () => {
+      dlgTitle.textContent = 'Interactive Edition — Ready for Upload';
+      dlgMsg.textContent = 'The interactive reader slot for The Reactor 2026 (NSChE 2025/26 Executive Council Project) is ready. Once the final digital e-copy/flipbook URL is provided, it will open directly here.';
+      dlg.showModal();
+    });
+    document.getElementById('download-pdf').addEventListener('click', () => {
+      dlgTitle.textContent = 'PDF Edition — Ready for Upload';
+      dlgMsg.textContent = 'The downloadable PDF link for The Reactor 2026 will be linked here directly from Cloudflare R2 storage as soon as the final PDF is uploaded.';
+      dlg.showModal();
+    });
+    document.getElementById('close-reactor-dialog').addEventListener('click', () => dlg.close());
+    dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+  </script>
+</body>
+</html>

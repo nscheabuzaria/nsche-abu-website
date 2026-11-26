@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#073e2d">
+  <title>Aspen Plus Process Simulation Training | NSChE ABU</title>
+  <meta name="description" content="On-demand Process Simulation Training: Mastering Aspen Plus for Beginners — 2025/26 Constituency Project by Sen. Amos Oheobe Michael and Sen. Abdulshafiu Adeiza Abubakar.">
+  <link rel="canonical" href="https://nscheabu.org/aspen">
+  <link rel="icon" href="assets/parliament.jpg">
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    .aspen-layout {
+      padding: 46px 0 64px;
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+    .flyer-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      position: sticky;
+      top: 96px;
+      box-shadow: var(--shadow-sm);
+    }
+    .flyer-btn {
+      display: block;
+      width: 100%;
+      padding: 0;
+      border: 0;
+      background: #0d2b20;
+      position: relative;
+      overflow: hidden;
+    }
+    .flyer-btn img { width: 100%; transition: transform 0.25s ease; }
+    .flyer-btn:hover img { transform: scale(1.02); }
+    .zoom-pill {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: rgba(7, 62, 45, 0.92);
+      color: #ffffff;
+      padding: 7px 13px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .flyer-meta { padding: 22px; }
+    .flyer-meta h3 { font-size: 20px; margin: 0 0 12px; }
+    .meta-row { font-size: 14.5px; color: var(--muted); margin-bottom: 8px; }
+    .meta-row strong { color: var(--ink); }
+
+    .course-stack { display: grid; gap: 24px; }
+    .setup-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .setup-card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .setup-card strong { font-family: 'Space Grotesk', sans-serif; font-size: 18px; color: var(--green); }
+    .setup-card span { font-size: 14.5px; color: var(--muted); }
+    .setup-card .btn { margin-top: auto; width: 100%; }
+
+    .video-list { display: grid; gap: 12px; margin-top: 18px; }
+    .video-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 18px 20px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      transition: border-color 0.18s ease, background 0.18s ease;
+    }
+    .video-item:hover { border-color: var(--green-mid); background: #eff4e8; }
+    .video-info { display: flex; align-items: center; gap: 15px; }
+    .day-badge {
+      min-width: 66px;
+      text-align: center;
+      padding: 9px 10px;
+      border-radius: 10px;
+      background: var(--green);
+      color: var(--lime);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .video-title { font-family: 'Space Grotesk', sans-serif; font-size: 17.5px; font-weight: 700; color: var(--green); display: block; }
+    .video-sub { font-size: 14px; color: var(--muted); display: block; }
+
+    @media (max-width: 960px) {
+      .aspen-layout { grid-template-columns: 1fr; }
+      .flyer-card { position: static; max-width: 440px; }
+    }
+    @media (max-width: 640px) {
+      .setup-grid { grid-template-columns: 1fr; }
+      .video-item { flex-direction: column; align-items: flex-start; }
+      .video-item .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/portal">
+        <img src="assets/parliament.jpg" alt="4th Senate Council, NSChE ABU Zaria">
+        <span>
+          <strong class="brand-title">NSChE ABU</strong>
+          <small class="brand-sub">Student Chapter · 4th Senate</small>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="/portal">Overview</a>
+        <a href="/reactor">Reactor 2026</a>
+        <a href="/aspen" class="active">Aspen Plus</a>
+        <a href="/library">Study Library</a>
+        <a href="/submit">Submit Materials</a>
+        <a href="/feedback" class="nav-cta">Feedback Portal</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-hero">
+      <div class="breadcrumb"><a href="/portal">Portal Home</a> <span aria-hidden="true">/</span> <span>Aspen Plus Training</span></div>
+      <div class="credit-pill">2025/26 Constituency Project · Sen. Amos Oheobe Michael &amp; Sen. Abdulshafiu Adeiza Abubakar</div>
+      <h1>Process Simulation Training: Mastering Aspen Plus</h1>
+      <p class="lead">Self-paced on-demand curriculum from the 400L Representatives' Beginners Class. Download the software, follow the installation guide, and work through every recorded session.</p>
+    </section>
+
+    <section class="aspen-layout">
+      <aside class="flyer-card">
+        <button class="flyer-btn" type="button" id="open-flyer" aria-label="Enlarge training flyer">
+          <img src="assets/aspen-flyer.jpg" alt="Process Simulation Training '26 — Mastering Aspen Plus for Beginners official flyer">
+          <span class="zoom-pill">Click to enlarge</span>
+        </button>
+        <div class="flyer-meta">
+          <h3>Programme Credits</h3>
+          <div class="meta-row"><strong>Conveners:</strong> Sen. Amos Oheobe Michael &amp; Sen. Abdulshafiu Adeiza Abubakar</div>
+          <div class="meta-row"><strong>Facilitators:</strong> Anu Aderemi Afolabi &amp; Muktar Jimoh</div>
+          <div class="meta-row"><strong>Constituency:</strong> 400L Representatives, 4th Senate Council (2025/2026)</div>
+          <div class="meta-row"><strong>Topics:</strong> Installation, Property Methods, Heat Exchangers, Distillation Columns &amp; Reactors</div>
+        </div>
+      </aside>
+
+      <div class="course-stack">
+        <div class="surface-card">
+          <div class="eyebrow">Step 1 · Setup</div>
+          <h2 style="margin:0 0 8px; font-size:24px;">Software Download &amp; Installation Guide</h2>
+          <p style="margin:0; color:var(--muted);">Install Aspen Plus cleanly before starting Day 2. The installation walkthrough video covers everything from Day 1 onboarding.</p>
+
+          <div class="setup-grid">
+            <div class="setup-card">
+              <strong>Aspen HYSYS &amp; Plus Folder</strong>
+              <span>Official Google Drive folder containing the software installer files.</span>
+              <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1dcPQ85crH-reZQr51jI_N2-OMOsZdmQL?usp=drive_link" target="_blank" rel="noopener noreferrer">Open Software Folder ↗</a>
+            </div>
+            <div class="setup-card">
+              <strong>Day 1: Installation Walkthrough</strong>
+              <span>Step-by-step video guide to installing and activating Aspen Plus on Windows.</span>
+              <a class="btn btn-secondary" href="https://drive.google.com/file/d/1r5Dppnak1qmbiyv0zVC3LcIEsXkKtmCa/view?usp=sharing" target="_blank" rel="noopener noreferrer">Watch Installation Video ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="surface-card">
+          <div class="eyebrow">Step 2 · Video Lessons</div>
+          <h2 style="margin:0 0 8px; font-size:24px;">On-Demand Class Recordings</h2>
+          <p style="margin:0; color:var(--muted);">Watch each session in order directly on Google Drive, pause as you practice, and revisit anytime.</p>
+
+          <div class="video-list">
+            <div class="video-item">
+              <div class="video-info">
+                <span class="day-badge">DAY 2</span>
+                <div>
+                  <span class="video-title">Introduction &amp; Getting Started in Aspen Plus</span>
+                  <span class="video-sub">Wednesday, 21 October 2026 · Google Drive Recording</span>
+                </div>
+              </div>
+              <a class="btn btn-primary" href="https://drive.google.com/file/d/1I8m_96QIARfTsNIJGgQcbL-wTsrNFKC9/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Watch Video ↗</a>
+            </div>
+
+            <div class="video-item">
+              <div class="video-info">
+                <span class="day-badge">DAY 3</span>
+                <div>
+                  <span class="video-title">Process Flowsheeting &amp; Unit Operations</span>
+                  <span class="video-sub">Saturday, 24 October 2026 · Google Drive Recording</span>
+                </div>
+              </div>
+              <a class="btn btn-primary" href="https://drive.google.com/file/d/1PqNSqU7HLkPXmFqzxGaYs_lEoEwLUfha/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Watch Video ↗</a>
+            </div>
+
+            <div class="video-item">
+              <div class="video-info">
+                <span class="day-badge">DAY 4</span>
+                <div>
+                  <span class="video-title">Equipment Simulation &amp; Property Methods</span>
+                  <span class="video-sub">Monday, 26 October 2026 · Google Drive Recording</span>
+                </div>
+              </div>
+              <a class="btn btn-primary" href="https://drive.google.com/file/d/1Q1H2U1e0AopoNmAdwpP_WrVVmf7OgQuS/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Watch Video ↗</a>
+            </div>
+
+            <div class="video-item">
+              <div class="video-info">
+                <span class="day-badge">DAY 5</span>
+                <div>
+                  <span class="video-title">Intermediate Flowsheet Modelling Practice</span>
+                  <span class="video-sub">Wednesday, 28 October 2026 · Google Drive Recording</span>
+                </div>
+              </div>
+              <a class="btn btn-primary" href="https://drive.google.com/file/d/1vAtVlZqHjtX_nznTPYUTou9u3xbHw517/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Watch Video ↗</a>
+            </div>
+
+            <div class="video-item">
+              <div class="video-info">
+                <span class="day-badge">DAY 6</span>
+                <div>
+                  <span class="video-title">Guided Simulation Walkthrough &amp; Review</span>
+                  <span class="video-sub">Saturday, 31 October 2026 · Google Drive Recording</span>
+                </div>
+              </div>
+              <a class="btn btn-primary" href="https://drive.google.com/file/d/1xRFmtrDJiahxNEemplMcYujIHNgZti0q/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Watch Video ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 NSChE ABU Student Chapter · nscheabu.org</span>
+      <div class="footer-links">
+        <a href="/portal">Portal Home</a>
+        <a href="/reactor">Reactor 2026</a>
+        <a href="/library">Library</a>
+        <a href="/feedback">Feedback</a>
+      </div>
+    </div>
+  </footer>
+
+  <dialog id="flyer-modal" aria-labelledby="flyer-modal-title">
+    <div class="dialog-head">
+      <h3 id="flyer-modal-title">Process Simulation Training '26 Flyer</h3>
+      <button class="close-btn" type="button" id="close-flyer-modal" aria-label="Close">×</button>
+    </div>
+    <img src="assets/aspen-flyer.jpg" alt="Process Simulation Training '26 official flyer" style="border-radius:12px;">
+  </dialog>
+
+  <script src="assets/site.js"></script>
+  <script>
+    const flyerModal = document.getElementById('flyer-modal');
+    document.getElementById('open-flyer').addEventListener('click', () => flyerModal.showModal());
+    document.getElementById('close-flyer-modal').addEventListener('click', () => flyerModal.close());
+    flyerModal.addEventListener('click', (e) => { if (e.target === flyerModal) flyerModal.close(); });
+  </script>
+</body>
+</html>

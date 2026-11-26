@@ -1,0 +1,7 @@
+name = "nsche-abu-uploads"
+main = "worker.js"
+compatibility_date = "2026-11-26"
+
+[[r2_buckets]]
+binding = "MATERIALS_BUCKET"
+bucket_name = "nsche-abu-materials"
