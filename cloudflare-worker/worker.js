@@ -2,8 +2,8 @@
 // Account: nscheabuzaria1@gmail.com
 // Includes a strict free-tier circuit breaker so R2 never exceeds $0/month limits.
 
-const MAX_BUCKET_BYTES = 8.5 * 1024 * 1024 * 1024; // 8.5 GB hard cap (10 GB free tier)
-const MAX_MONTHLY_WRITES = 50_000;                  // 50k writes/mo hard cap (1M free Class A ops)
+const MAX_BUCKET_BYTES = 9.5 * 1024 * 1024 * 1024; // 9.5 GB hard cap (95% of 10 GB free tier)
+const MAX_MONTHLY_WRITES = 950_000;                 // 950k writes/mo hard cap (95% of 1M free Class A ops)
 const MAX_FILES_PER_SUBMISSION = 10;
 const MAX_SINGLE_FILE_BYTES = 25 * 1024 * 1024;     // 25 MB max per file
 const QUOTA_KEY = '_system/quota-ledger.json';
