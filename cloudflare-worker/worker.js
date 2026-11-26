@@ -52,6 +52,20 @@ export default {
       }, { headers: corsHeaders });
     }
 
+    if (request.method === 'POST' && url.pathname === '/feedback') {
+      try {
+        const data = await request.json();
+        const stamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const key = `feedback/${monthKey}/${stamp}.json`;
+        await env.MATERIALS_BUCKET.put(key, JSON.stringify({ ...data, receivedAt: new Date().toISOString() }, null, 2), {
+          httpMetadata: { contentType: 'application/json' }
+        });
+        return Response.json({ ok: true, key }, { headers: corsHeaders });
+      } catch (err) {
+        return Response.json({ error: err.message || 'Could not save feedback' }, { status: 500, headers: corsHeaders });
+      }
+    }
+
     if (request.method === 'POST' && url.pathname === '/upload') {
       try {
         const ledger = await loadLedger(env.MATERIALS_BUCKET, monthKey);
