@@ -10,7 +10,7 @@ Official digital platform for the Nigerian Society of Chemical Engineers (NSChE)
 - **`/aspen` (`aspen.html`)** — **Process Simulation Training: Mastering Aspen Plus for Beginners** (*2025/26 Constituency Project · Sen. Amos Oheobe Michael & Sen. Abdulshafiu Adeiza Abubakar*, Tutors: *Anu Aderemi Afolabi & Muktar Jimoh*).
 - **`/library` (`library.html`)** — **Past Questions & Study Materials** (*Usman Shehu Ahmad 2025/26 Constituency Project & Muhammad Mukhtar Bello (The Networker) Legacy Project*). Searchable catalogue of **13 courses / 574 curated files** from The Networker Drive archive (`assets/networker-catalogue.json`).
 - **`/submit` (`submit.html`)** — **Student Material Submission Portal** with automatic browser-side image compression (~200 KB without visible quality loss), PDF stream optimization (`pdf-lib`), and Cloudflare R2 upload integration.
-- **`/feedback` (`feedback.html`)** — **Student Feedback & Complaints Portal** (*Sen. Mamudu Majeedah Yahya Constituency Project*) submitting via FormSubmit to `nscheabuchapter1@gmail.com`.
+- **`/feedback` (`feedback.html`)** — **Student Feedback & Complaints Portal** (*Sen. Mamudu Majeedah Yahya Constituency Project*) submitting via Formspree (`xwlozodg`) to `nscheabuzaria1@gmail.com` with Cloudflare R2 backup.
 
 ## Deploying Cloudflare R2 Upload Worker (`nscheabuzaria1@gmail.com`)
 
