@@ -4,236 +4,119 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#073e2d">
-  <title>Past Questions &amp; Study Materials Library | NSChE ABU</title>
-  <meta name="description" content="Searchable Chemical Engineering Past Questions and Study Materials Library at ABU Zaria — Usman Shehu Ahmad 2025/26 Constituency Project & Muhammad Mukhtar Bello (The Networker) Legacy Project.">
+  <title>Past Questions &amp; Study Materials Library (100L–500L) | NSChE ABU</title>
+  <meta name="description" content="Searchable 100L–500L Chemical Engineering Past Questions and Study Materials Library at ABU Zaria — Usman Shehu Ahmad 2025/26 Constituency Project & Muhammad Mukhtar Bello (The Networker) Legacy Project.">
   <link rel="canonical" href="https://nscheabu.org/library">
   <link rel="icon" href="assets/parliament.jpg">
   <link rel="stylesheet" href="assets/styles.css">
   <style>
     .library-controls {
-      padding: 32px 0 24px;
+      padding: 30px 0 22px;
       display: grid;
-      gap: 18px;
+      gap: 16px;
     }
-    .search-bar-wrap {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .search-input-box {
-      flex: 1;
-      min-width: 260px;
-      position: relative;
-    }
+    .search-bar-wrap { display: flex; gap: 12px; flex-wrap: wrap; }
+    .search-input-box { flex: 1; min-width: 260px; position: relative; }
     .search-input-box svg {
-      position: absolute;
-      left: 16px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 20px;
-      height: 20px;
-      color: var(--subtle);
-      pointer-events: none;
+      position: absolute; left: 16px; top: 50%; transform: translateY(-50%);
+      width: 20px; height: 20px; color: var(--subtle); pointer-events: none;
     }
     .search-input-box input {
-      width: 100%;
-      padding: 15px 18px 15px 46px;
-      border: 1.5px solid var(--line-strong);
-      border-radius: 12px;
-      background: var(--surface);
-      color: var(--ink);
-      font-size: 16.5px;
+      width: 100%; padding: 15px 18px 15px 46px;
+      border: 1.5px solid var(--line-strong); border-radius: 12px;
+      background: var(--surface); color: var(--ink); font-size: 16.5px;
     }
     .search-input-box input:focus { border-color: var(--green); }
 
-    .filter-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-    }
+    .filter-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
     .filter-label {
-      font-size: 13.5px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--subtle);
-      margin-right: 4px;
+      font-size: 13px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--subtle); margin-right: 4px;
     }
     .pill-btn {
-      padding: 9px 15px;
-      border-radius: 999px;
-      border: 1px solid var(--line-strong);
-      background: var(--surface);
-      color: var(--green);
-      font-size: 14.5px;
-      font-weight: 700;
-      transition: all 0.16s ease;
+      padding: 8px 14px; border-radius: 999px;
+      border: 1px solid var(--line-strong); background: var(--surface);
+      color: var(--green); font-size: 14px; font-weight: 700;
+      transition: all 0.15s ease;
     }
     .pill-btn:hover { background: var(--green-soft); }
-    .pill-btn.active {
-      background: var(--green);
-      color: var(--lime);
-      border-color: var(--green);
-    }
+    .pill-btn.active { background: var(--green); color: var(--lime); border-color: var(--green); }
 
     .summary-strip {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-      padding: 14px 20px;
-      background: var(--paper-alt);
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      font-size: 15px;
-      color: var(--muted);
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; flex-wrap: wrap; padding: 14px 20px;
+      background: var(--paper-alt); border: 1px solid var(--line);
+      border-radius: 14px; font-size: 15px; color: var(--muted);
     }
     .summary-strip strong { color: var(--green); }
 
-    .course-list {
-      display: grid;
-      gap: 20px;
-      padding: 10px 0 48px;
-    }
+    .course-list { display: grid; gap: 18px; padding: 10px 0 44px; }
     .course-card {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      box-shadow: var(--shadow-sm);
+      background: var(--surface); border: 1px solid var(--line);
+      border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm);
     }
     .course-head {
-      padding: 26px 28px;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 20px;
-      flex-wrap: wrap;
+      padding: 24px 26px; display: flex; align-items: flex-start;
+      justify-content: space-between; gap: 18px; flex-wrap: wrap;
     }
-    .course-badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 10px;
+    .course-badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+    .badge-level {
+      font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700;
+      padding: 5px 11px; border-radius: 8px; background: var(--orange-soft); color: #a8471e;
     }
     .badge-code {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 13.5px;
-      font-weight: 700;
-      padding: 5px 12px;
-      border-radius: 8px;
-      background: var(--green);
-      color: var(--lime);
+      font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700;
+      padding: 5px 11px; border-radius: 8px; background: var(--green); color: var(--lime);
     }
     .badge-sem {
-      font-size: 13px;
-      font-weight: 700;
-      padding: 5px 12px;
-      border-radius: 8px;
-      background: var(--green-soft);
-      color: var(--green);
+      font-size: 13px; font-weight: 700; padding: 5px 11px; border-radius: 8px;
+      background: var(--green-soft); color: var(--green);
     }
     .badge-count {
-      font-size: 13px;
-      font-weight: 700;
-      padding: 5px 12px;
-      border-radius: 8px;
-      background: var(--paper);
-      border: 1px solid var(--line);
-      color: var(--muted);
+      font-size: 13px; font-weight: 700; padding: 5px 11px; border-radius: 8px;
+      background: var(--paper); border: 1px solid var(--line); color: var(--muted);
     }
-    .course-head h2 {
-      font-size: 24px;
-      margin: 0 0 8px;
-    }
-    .course-head p {
-      margin: 0;
-      color: var(--muted);
-      max-width: 680px;
-      font-size: 15.5px;
-    }
-    .course-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-    }
+    .course-head h2 { font-size: 22px; margin: 0 0 6px; }
+    .course-head p { margin: 0; color: var(--muted); max-width: 660px; font-size: 15px; }
+    .course-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 
     .file-drawer {
-      display: none;
-      border-top: 1px solid var(--line);
-      background: #fbfcf8;
-      padding: 20px 28px 26px;
+      display: none; border-top: 1px solid var(--line);
+      background: #fbfcf8; padding: 18px 26px 24px;
     }
     .file-drawer.open { display: block; }
-    .file-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 10px;
-    }
+    .file-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
     .file-link {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      padding: 13px 15px;
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      transition: border-color 0.16s ease, background 0.16s ease;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      padding: 12px 14px; background: var(--surface); border: 1px solid var(--line);
+      border-radius: 10px; transition: border-color 0.15s ease, background 0.15s ease;
     }
-    .file-link:hover {
-      border-color: var(--green-mid);
-      background: var(--green-soft);
-    }
+    .file-link:hover { border-color: var(--green-mid); background: var(--green-soft); }
     .file-link-main { min-width: 0; }
     .file-link-name {
-      display: block;
-      font-weight: 700;
-      font-size: 14.5px;
-      color: var(--green);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      display: block; font-weight: 700; font-size: 14.5px; color: var(--green);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
-    .file-link-meta {
-      display: block;
-      font-size: 12.5px;
-      color: var(--subtle);
-      margin-top: 2px;
-    }
+    .file-link-meta { display: block; font-size: 12.5px; color: var(--subtle); margin-top: 2px; }
     .ext-pill {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 12px;
-      font-weight: 700;
-      padding: 4px 8px;
-      border-radius: 6px;
-      background: var(--paper-alt);
-      color: var(--green);
+      font-family: 'Space Grotesk', sans-serif; font-size: 11.5px; font-weight: 700;
+      padding: 4px 8px; border-radius: 6px; background: var(--paper-alt); color: var(--green);
       flex-shrink: 0;
     }
+    .load-more-row { text-align: center; margin-top: 14px; }
 
-    .other-levels {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-lg);
-      padding: 30px;
-      margin-bottom: 56px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      flex-wrap: wrap;
+    .contribute-strip {
+      background: var(--green); color: #ffffff; border-radius: var(--radius-lg);
+      padding: 30px 32px; margin-bottom: 56px;
+      display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;
     }
-    .other-levels h3 { font-size: 22px; margin: 0 0 6px; }
-    .other-levels p { margin: 0; color: var(--muted); max-width: 640px; }
+    .contribute-strip h3 { color: var(--lime); font-size: 22px; margin: 0 0 6px; }
+    .contribute-strip p { margin: 0; color: #d6eadf; max-width: 620px; }
 
     @media (max-width: 820px) {
       .file-grid { grid-template-columns: 1fr; }
-      .course-head { padding: 22px 20px; }
-      .file-drawer { padding: 18px 20px 22px; }
+      .course-head { padding: 20px 18px; }
+      .file-drawer { padding: 16px 18px 20px; }
     }
   </style>
 </head>
@@ -265,50 +148,55 @@
     <section class="page-hero">
       <div class="breadcrumb"><a href="/portal">Portal Home</a> <span aria-hidden="true">/</span> <span>Study Library</span></div>
       <div class="credit-pill">Usman Shehu Ahmad 2025/26 Constituency Project &amp; Muhammad Mukhtar Bello (The Networker) Legacy Project</div>
-      <h1>Past Questions &amp; Study Materials Library</h1>
-      <p class="lead">Every course and file from The Networker's Chemical Engineering archive — characterized, searchable, and organized by semester and resource type for fast access on mobile or desktop.</p>
+      <h1>Past Questions &amp; Study Materials (100L – 500L)</h1>
+      <p class="lead">The complete Chemical Engineering archive — 56 courses and 1,850+ curated files from 100 Level through 500 Level, plus CHEN 304 Labs and Scholarships, searchable and organized for instant access.</p>
     </section>
 
     <section class="library-controls" aria-label="Search and filter study materials">
       <div class="search-bar-wrap">
         <div class="search-input-box">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-          <input type="search" id="library-search" placeholder="Search by course code (e.g. CHEN 502), topic (Laplace, Urea, Boiler), or 'past question'..." aria-label="Search library">
+          <input type="search" id="library-search" placeholder="Search 1,850+ files by course (CHEN 304, MATH 341, CHEN 502), topic, or 'past question'..." aria-label="Search library">
         </div>
         <a class="btn btn-primary" href="/submit">+ Submit PQs / PDFs</a>
       </div>
 
-      <div class="filter-row" id="semester-filters" role="group" aria-label="Filter by semester">
-        <span class="filter-label">Semester:</span>
-        <button class="pill-btn active" type="button" data-sem="all">All 500L Courses</button>
-        <button class="pill-btn" type="button" data-sem="First Semester">First Semester</button>
-        <button class="pill-btn" type="button" data-sem="Second Semester">Second Semester</button>
+      <div class="filter-row" id="level-filters" role="group" aria-label="Filter by academic level">
+        <span class="filter-label">Level:</span>
+        <button class="pill-btn active" type="button" data-level="all">All Levels</button>
+        <button class="pill-btn" type="button" data-level="100L">100L</button>
+        <button class="pill-btn" type="button" data-level="200L">200L</button>
+        <button class="pill-btn" type="button" data-level="300L">300L</button>
+        <button class="pill-btn" type="button" data-level="400L">400L</button>
+        <button class="pill-btn" type="button" data-level="500L">500L</button>
+        <button class="pill-btn" type="button" data-level="General">Scholarships</button>
       </div>
 
       <div class="filter-row" id="category-filters" role="group" aria-label="Filter by material category">
-        <span class="filter-label">Category:</span>
+        <span class="filter-label">Type:</span>
         <button class="pill-btn active" type="button" data-cat="all">All Types</button>
         <button class="pill-btn" type="button" data-cat="Past Questions & Solutions">Past Questions &amp; Solutions</button>
         <button class="pill-btn" type="button" data-cat="Lectures & Slides">Lectures &amp; Slides</button>
         <button class="pill-btn" type="button" data-cat="Textbooks & References">Textbooks &amp; References</button>
+        <button class="pill-btn" type="button" data-cat="Labs & Practicals">Labs &amp; Practicals</button>
         <button class="pill-btn" type="button" data-cat="Assignments & Tutorials">Assignments &amp; Tutorials</button>
         <button class="pill-btn" type="button" data-cat="Design & Simulation">Design &amp; Simulation</button>
       </div>
 
       <div class="summary-strip" id="summary-strip">
-        <span>Loading catalogued materials...</span>
-        <a href="https://drive.google.com/drive/folders/1IvKXLuuNMKbrZDk4JeOytLh97eSsFgQS" target="_blank" rel="noopener noreferrer" style="font-weight:700; color:var(--green); text-decoration:underline;">Open Full Root Drive Folder ↗</a>
+        <span>Loading 100L–500L catalogue...</span>
+        <a href="https://drive.google.com/drive/folders/1zNxdGNGeljnBdHpD0bD88b7J2SOvoheB" target="_blank" rel="noopener noreferrer" style="font-weight:700; color:var(--green); text-decoration:underline;">Open Master Drive Folder (100L–500L) ↗</a>
       </div>
     </section>
 
     <section class="course-list" id="course-list" aria-live="polite"></section>
 
-    <section class="other-levels" aria-label="Expand 100L to 400L archive">
+    <section class="contribute-strip" aria-label="Contribute study materials">
       <div>
-        <h3>Looking for 100L, 200L, 300L, or 400L Materials?</h3>
-        <p>The current live catalogue features the complete 500L Networker Legacy Archive. Help expand 100L–400L by uploading your past questions, scanned exam papers, and handouts through our submission portal.</p>
+        <h3>Have Newer Past Questions, Handouts, or Solved Tutorials?</h3>
+        <p>Keep The Networker's legacy growing. Upload scanned images (auto-compressed to ~200 KB) or PDFs via our submission portal.</p>
       </div>
-      <a class="btn btn-primary" href="/submit">Submit Materials →</a>
+      <a class="btn btn-lime" href="/submit">Submit Materials →</a>
     </section>
   </main>
 
@@ -328,7 +216,7 @@
   <script src="assets/site.js"></script>
   <script>
     let catalogue = null;
-    let activeSem = 'all';
+    let activeLevel = 'all';
     let activeCat = 'all';
     let searchQuery = '';
 
@@ -339,15 +227,27 @@
       return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
     }
 
+    function fileCardHtml(f) {
+      return `
+        <a class="file-link" href="${f.url}" target="_blank" rel="noopener noreferrer">
+          <div class="file-link-main">
+            <span class="file-link-name" title="${escapeHtml(f.name)}">${escapeHtml(f.name)}</span>
+            <span class="file-link-meta">${escapeHtml(f.category)}${f.subfolder ? ' · ' + escapeHtml(f.subfolder) : ''}</span>
+          </div>
+          <span class="ext-pill">${escapeHtml(f.ext)} ↗</span>
+        </a>
+      `;
+    }
+
     function renderCatalogue() {
       if (!catalogue) return;
       const q = searchQuery.trim().toLowerCase();
       let matchedCourses = 0;
       let matchedFiles = 0;
-      const fragments = [];
+      const cards = [];
 
-      for (const course of catalogue.courses) {
-        if (activeSem !== 'all' && course.semester !== activeSem) continue;
+      catalogue.courses.forEach((course, cIdx) => {
+        if (activeLevel !== 'all' && course.level !== activeLevel) return;
 
         const filteredFiles = course.files.filter((f) => {
           if (activeCat !== 'all' && f.category !== activeCat) return false;
@@ -355,34 +255,29 @@
           return (
             course.code.toLowerCase().includes(q) ||
             course.title.toLowerCase().includes(q) ||
+            course.level.toLowerCase().includes(q) ||
             f.name.toLowerCase().includes(q) ||
             f.category.toLowerCase().includes(q) ||
             (f.subfolder && f.subfolder.toLowerCase().includes(q))
           );
         });
 
-        if (filteredFiles.length === 0) continue;
+        if (filteredFiles.length === 0) return;
         matchedCourses++;
         matchedFiles += filteredFiles.length;
 
-        const autoOpen = q.length > 0 || activeCat !== 'all';
-        const filesHtml = filteredFiles.map((f) => `
-          <a class="file-link" href="${f.url}" target="_blank" rel="noopener noreferrer">
-            <div class="file-link-main">
-              <span class="file-link-name" title="${escapeHtml(f.name)}">${escapeHtml(f.name)}</span>
-              <span class="file-link-meta">${escapeHtml(f.category)}${f.subfolder ? ' · ' + escapeHtml(f.subfolder) : ''}</span>
-            </div>
-            <span class="ext-pill">${escapeHtml(f.ext)} ↗</span>
-          </a>
-        `).join('');
+        const autoOpen = q.length >= 2;
+        const initialBatch = filteredFiles.slice(0, 24);
+        const remaining = filteredFiles.length - initialBatch.length;
 
-        fragments.push(`
-          <article class="course-card">
+        cards.push(`
+          <article class="course-card" data-cidx="${cIdx}">
             <div class="course-head">
               <div>
                 <div class="course-badges">
+                  <span class="badge-level">${escapeHtml(course.level)}</span>
                   <span class="badge-code">${escapeHtml(course.code)}</span>
-                  <span class="badge-sem">500L · ${escapeHtml(course.semester)}</span>
+                  <span class="badge-sem">${escapeHtml(course.semester)}</span>
                   <span class="badge-count">${filteredFiles.length} file${filteredFiles.length === 1 ? '' : 's'}</span>
                 </div>
                 <h2>${escapeHtml(course.title)}</h2>
@@ -396,40 +291,70 @@
               </div>
             </div>
             <div class="file-drawer ${autoOpen ? 'open' : ''}">
-              <div class="file-grid">${filesHtml}</div>
+              <div class="file-grid">${initialBatch.map(fileCardHtml).join('')}</div>
+              ${remaining > 0 ? `<div class="load-more-row"><button class="btn btn-secondary show-all-files" type="button" data-cidx="${cIdx}">Show all ${filteredFiles.length} files (+${remaining} more)</button></div>` : ''}
             </div>
           </article>
         `);
+      });
+
+      summaryEl.firstElementChild.innerHTML = `Showing <strong>${matchedCourses}</strong> course${matchedCourses === 1 ? '' : 's'} · <strong>${matchedFiles.toLocaleString()}</strong> curated study file${matchedFiles === 1 ? '' : 's'}`;
+
+      if (cards.length === 0) {
+        courseListEl.innerHTML = '<div class="surface-card" style="text-align:center;"><h3 style="margin-top:0;">No matching materials found</h3><p style="color:var(--muted);margin-bottom:0;">Try clearing your search or choosing another level/category.</p></div>';
+        return;
       }
 
-      summaryEl.firstElementChild.innerHTML = `Showing <strong>${matchedCourses}</strong> course${matchedCourses === 1 ? '' : 's'} · <strong>${matchedFiles}</strong> curated study file${matchedFiles === 1 ? '' : 's'}`;
+      courseListEl.innerHTML = cards.join('');
 
-      if (fragments.length === 0) {
-        courseListEl.innerHTML = '<div class="surface-card" style="text-align:center;"><h3 style="margin-top:0;">No matching materials found</h3><p style="color:var(--muted);margin-bottom:0;">Try clearing your search or switching the semester/category filter.</p></div>';
-      } else {
-        courseListEl.innerHTML = fragments.join('');
-        courseListEl.querySelectorAll('.toggle-files').forEach((btn) => {
-          btn.addEventListener('click', () => {
-            const drawer = btn.closest('.course-card').querySelector('.file-drawer');
-            const isOpen = drawer.classList.toggle('open');
-            btn.setAttribute('aria-expanded', String(isOpen));
-            const count = drawer.querySelectorAll('.file-link').length;
-            btn.textContent = isOpen ? 'Hide Files' : `Browse ${count} Files`;
-          });
+      courseListEl.querySelectorAll('.toggle-files').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const card = btn.closest('.course-card');
+          const drawer = card.querySelector('.file-drawer');
+          const isOpen = drawer.classList.toggle('open');
+          btn.setAttribute('aria-expanded', String(isOpen));
+          const countText = card.querySelector('.badge-count').textContent;
+          btn.textContent = isOpen ? 'Hide Files' : `Browse ${countText}`;
         });
-      }
+      });
+
+      courseListEl.querySelectorAll('.show-all-files').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const course = catalogue.courses[Number(btn.dataset.cidx)];
+          const qNow = searchQuery.trim().toLowerCase();
+          const allMatching = course.files.filter((f) => {
+            if (activeCat !== 'all' && f.category !== activeCat) return false;
+            if (!qNow) return true;
+            return (
+              course.code.toLowerCase().includes(qNow) ||
+              course.title.toLowerCase().includes(qNow) ||
+              course.level.toLowerCase().includes(qNow) ||
+              f.name.toLowerCase().includes(qNow) ||
+              f.category.toLowerCase().includes(qNow) ||
+              (f.subfolder && f.subfolder.toLowerCase().includes(qNow))
+            );
+          });
+          const drawer = btn.closest('.file-drawer');
+          drawer.querySelector('.file-grid').innerHTML = allMatching.map(fileCardHtml).join('');
+          btn.parentElement.remove();
+        });
+      });
     }
 
+    let debounceTimer;
     document.getElementById('library-search').addEventListener('input', (e) => {
-      searchQuery = e.target.value;
-      renderCatalogue();
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => {
+        searchQuery = e.target.value;
+        renderCatalogue();
+      }, 150);
     });
 
-    document.querySelectorAll('#semester-filters .pill-btn').forEach((btn) => {
+    document.querySelectorAll('#level-filters .pill-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
-        document.querySelectorAll('#semester-filters .pill-btn').forEach((b) => b.classList.remove('active'));
+        document.querySelectorAll('#level-filters .pill-btn').forEach((b) => b.classList.remove('active'));
         btn.classList.add('active');
-        activeSem = btn.dataset.sem;
+        activeLevel = btn.dataset.level;
         renderCatalogue();
       });
     });
@@ -450,7 +375,7 @@
         renderCatalogue();
       })
       .catch(() => {
-        summaryEl.firstElementChild.textContent = 'Could not load catalogue JSON locally. Use the root Google Drive link on the right.';
+        summaryEl.firstElementChild.textContent = 'Could not load catalogue JSON locally. Use the Master Drive link on the right.';
       });
   </script>
 </body>
