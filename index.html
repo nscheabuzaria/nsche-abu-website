@@ -105,10 +105,27 @@
       gap: 14px; margin-top: 26px; position: relative; z-index: 1;
     }
 
-    .teasers { padding: 52px 0 64px; }
+    .teasers { padding: 52px 0 36px; }
     .section-head { margin-bottom: 30px; }
     .section-head h2 { font-size: clamp(28px, 4vw, 38px); margin: 0 0 8px; }
     .section-head p { max-width: 560px; margin: 0; color: var(--muted); }
+
+    .contribute-prelaunch {
+      margin: 0 0 56px;
+      background: linear-gradient(135deg, #073e2d 0%, #0e583f 100%);
+      color: #ffffff;
+      border-radius: var(--radius-xl);
+      padding: 36px 38px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+      flex-wrap: wrap;
+      box-shadow: var(--shadow-md);
+    }
+    .contribute-prelaunch h2 { color: var(--lime); font-size: clamp(24px, 3.4vw, 32px); margin: 0 0 8px; }
+    .contribute-prelaunch p { color: #d6eadf; margin: 0; max-width: 560px; font-size: 16.5px; }
+    .contribute-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 
     .teaser-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
     .teaser-card {
@@ -224,6 +241,17 @@
       </div>
     </section>
 
+    <section class="contribute-prelaunch" aria-labelledby="contribute-title">
+      <div>
+        <h2 id="contribute-title">Leave your mark before launch.</h2>
+        <p>Help build the NSChE ABU archive before we open on 1 December — share past questions or notes to immortalise your name, or spread the word with the countdown flyer.</p>
+      </div>
+      <div class="contribute-actions">
+        <a class="btn btn-lime" href="/submit">Share PQs &amp; Materials →</a>
+        <button class="btn btn-ghost" type="button" id="contribute-share-flyer">Share the Flyer</button>
+      </div>
+    </section>
+
     <section class="affiliations-bar" aria-label="Affiliations">
       <div class="aff-copy">Department of Chemical Engineering · <strong>Ahmadu Bello University, Zaria</strong></div>
       <div class="aff-logos">
@@ -312,7 +340,10 @@
     let lastFlyerBlob = null;
     let lastFlyerUrl = '';
 
-    document.getElementById('share-flyer-btn').addEventListener('click', async () => {
+    document.getElementById('share-flyer-btn').addEventListener('click', openShareFlyer);
+    document.getElementById('contribute-share-flyer').addEventListener('click', openShareFlyer);
+
+    async function openShareFlyer() {
       const btn = document.getElementById('share-flyer-btn');
       const original = btn.innerHTML;
       btn.disabled = true;
@@ -329,7 +360,7 @@
         btn.disabled = false;
         btn.innerHTML = original;
       }
-    });
+    }
 
     document.getElementById('close-flyer-dialog').addEventListener('click', () => flyerDialog.close());
     flyerDialog.addEventListener('click', (e) => { if (e.target === flyerDialog) flyerDialog.close(); });

@@ -61,32 +61,21 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="/portal">
+      <a class="brand" href="/">
         <img src="assets/parliament.jpg" alt="4th Senate Council, NSChE ABU Zaria">
         <span>
           <strong class="brand-title">NSChE ABU</strong>
           <small class="brand-sub">Student Chapter · 4th Senate</small>
         </span>
       </a>
-      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="/portal">Home</a>
-        <a href="/reactor">Reactor 2026</a>
-        <a href="/aspen">Aspen Plus</a>
-        <a href="/library">Study Library</a>
-        <a href="/submit" class="active">Share Materials</a>
-        <a href="/feedback" class="nav-cta">Feedback</a>
-      </nav>
+      <a class="btn btn-secondary" href="/" style="padding:10px 16px; font-size:14.5px;">← Back to Countdown</a>
     </div>
   </header>
 
   <main class="container">
     <section class="page-hero">
-      <div class="breadcrumb"><a href="/portal">Home</a> <span aria-hidden="true">/</span> <a href="/library">Study Library</a> <span aria-hidden="true">/</span> <span>Share Materials</span></div>
-      <h1>Share a Past Question or Handout</h1>
-      <p class="lead">Help the next set prepare with confidence. Drop your phone photos or PDFs below — we keep them crisp and light automatically.</p>
+      <h1>Share a Past Question or Study Material</h1>
+      <p class="lead">Contribute your notes, handouts, or past questions before launch — and add your name so your contribution is credited in the chapter archive.</p>
     </section>
 
     <section class="submit-wrap">
@@ -128,8 +117,8 @@
           </div>
 
           <div class="field">
-            <label for="mat-contributor">Your Name (Optional)</label>
-            <input type="text" id="mat-contributor" name="contributor" placeholder="Leave blank if you'd rather stay anonymous">
+            <label for="mat-contributor">Your Name (to immortalise your contribution)</label>
+            <input type="text" id="mat-contributor" name="contributor" placeholder="Enter your name to be credited, or leave blank">
           </div>
 
           <div class="field">
@@ -158,12 +147,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <span>© 2026 NSChE ABU Student Chapter · nscheabu.org</span>
-      <div class="footer-links">
-        <a href="/portal">Home</a>
-        <a href="/library">Library</a>
-        <a href="/aspen">Aspen Plus</a>
-        <a href="/feedback">Feedback</a>
-      </div>
+      <span><a href="/" style="font-weight:700; color:var(--green);">Back to Launch Countdown</a></span>
     </div>
   </footer>
 
