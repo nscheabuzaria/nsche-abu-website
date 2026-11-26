@@ -83,15 +83,36 @@
     ctx.font = '700 17px "Manrope", Arial, sans-serif';
     ctx.fillText('STUDENT CHAPTER · 4TH SENATE', 178, 134);
 
-    if (nscheImg) {
-      const h = 54;
-      const w = (nscheImg.width / nscheImg.height) * h;
-      ctx.drawImage(nscheImg, W - 295 - w, 84, w, h);
+    // Draw right-side logos dynamically from right to left so they never overlap
+    let rightCursor = W - 84;
+    const maxLogoH = 48;
+
+    if (abuImg && abuImg.width && abuImg.height) {
+      const h = maxLogoH;
+      const w = Math.min(200, (abuImg.width / abuImg.height) * h);
+      const drawH = (abuImg.height / abuImg.width) * w;
+      const x = rightCursor - w;
+      const y = 111 - drawH / 2;
+      ctx.drawImage(abuImg, x, y, w, drawH);
+      rightCursor = x - 20;
+
+      // Subtle vertical divider
+      ctx.strokeStyle = '#d4ddd0';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(rightCursor, 87);
+      ctx.lineTo(rightCursor, 135);
+      ctx.stroke();
+      rightCursor -= 20;
     }
-    if (abuImg) {
-      const h = 52;
-      const w = (abuImg.width / abuImg.height) * h;
-      ctx.drawImage(abuImg, W - 86 - w, 85, w, h);
+
+    if (nscheImg && nscheImg.width && nscheImg.height) {
+      const h = maxLogoH;
+      const w = Math.min(160, (nscheImg.width / nscheImg.height) * h);
+      const drawH = (nscheImg.height / nscheImg.width) * w;
+      const x = rightCursor - w;
+      const y = 111 - drawH / 2;
+      ctx.drawImage(nscheImg, x, y, w, drawH);
     }
 
     // Eyebrow
