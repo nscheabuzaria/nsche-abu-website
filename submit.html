@@ -129,7 +129,7 @@
               </div>
               <strong>Tap to pick photos or PDFs</strong>
               <span>You can select multiple pages at once</span>
-              <input type="file" id="file-input" multiple accept="image/*,.pdf" style="display:none">
+              <input type="file" id="file-input" multiple accept="image/*,.pdf,.ppt,.pptx,.doc,.docx" style="display:none">
             </div>
             <div class="file-queue" id="file-queue" aria-live="polite"></div>
           </div>
@@ -274,8 +274,13 @@
             processedFiles.push(await compressImageToTarget(f));
           } else if (f.type === 'application/pdf' || f.name.toLowerCase().endsWith('.pdf')) {
             processedFiles.push(await optimizePdf(f));
+          } else if (/\.(ppt|pptx|doc|docx)$/i.test(f.name)) {
+            if (f.size > MAX_PDF_MB * 1024 * 1024) {
+              throw new Error(`${f.name} is larger than ${MAX_PDF_MB} MB.`);
+            }
+            processedFiles.push({ file: f, finalSize: f.size, label: 'Ready' });
           } else {
-            showToast(`Please upload photos or PDFs (${f.name} skipped).`);
+            showToast(`Please upload photos, PDFs, or lecture slides (${f.name} skipped).`);
           }
         } catch (err) {
           showToast(err.message || `Could not add ${f.name}`);
@@ -316,15 +321,16 @@
 
       try {
         const res = await fetch(R2_UPLOAD_ENDPOINT, { method: 'POST', body: formData });
-        if (!res.ok) throw new Error();
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok) throw new Error(data.error || 'Could not upload right now. Please try again.');
         statusBox.className = 'status-box success';
         statusBox.textContent = 'Thank you! Your material has been received for the Study Library.';
         processedFiles = [];
         renderQueue();
         e.target.reset();
-      } catch {
+      } catch (err) {
         statusBox.className = 'status-box error';
-        statusBox.textContent = 'Uploads are opening shortly. Please try again soon.';
+        statusBox.textContent = err.message || 'Could not upload right now. Please check your connection and try again.';
       } finally {
         uploadBtn.disabled = false;
         uploadBtn.textContent = 'Upload Material';
