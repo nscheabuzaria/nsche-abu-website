@@ -5,194 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#073e2d">
-  <title>NSChE ABU Digital Hub | Ahmadu Bello University, Zaria</title>
-  <meta name="description" content="Official student resource hub for NSChE ABU Zaria — Reactor 2026 E-Magazine, On-Demand Aspen Plus Training, Past Questions & Study Library, Material Submissions, and Feedback Portal.">
+  <title>NSChE ABU Student Chapter | Ahmadu Bello University, Zaria</title>
+  <meta name="description" content="NSChE ABU Student Chapter — Read The Reactor 2026 Magazine, learn Aspen Plus, browse 100L–500L past questions and study materials, or reach your student leaders.">
   <link rel="canonical" href="https://nscheabu.org/portal">
   <link rel="icon" href="assets/parliament.jpg">
   <link rel="stylesheet" href="assets/styles.css">
   <style>
     .hub-hero {
-      padding: 64px 0 54px;
+      padding: 68px 0 54px;
       border-bottom: 1px solid var(--line);
+      max-width: 780px;
     }
-    .hub-hero-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 36px;
-      align-items: center;
-    }
-    .hub-hero h1 {
-      font-size: clamp(38px, 5.4vw, 60px);
-      margin: 0 0 18px;
-    }
-    .hub-hero h1 em {
-      font-family: Georgia, serif;
-      font-weight: 400;
-      color: var(--green-mid);
-    }
-    .hub-hero p {
-      font-size: 18px;
-      color: var(--muted);
-      margin: 0 0 28px;
-      max-width: 600px;
-    }
-    .hero-cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .hero-stats-card {
-      background: var(--green);
-      color: #ffffff;
-      border-radius: var(--radius-xl);
-      padding: 32px;
-      box-shadow: var(--shadow-lg);
-      display: grid;
-      gap: 20px;
-    }
-    .stat-kicker {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--lime);
-    }
-    .stat-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 14px;
-    }
-    .stat-tile {
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.14);
-      border-radius: 14px;
-      padding: 16px;
-    }
-    .stat-tile strong {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 28px;
-      color: var(--lime);
-      display: block;
-      line-height: 1.1;
-    }
-    .stat-tile span {
-      font-size: 13.5px;
-      color: #d6eadf;
-      display: block;
-      margin-top: 4px;
-    }
+    .hub-hero h1 { font-size: clamp(38px, 5.6vw, 62px); margin: 0 0 18px; }
+    .hub-hero h1 em { font-family: Georgia, serif; font-weight: 400; color: var(--green-mid); }
+    .hub-hero p { font-size: 19px; color: var(--muted); margin: 0 0 28px; }
+    .hero-cta-row { display: flex; flex-wrap: wrap; gap: 12px; }
 
-    .highlights-section { padding: 64px 0; }
-    .section-head {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 20px;
-      margin-bottom: 34px;
-      flex-wrap: wrap;
-    }
-    .section-head h2 { font-size: clamp(28px, 4vw, 40px); margin: 0; }
-    .section-head p { max-width: 420px; margin: 0; color: var(--muted); }
-
-    .project-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 24px;
-    }
+    .highlights-section { padding: 56px 0; }
+    .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
     .project-card {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-xl);
-      padding: 32px;
-      display: flex;
-      flex-direction: column;
-      box-shadow: var(--shadow-sm);
-      transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+      background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-xl);
+      padding: 34px; display: flex; flex-direction: column; box-shadow: var(--shadow-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
     }
-    .project-card:hover {
-      transform: translateY(-4px);
-      border-color: var(--green-mid);
-      box-shadow: var(--shadow-md);
-    }
-    .project-top {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 18px;
-    }
-    .project-badge {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      padding: 6px 13px;
-      border-radius: 999px;
-      background: var(--green-soft);
-      color: var(--green);
-    }
-    .project-card:nth-child(2) .project-badge { background: var(--orange-soft); color: #a8471e; }
-    .project-card:nth-child(3) .project-badge { background: #e3f0ed; color: var(--green-mid); }
-    .project-card:nth-child(4) .project-badge { background: #f2f4db; color: #516616; }
-
-    .project-card h3 { font-size: 26px; margin: 0 0 10px; }
-    .project-card p { color: var(--muted); margin: 0 0 18px; }
+    .project-card:hover { transform: translateY(-4px); border-color: var(--green-mid); box-shadow: var(--shadow-md); }
+    .project-card h2 { font-size: 26px; margin: 0 0 10px; }
+    .project-card p { color: var(--muted); margin: 0 0 20px; }
     .project-credit {
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--green);
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      padding: 12px 15px;
-      margin-bottom: 22px;
+      font-size: 14px; font-weight: 600; color: var(--green);
+      background: var(--paper); border: 1px solid var(--line);
+      border-radius: 12px; padding: 12px 15px; margin-bottom: 24px;
     }
-    .project-credit small {
-      display: block;
-      font-size: 11.5px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--subtle);
-      margin-bottom: 2px;
-    }
-    .project-footer {
-      margin-top: auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
+    .project-footer { margin-top: auto; display: flex; flex-wrap: wrap; gap: 10px; }
 
-    /* Contribute Banner */
     .contribute-banner {
       background: linear-gradient(135deg, #073e2d 0%, #0e583f 100%);
-      color: #ffffff;
-      border-radius: var(--radius-xl);
-      padding: 38px 40px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 28px;
-      flex-wrap: wrap;
-      margin-bottom: 56px;
+      color: #ffffff; border-radius: var(--radius-xl); padding: 38px 40px;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 28px; flex-wrap: wrap; margin-bottom: 56px;
     }
-    .contribute-banner h2 {
-      color: #ffffff;
-      font-size: clamp(24px, 3.2vw, 32px);
-      margin: 0 0 8px;
-    }
-    .contribute-banner p {
-      color: #d6eadf;
-      margin: 0;
-      max-width: 620px;
-    }
+    .contribute-banner h2 { color: #ffffff; font-size: clamp(24px, 3.2vw, 30px); margin: 0 0 8px; }
+    .contribute-banner p { color: #d6eadf; margin: 0; max-width: 580px; }
 
-    @media (max-width: 900px) {
-      .hub-hero-grid, .project-grid { grid-template-columns: 1fr; }
-      .contribute-banner { padding: 28px 24px; }
+    @media (max-width: 860px) {
+      .project-grid { grid-template-columns: 1fr; }
+      .contribute-banner { padding: 28px 22px; }
+      .project-card { padding: 26px 22px; }
     }
   </style>
 </head>
@@ -210,144 +68,78 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="/portal" class="active">Overview</a>
+        <a href="/portal" class="active">Home</a>
         <a href="/reactor">Reactor 2026</a>
         <a href="/aspen">Aspen Plus</a>
         <a href="/library">Study Library</a>
-        <a href="/submit">Submit Materials</a>
-        <a href="/feedback" class="nav-cta">Feedback Portal</a>
+        <a href="/submit">Share Materials</a>
+        <a href="/feedback" class="nav-cta">Feedback</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
     <section class="hub-hero">
-      <div class="hub-hero-grid">
-        <div>
-          <div class="eyebrow">NSChE ABU Zaria · 2025/2026 Digital Hub</div>
-          <h1>Everything you need to <em>learn, simulate,</em> and thrive.</h1>
-          <p>
-            Designed for Chemical Engineering students at Ahmadu Bello University, Zaria. Explore each dedicated workspace below — without clutter, broken links, or endless scrolling.
-          </p>
-          <div class="hero-cta-row">
-            <a class="btn btn-primary" href="/library">Browse Study Library</a>
-            <a class="btn btn-secondary" href="/aspen">Start Aspen Plus Training</a>
-          </div>
-        </div>
-
-        <aside class="hero-stats-card" aria-label="Platform overview">
-          <div class="stat-kicker">2025/2026 Session Initiatives</div>
-          <div class="stat-grid">
-            <div class="stat-tile">
-              <strong>5</strong>
-              <span>Dedicated Student Spaces</span>
-            </div>
-            <div class="stat-tile">
-              <strong>100–500L</strong>
-              <span>Catalogued Study Materials</span>
-            </div>
-            <div class="stat-tile">
-              <strong>6 Days</strong>
-              <span>On-Demand Aspen Plus Lessons</span>
-            </div>
-            <div class="stat-tile">
-              <strong>24/7</strong>
-              <span>Direct Chapter Feedback</span>
-            </div>
-          </div>
-        </aside>
+      <div class="eyebrow">NSChE ABU Zaria · 2025/2026</div>
+      <h1>Your study corner for <em>Chemical Engineering</em> at ABU.</h1>
+      <p>Pick up past questions before an exam, learn Aspen Plus at your own pace, read The Reactor 2026, or send a note straight to your representatives.</p>
+      <div class="hero-cta-row">
+        <a class="btn btn-primary" href="/library">Browse Past Questions &amp; Notes</a>
+        <a class="btn btn-secondary" href="/aspen">Watch Aspen Plus Classes</a>
       </div>
     </section>
 
-    <section class="highlights-section" aria-labelledby="projects-title">
-      <div class="section-head">
-        <div>
-          <div class="eyebrow">Featured Initiatives</div>
-          <h2 id="projects-title">Choose a workspace to explore.</h2>
-        </div>
-        <p>Each initiative has its own focused page built for speed, clarity, and mobile accessibility.</p>
-      </div>
-
+    <section class="highlights-section" aria-label="Chapter projects">
       <div class="project-grid">
         <article class="project-card">
-          <div class="project-top">
-            <span class="project-badge">01 · E-Magazine</span>
-            <span style="font-size:14px; font-weight:700; color:var(--subtle);">Interactive + PDF</span>
-          </div>
-          <h3>The Reactor 2026 Magazine</h3>
-          <p>Read the newly launched 2026 edition online in an interactive reading layout or download the full PDF copy for offline access.</p>
-          <div class="project-credit">
-            <small>Project Credit</small>
-            NSChE 2025/26 Executive Council Project
-          </div>
+          <h2>The Reactor 2026 Magazine</h2>
+          <p>Read the newly launched 2026 edition online or download the PDF copy to keep on your phone.</p>
+          <div class="project-credit">NSChE 2025/26 Executive Council Project</div>
           <div class="project-footer">
-            <a class="btn btn-primary" href="/reactor">Open Reactor Magazine →</a>
+            <a class="btn btn-primary" href="/reactor">Open Magazine →</a>
           </div>
         </article>
 
         <article class="project-card">
-          <div class="project-top">
-            <span class="project-badge">02 · Process Simulation</span>
-            <span style="font-size:14px; font-weight:700; color:var(--subtle);">On-Demand Videos</span>
-          </div>
-          <h3>Mastering Aspen Plus for Beginners</h3>
-          <p>Access the software download folder, Day 1 installation walkthrough, and Days 2–6 recorded classes at your own pace.</p>
-          <div class="project-credit">
-            <small>2025/26 Constituency Project</small>
-            Sen. Amos Oheobe Michael &amp; Sen. Abdulshafiu Adeiza Abubakar
-          </div>
+          <h2>Mastering Aspen Plus</h2>
+          <p>Get the software, follow the installation walkthrough, and watch the recorded beginners' classes anytime.</p>
+          <div class="project-credit">2025/26 Constituency Project · Sen. Amos Oheobe Michael &amp; Sen. Abdulshafiu Adeiza Abubakar</div>
           <div class="project-footer">
-            <a class="btn btn-primary" href="/aspen">Open Aspen Training →</a>
+            <a class="btn btn-primary" href="/aspen">Start Learning →</a>
           </div>
         </article>
 
         <article class="project-card">
-          <div class="project-top">
-            <span class="project-badge">03 · Academic Library</span>
-            <span style="font-size:14px; font-weight:700; color:var(--subtle);">Searchable Archive</span>
-          </div>
-          <h3>Past Questions &amp; Study Materials</h3>
-          <p>Search and filter catalogued past questions, lecture notes, textbooks, and practice materials across all Chemical Engineering levels.</p>
-          <div class="project-credit">
-            <small>Project Credit</small>
-            Usman Shehu Ahmad 2025/26 Constituency Project &amp; Muhammad Mukhtar Bello (The Networker) Legacy Project
-          </div>
+          <h2>Past Questions &amp; Study Library</h2>
+          <p>Lecture notes, textbooks, CHEN 304 lab guides, and past questions from 100 Level to 500 Level.</p>
+          <div class="project-credit">Usman Shehu Ahmad 2025/26 Constituency Project &amp; Muhammad Mukhtar Bello (The Networker) Legacy Project</div>
           <div class="project-footer">
-            <a class="btn btn-primary" href="/library">Explore Study Library →</a>
-            <a class="btn btn-secondary" href="/submit">Submit PQs / PDFs</a>
+            <a class="btn btn-primary" href="/library">Open Study Library →</a>
+            <a class="btn btn-secondary" href="/submit">Share a Material</a>
           </div>
         </article>
 
         <article class="project-card">
-          <div class="project-top">
-            <span class="project-badge">04 · Student Voice</span>
-            <span style="font-size:14px; font-weight:700; color:var(--subtle);">Confidential &amp; Direct</span>
-          </div>
-          <h3>Feedback &amp; Complaints Portal</h3>
-          <p>Share feedback, suggestions, or formal complaints addressed to the 4th Senate, Executive Council, a particular officer, or general chapter.</p>
-          <div class="project-credit">
-            <small>Constituency Project</small>
-            Sen. Mamudu Majeedah Yahya Constituency Project
-          </div>
+          <h2>Feedback &amp; Complaints</h2>
+          <p>Have a concern or an idea? Write to the 4th Senate, the Executive Council, or a particular officer — anonymously if you prefer.</p>
+          <div class="project-credit">Sen. Mamudu Majeedah Yahya Constituency Project</div>
           <div class="project-footer">
-            <a class="btn btn-primary" href="/feedback">Open Feedback Portal →</a>
+            <a class="btn btn-primary" href="/feedback">Send a Message →</a>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="contribute-banner" aria-label="Contribute study materials">
+    <section class="contribute-banner" aria-label="Share study materials">
       <div>
-        <h2>Have Past Questions, Handouts, or Scanned Notes?</h2>
-        <p>Help build the permanent ABU Chemical Engineering archive. Our submission portal automatically compresses scanned images to ~200KB without visible quality loss and prepares PDFs for Cloudflare storage.</p>
+        <h2>Have notes or past questions that helped you?</h2>
+        <p>Pass them on to the next set. Upload photos of exam papers or PDFs in seconds.</p>
       </div>
-      <a class="btn btn-lime" href="/submit">Contribute Materials →</a>
+      <a class="btn btn-lime" href="/submit">Share Materials →</a>
     </section>
 
     <section class="affiliations-bar" aria-label="Affiliations">
-      <div class="aff-copy">
-        Department of Chemical Engineering · <strong>Ahmadu Bello University, Zaria</strong>
-      </div>
+      <div class="aff-copy">Department of Chemical Engineering · <strong>Ahmadu Bello University, Zaria</strong></div>
       <div class="aff-logos">
         <img class="logo-senate" src="assets/parliament.jpg" alt="4th Senate Council, NSChE ABU Zaria">
         <span class="divider" aria-hidden="true"></span>
@@ -360,12 +152,12 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>© 2026 NSChE ABU Student Chapter · 4th Senate Council (2025/2026).</span>
+      <span>© 2026 NSChE ABU Student Chapter · 4th Senate Council.</span>
       <div class="footer-links">
         <a href="/reactor">Reactor 2026</a>
         <a href="/aspen">Aspen Plus</a>
         <a href="/library">Library</a>
-        <a href="/submit">Submit PQs</a>
+        <a href="/submit">Share Materials</a>
         <a href="/feedback">Feedback</a>
       </div>
     </div>

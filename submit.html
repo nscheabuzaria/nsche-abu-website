@@ -4,146 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#073e2d">
-  <title>Submit Past Questions &amp; Study Materials | NSChE ABU</title>
-  <meta name="description" content="Contribute past questions, lecture notes, scanned images, and PDFs to the NSChE ABU Chemical Engineering Study Library. Automatic smart image compression (~200KB) and PDF optimization.">
+  <title>Share Study Materials | NSChE ABU Student Chapter</title>
+  <meta name="description" content="Share past questions, lecture notes, photos of exam papers, and PDFs with fellow ABU Chemical Engineering students.">
   <link rel="canonical" href="https://nscheabu.org/submit">
   <link rel="icon" href="assets/parliament.jpg">
   <link rel="stylesheet" href="assets/styles.css">
   <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js" defer></script>
   <style>
-    .submit-layout {
-      padding: 46px 0 64px;
-      display: grid;
-      grid-template-columns: 1.15fr 0.85fr;
-      gap: 32px;
-      align-items: start;
-    }
+    .submit-wrap { padding: 44px 0 64px; max-width: 780px; }
     .form-grid { display: grid; gap: 20px; }
     .form-row-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
     .field label { display: block; font-size: 15px; font-weight: 700; color: var(--green); margin-bottom: 8px; }
     .field label .req { color: var(--orange); }
-    .field input[type="text"],
-    .field input[type="email"],
-    .field select,
-    .field textarea {
-      width: 100%;
-      padding: 13px 15px;
-      border: 1.5px solid #c6d3c2;
-      border-radius: 10px;
-      background: #fbfcf9;
-      color: var(--ink);
-      font-size: 16px;
+    .field input[type="text"], .field select {
+      width: 100%; padding: 13px 15px; border: 1.5px solid #c6d3c2;
+      border-radius: 10px; background: #fbfcf9; color: var(--ink); font-size: 16px;
     }
-    .field input:focus, .field select:focus, .field textarea:focus {
-      border-color: var(--green);
-      background: #ffffff;
-    }
+    .field input:focus, .field select:focus { border-color: var(--green); background: #ffffff; }
 
     .dropzone {
-      border: 2px dashed #9eb59c;
-      border-radius: 16px;
-      background: var(--paper);
-      padding: 34px 24px;
-      text-align: center;
-      cursor: pointer;
-      transition: border-color 0.18s ease, background 0.18s ease;
+      border: 2px dashed #9eb59c; border-radius: 16px; background: var(--paper);
+      padding: 36px 24px; text-align: center; cursor: pointer;
+      transition: border-color 0.16s ease, background 0.16s ease;
     }
-    .dropzone:hover, .dropzone.dragover {
-      border-color: var(--green);
-      background: var(--green-soft);
-    }
+    .dropzone:hover, .dropzone.dragover { border-color: var(--green); background: var(--green-soft); }
     .dropzone-icon {
-      width: 54px;
-      height: 54px;
-      border-radius: 14px;
-      background: var(--surface);
-      color: var(--green);
-      display: grid;
-      place-items: center;
-      margin: 0 auto 14px;
-      border: 1px solid var(--line);
+      width: 52px; height: 52px; border-radius: 14px; background: var(--surface);
+      color: var(--green); display: grid; place-items: center;
+      margin: 0 auto 14px; border: 1px solid var(--line);
     }
     .dropzone strong { display: block; font-family: 'Space Grotesk', sans-serif; font-size: 19px; color: var(--green); margin-bottom: 4px; }
     .dropzone span { font-size: 14.5px; color: var(--muted); display: block; }
 
-    .file-queue { display: grid; gap: 12px; margin-top: 14px; }
+    .file-queue { display: grid; gap: 10px; margin-top: 14px; }
     .file-row {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      padding: 14px 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 14px;
+      background: var(--paper); border: 1px solid var(--line); border-radius: 12px;
+      padding: 13px 16px; display: flex; align-items: center; justify-content: space-between; gap: 14px;
     }
     .file-meta { min-width: 0; }
-    .file-name {
-      font-weight: 700;
-      color: var(--green);
-      font-size: 15px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      max-width: 340px;
-      display: block;
-    }
+    .file-name { font-weight: 700; color: var(--green); font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 440px; display: block; }
     .file-stats { font-size: 13.5px; color: var(--muted); display: block; margin-top: 2px; }
-    .savings-badge {
-      display: inline-block;
-      background: #e1f4e5;
-      color: #0e572b;
-      font-weight: 700;
-      font-size: 12.5px;
-      padding: 3px 9px;
-      border-radius: 999px;
-      margin-left: 6px;
-    }
     .remove-file {
-      border: 1px solid var(--line-strong);
-      background: var(--surface);
-      color: var(--muted);
-      border-radius: 8px;
-      padding: 6px 10px;
-      font-size: 13px;
-      font-weight: 700;
-      flex-shrink: 0;
+      border: 1px solid var(--line-strong); background: var(--surface); color: var(--muted);
+      border-radius: 8px; padding: 6px 10px; font-size: 13px; font-weight: 700; flex-shrink: 0;
     }
     .remove-file:hover { color: #9c2b23; border-color: #d89a95; }
 
-    .info-aside {
-      background: var(--green);
-      color: #ffffff;
-      border-radius: var(--radius-xl);
-      padding: 32px;
-      display: grid;
-      gap: 18px;
-    }
-    .info-aside h2 { color: var(--lime); font-size: 24px; margin: 0; }
-    .info-aside p { color: #d6eadf; margin: 0; font-size: 15.5px; }
-    .guide-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
-    .guide-list li {
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.14);
-      border-radius: 12px;
-      padding: 14px 16px;
-      font-size: 14.5px;
-      color: #eef6f1;
-    }
-    .guide-list strong { display: block; color: var(--lime); margin-bottom: 3px; }
-
-    .status-box {
-      display: none;
-      padding: 16px 18px;
-      border-radius: 12px;
-      font-size: 15px;
-      font-weight: 600;
-    }
+    .status-box { display: none; padding: 16px 18px; border-radius: 12px; font-size: 15px; font-weight: 600; }
     .status-box.success { display: block; background: #e7f6ea; border: 1px solid #9bd1a7; color: #0e4f28; }
     .status-box.error { display: block; background: #fdeceb; border: 1px solid #eab0ab; color: #8a231c; }
     .status-box.info { display: block; background: #eef4fa; border: 1px solid #b8d2ec; color: #16446e; }
 
-    @media (max-width: 920px) { .submit-layout { grid-template-columns: 1fr; } }
     @media (max-width: 600px) { .form-row-2 { grid-template-columns: 1fr; } .file-name { max-width: 210px; } }
   </style>
 </head>
@@ -161,47 +72,46 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="/portal">Overview</a>
+        <a href="/portal">Home</a>
         <a href="/reactor">Reactor 2026</a>
         <a href="/aspen">Aspen Plus</a>
         <a href="/library">Study Library</a>
-        <a href="/submit" class="active">Submit Materials</a>
-        <a href="/feedback" class="nav-cta">Feedback Portal</a>
+        <a href="/submit" class="active">Share Materials</a>
+        <a href="/feedback" class="nav-cta">Feedback</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
     <section class="page-hero">
-      <div class="breadcrumb"><a href="/portal">Portal Home</a> <span aria-hidden="true">/</span> <a href="/library">Study Library</a> <span aria-hidden="true">/</span> <span>Submit Materials</span></div>
-      <div class="credit-pill">Community Archive · Powered by Cloudflare R2 Storage</div>
-      <h1>Submit Past Questions &amp; Study Materials</h1>
-      <p class="lead">Upload scanned past questions, lecture notes, or PDFs to help fellow ABU Chemical Engineering students. Images are automatically compressed to ~200 KB in your browser without apparent quality loss, and PDFs are optimized before upload.</p>
+      <div class="breadcrumb"><a href="/portal">Home</a> <span aria-hidden="true">/</span> <a href="/library">Study Library</a> <span aria-hidden="true">/</span> <span>Share Materials</span></div>
+      <h1>Share a Past Question or Handout</h1>
+      <p class="lead">Help the next set prepare with confidence. Drop your phone photos or PDFs below — we keep them crisp and light automatically.</p>
     </section>
 
-    <section class="submit-layout">
+    <section class="submit-wrap">
       <div class="surface-card">
         <form id="material-form" class="form-grid">
           <div class="form-row-2">
             <div class="field">
-              <label for="mat-level">Academic Level <span class="req">*</span></label>
+              <label for="mat-level">Level <span class="req">*</span></label>
               <select id="mat-level" name="level" required>
                 <option value="100L">100 Level</option>
                 <option value="200L">200 Level</option>
                 <option value="300L">300 Level</option>
                 <option value="400L">400 Level</option>
                 <option value="500L">500 Level</option>
-                <option value="General">General / Cross-Level</option>
+                <option value="General">General / Scholarships</option>
               </select>
             </div>
             <div class="field">
-              <label for="mat-category">Material Type <span class="req">*</span></label>
+              <label for="mat-category">What are you sharing? <span class="req">*</span></label>
               <select id="mat-category" name="category" required>
-                <option value="Past Questions">Past Questions (Exams / Tests)</option>
-                <option value="Lecture Notes">Lecture Notes &amp; Handouts</option>
-                <option value="Textbooks">Textbooks &amp; Manuals</option>
-                <option value="Practice & Tutorials">Practice &amp; Solved Tutorials</option>
-                <option value="Lab / Design">Lab Reports &amp; Design Guides</option>
+                <option value="Past Questions">Past Questions</option>
+                <option value="Lecture Notes">Lecture Notes / Handout</option>
+                <option value="Textbooks">Textbook / Manual</option>
+                <option value="Tutorials">Solved Tutorial / Assignment</option>
+                <option value="Lab / Design">Lab / Design Guide</option>
               </select>
             </div>
           </div>
@@ -209,27 +119,27 @@
           <div class="form-row-2">
             <div class="field">
               <label for="mat-course">Course Code &amp; Title <span class="req">*</span></label>
-              <input type="text" id="mat-course" name="course" required placeholder="e.g., CHEN 301 — Chemical Engineering Thermodynamics">
+              <input type="text" id="mat-course" name="course" required placeholder="e.g., CHEN 301 — Thermodynamics">
             </div>
             <div class="field">
-              <label for="mat-session">Session / Year (Optional)</label>
-              <input type="text" id="mat-session" name="session" placeholder="e.g., 2024/2025 First Semester">
+              <label for="mat-session">Session or Year (Optional)</label>
+              <input type="text" id="mat-session" name="session" placeholder="e.g., 2024/2025">
             </div>
           </div>
 
           <div class="field">
-            <label for="mat-contributor">Contributor Name (Optional — for archive credit)</label>
-            <input type="text" id="mat-contributor" name="contributor" placeholder="Your name or leave blank to contribute anonymously">
+            <label for="mat-contributor">Your Name (Optional)</label>
+            <input type="text" id="mat-contributor" name="contributor" placeholder="Leave blank if you'd rather stay anonymous">
           </div>
 
           <div class="field">
-            <label>Upload Files (Images or PDFs) <span class="req">*</span></label>
-            <div class="dropzone" id="dropzone" tabindex="0" role="button" aria-label="Choose or drop files to upload">
+            <label>Choose Files <span class="req">*</span></label>
+            <div class="dropzone" id="dropzone" tabindex="0" role="button" aria-label="Select or drop photos and PDFs">
               <div class="dropzone-icon" aria-hidden="true">
                 <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
               </div>
-              <strong>Tap to select files or drag &amp; drop here</strong>
-              <span>JPG, PNG, WebP (auto-compressed to ~200 KB) · PDF (auto-optimized, max 25 MB)</span>
+              <strong>Tap to pick photos or PDFs</strong>
+              <span>You can select multiple pages at once</span>
               <input type="file" id="file-input" multiple accept="image/*,.pdf" style="display:none">
             </div>
             <div class="file-queue" id="file-queue" aria-live="polite"></div>
@@ -238,29 +148,10 @@
           <div class="status-box" id="upload-status" role="status" aria-live="polite"></div>
 
           <button class="btn btn-primary" type="submit" id="upload-btn" style="width:100%; padding:16px 24px; font-size:16.5px;">
-            Optimize &amp; Upload to NSChE Archive
+            Upload Material
           </button>
         </form>
       </div>
-
-      <aside class="info-aside">
-        <h2>Smart Optimization Built-In</h2>
-        <p>Every upload is processed right in your browser before it touches our Cloudflare R2 storage — saving your mobile data and keeping downloads lightning fast for every student.</p>
-        <ul class="guide-list">
-          <li>
-            <strong>Images → ~200 KB Automatically</strong>
-            High-res phone photos of exam papers (3–8 MB) are smartly scaled and compressed to ~180–200 KB while preserving crisp, readable text.
-          </li>
-          <li>
-            <strong>PDF Stream Optimization</strong>
-            PDFs are inspected for page count and re-packed with object-stream compression (removing redundant metadata) before upload.
-          </li>
-          <li>
-            <strong>Stored Safely in Cloudflare R2</strong>
-            Files are tagged by Level, Course Code, and Category so moderators can publish them straight into the Study Library.
-          </li>
-        </ul>
-      </aside>
     </section>
   </main>
 
@@ -268,8 +159,8 @@
     <div class="container footer-inner">
       <span>© 2026 NSChE ABU Student Chapter · nscheabu.org</span>
       <div class="footer-links">
-        <a href="/portal">Portal Home</a>
-        <a href="/library">Study Library</a>
+        <a href="/portal">Home</a>
+        <a href="/library">Library</a>
         <a href="/aspen">Aspen Plus</a>
         <a href="/feedback">Feedback</a>
       </div>
@@ -278,7 +169,6 @@
 
   <script src="assets/site.js"></script>
   <script>
-    // Configure your deployed Cloudflare Worker URL here after running `wrangler deploy`
     const R2_UPLOAD_ENDPOINT = 'https://nsche-abu-uploads.nscheabuzaria1.workers.dev/upload';
     const TARGET_IMAGE_KB = 200;
     const MAX_PDF_MB = 25;
@@ -293,14 +183,13 @@
 
     function formatBytes(bytes) {
       if (bytes < 1024) return bytes + ' B';
-      if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
-      return (bytes / (1024 * 1024)).toFixed(2) + ' MB';
+      if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(0) + ' KB';
+      return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
     }
 
-    // Smart iterative image compression to ~200KB without apparent quality loss
     async function compressImageToTarget(file, targetBytes = TARGET_IMAGE_KB * 1024) {
       if (file.size <= targetBytes) {
-        return { file, originalSize: file.size, finalSize: file.size, note: 'Already under 200 KB' };
+        return { file, finalSize: file.size, label: 'Ready' };
       }
 
       const img = await new Promise((resolve, reject) => {
@@ -312,7 +201,7 @@
 
       let width = img.naturalWidth;
       let height = img.naturalHeight;
-      const MAX_DIM = 1800; // Crisp readability for photographed exam sheets
+      const MAX_DIM = 1800;
       if (Math.max(width, height) > MAX_DIM) {
         const ratio = MAX_DIM / Math.max(width, height);
         width = Math.round(width * ratio);
@@ -323,7 +212,6 @@
       const ctx = canvas.getContext('2d');
       let bestBlob = null;
 
-      // Binary search quality first, then gently step down dimensions only if needed
       for (let pass = 0; pass < 4; pass++) {
         canvas.width = width;
         canvas.height = height;
@@ -337,14 +225,8 @@
           const blob = await new Promise((res) => canvas.toBlob(res, 'image/jpeg', mid));
           if (!blob) break;
           bestBlob = blob;
-          if (blob.size <= targetBytes && blob.size >= targetBytes * 0.78) {
-            break;
-          }
-          if (blob.size > targetBytes) {
-            high = mid;
-          } else {
-            low = mid;
-          }
+          if (blob.size <= targetBytes && blob.size >= targetBytes * 0.78) break;
+          if (blob.size > targetBytes) high = mid; else low = mid;
         }
         if (bestBlob && bestBlob.size <= targetBytes * 1.08) break;
         width = Math.round(width * 0.82);
@@ -354,64 +236,43 @@
       URL.revokeObjectURL(img.src);
       const baseName = file.name.replace(/\.[^.]+$/, '');
       const compressedFile = new File([bestBlob], `${baseName}.jpg`, { type: 'image/jpeg' });
-      return {
-        file: compressedFile,
-        originalSize: file.size,
-        finalSize: compressedFile.size,
-        note: `Optimized to ${formatBytes(compressedFile.size)}`
-      };
+      return { file: compressedFile, finalSize: compressedFile.size, label: 'Ready' };
     }
 
-    // Client-side PDF inspection & object-stream re-packing
     async function optimizePdf(file) {
       if (file.size > MAX_PDF_MB * 1024 * 1024) {
-        throw new Error(`${file.name} exceeds ${MAX_PDF_MB} MB. Please split or compress it first.`);
+        throw new Error(`${file.name} is larger than ${MAX_PDF_MB} MB.`);
       }
-      if (!window.PDFLib) {
-        return { file, originalSize: file.size, finalSize: file.size, note: 'PDF ready' };
-      }
+      if (!window.PDFLib) return { file, finalSize: file.size, label: 'Ready' };
       try {
         const bytes = await file.arrayBuffer();
         const pdfDoc = await window.PDFLib.PDFDocument.load(bytes, { ignoreEncryption: true });
         const pages = pdfDoc.getPageCount();
-        pdfDoc.setProducer('NSChE ABU Archive');
+        pdfDoc.setProducer('NSChE ABU');
         const packed = await pdfDoc.save({ useObjectStreams: true });
-        if (packed.byteLength < file.size) {
-          const optimized = new File([packed], file.name, { type: 'application/pdf' });
-          return {
-            file: optimized,
-            originalSize: file.size,
-            finalSize: optimized.size,
-            note: `${pages} pages · stream-optimized`
-          };
-        }
-        return { file, originalSize: file.size, finalSize: file.size, note: `${pages} pages · already compact` };
+        const finalFile = packed.byteLength < file.size
+          ? new File([packed], file.name, { type: 'application/pdf' })
+          : file;
+        return { file: finalFile, finalSize: finalFile.size, label: `${pages} page${pages === 1 ? '' : 's'}` };
       } catch {
-        return { file, originalSize: file.size, finalSize: file.size, note: 'PDF ready' };
+        return { file, finalSize: file.size, label: 'Ready' };
       }
     }
 
     function renderQueue() {
       fileQueueEl.innerHTML = '';
       processedFiles.forEach((item, idx) => {
-        const saved = item.originalSize > item.finalSize
-          ? Math.round((1 - item.finalSize / item.originalSize) * 100)
-          : 0;
         const row = document.createElement('div');
         row.className = 'file-row';
         row.innerHTML = `
           <div class="file-meta">
             <span class="file-name">${item.file.name}</span>
-            <span class="file-stats">
-              ${formatBytes(item.originalSize)} → <strong>${formatBytes(item.finalSize)}</strong> · ${item.note}
-              ${saved > 3 ? `<span class="savings-badge">-${saved}%</span>` : ''}
-            </span>
+            <span class="file-stats">${formatBytes(item.finalSize)} · ${item.label}</span>
           </div>
           <button type="button" class="remove-file" data-idx="${idx}">Remove</button>
         `;
         fileQueueEl.appendChild(row);
       });
-
       fileQueueEl.querySelectorAll('.remove-file').forEach((btn) => {
         btn.addEventListener('click', () => {
           processedFiles.splice(Number(btn.dataset.idx), 1);
@@ -422,20 +283,18 @@
 
     async function handleFiles(fileList) {
       statusBox.className = 'status-box info';
-      statusBox.textContent = 'Optimizing selected file(s)...';
+      statusBox.textContent = 'Preparing your files...';
       for (const f of Array.from(fileList)) {
         try {
           if (f.type.startsWith('image/')) {
-            const res = await compressImageToTarget(f);
-            processedFiles.push(res);
+            processedFiles.push(await compressImageToTarget(f));
           } else if (f.type === 'application/pdf' || f.name.toLowerCase().endsWith('.pdf')) {
-            const res = await optimizePdf(f);
-            processedFiles.push(res);
+            processedFiles.push(await optimizePdf(f));
           } else {
-            showToast(`Skipped unsupported file: ${f.name}`);
+            showToast(`Please upload photos or PDFs (${f.name} skipped).`);
           }
         } catch (err) {
-          showToast(err.message || `Could not process ${f.name}`);
+          showToast(err.message || `Could not add ${f.name}`);
         }
       }
       statusBox.className = 'status-box';
@@ -448,24 +307,20 @@
     fileInput.addEventListener('change', (e) => { handleFiles(e.target.files); fileInput.value = ''; });
     dropzone.addEventListener('dragover', (e) => { e.preventDefault(); dropzone.classList.add('dragover'); });
     dropzone.addEventListener('dragleave', () => dropzone.classList.remove('dragover'));
-    dropzone.addEventListener('drop', (e) => {
-      e.preventDefault();
-      dropzone.classList.remove('dragover');
-      handleFiles(e.dataTransfer.files);
-    });
+    dropzone.addEventListener('drop', (e) => { e.preventDefault(); dropzone.classList.remove('dragover'); handleFiles(e.dataTransfer.files); });
 
     document.getElementById('material-form').addEventListener('submit', async (e) => {
       e.preventDefault();
       if (processedFiles.length === 0) {
         statusBox.className = 'status-box error';
-        statusBox.textContent = 'Please select at least one image or PDF file to upload.';
+        statusBox.textContent = 'Please add at least one photo or PDF first.';
         return;
       }
 
       uploadBtn.disabled = true;
-      uploadBtn.textContent = 'Uploading to Cloudflare R2...';
+      uploadBtn.textContent = 'Uploading...';
       statusBox.className = 'status-box info';
-      statusBox.textContent = `Uploading ${processedFiles.length} optimized file(s)...`;
+      statusBox.textContent = `Sending ${processedFiles.length} file${processedFiles.length === 1 ? '' : 's'}...`;
 
       const formData = new FormData();
       formData.append('level', document.getElementById('mat-level').value);
@@ -477,19 +332,18 @@
 
       try {
         const res = await fetch(R2_UPLOAD_ENDPOINT, { method: 'POST', body: formData });
-        const data = await res.json().catch(() => ({}));
-        if (!res.ok) throw new Error(data.error || 'Upload endpoint not yet connected.');
+        if (!res.ok) throw new Error();
         statusBox.className = 'status-box success';
-        statusBox.textContent = `Uploaded ${processedFiles.length} file(s) successfully! Thank you for strengthening the NSChE ABU Study Library.`;
+        statusBox.textContent = 'Thank you! Your material has been received for the Study Library.';
         processedFiles = [];
         renderQueue();
         e.target.reset();
-      } catch (err) {
+      } catch {
         statusBox.className = 'status-box error';
-        statusBox.textContent = 'Cloudflare R2 upload worker is not live yet (deploy cloudflare-worker/ with wrangler under nscheabuzaria1@gmail.com to activate uploads). Your files were compressed cleanly in-browser!';
+        statusBox.textContent = 'Uploads are opening shortly. Please try again soon.';
       } finally {
         uploadBtn.disabled = false;
-        uploadBtn.textContent = 'Optimize & Upload to NSChE Archive';
+        uploadBtn.textContent = 'Upload Material';
       }
     });
   </script>
